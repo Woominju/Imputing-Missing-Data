@@ -1,0 +1,43 @@
+== E1 expected task outputs rebuilt from protocol: 1276 (protocol: 1276)
+   missing 0  empty 0  mtime range 2026-10-29 11:53:01 .. 2026-10-31 18:19:36
+   all outputs after freeze (10-29 11:16:01): True;  all before complete analysis (10-31 18:19:46): True
+   checkpoints: 864 (expected 864)
+   side files {'pair': 96, 'imp': 96, 'lat': 96} (expected 96 each)
+
+== E2 scheduler log
+   scheduler sessions: [10-29 11:48:51] START 1276 tasks npar=24 gpus=['0', '1'] deadline=1793261880.0 hard=1793263680.0 done=0 permanently_failed=0 | [10-31 16:23:43] START 1276 tasks npar=24 gpus=['0', '1'] deadline=1793450460.0 hard=1793452260.0 done=432 permanently_failed=0 | [10-31 16:26:53] START 1276 tasks npar=32 gpus=['0', '1', '2', '3'] deadline=1793461260.0 hard=1793463060.0 done=437 permanently_failed=0 | [10-31 18:19:44] EXIT todo=0 failed=[] deadline_passed=False
+   tasks with rc=0 completion: 1275  duplicates: 0  nonzero rc: 0   expected-but-never-ended: 1
+   tasks started more than once (interrupted by a planned stop, then rerun from scratch): 26
+   marker mtime - logged completion: min -20.5s max 0.2s (markers are written immediately before 'end')
+
+== E3 failure markers, invalid runs, temporary files
+   scheduler failure markers 0  invalid-AE records 0  temp files 0 []
+
+== E4 trajectory identity and leakage
+   trajectories per (kappa, role): {(0.0, 'donor_test'): 192, (0.0, 'donor_train'): 24, (0.0, 'donor_val'): 24, (0.0, 'pool_train'): 40, (0.0, 'pool_val'): 8, (0.0, 'rep_test'): 192, (0.0, 'rep_train'): 24, (0.0, 'rep_val'): 24, (1.0, 'donor_test'): 192, (1.0, 'donor_train'): 24, (1.0, 'donor_val'): 24, (1.0, 'pool_train'): 40, (1.0, 'pool_val'): 8, (1.0, 'rep_test'): 192, (1.0, 'rep_train'): 24, (1.0, 'rep_val'): 24}
+   counts match protocol 4.1: True; other ids: 0
+   all 1056 trajectory arrays distinct (SHA-256): True;  all first states distinct: True
+   exact 6-D states shared with replicate TEST trajectories: {(0.0, 'pool_train'): 0, (0.0, 'pool_val'): 0, (0.0, 'rep_train'): 0, (0.0, 'donor_test'): 0, (0.0, 'donor_train'): 0, (0.0, 'kNN_ref_windows'): 0, (1.0, 'pool_train'): 0, (1.0, 'pool_val'): 0, (1.0, 'rep_train'): 0, (1.0, 'donor_test'): 0, (1.0, 'donor_train'): 0, (1.0, 'kNN_ref_windows'): 0}
+   kNN reference: one time point per independent trajectory (protocol D5a): n_q range k=0.0: [7, 4999] (N=30000), k=1.0: [7, 4999] (N=30000)
+
+== E5 execution environment of the 864 AE trainings
+driver     580.105.08  580.196.07
+kappa p                          
+0.0   0.3           0         216
+      0.7         163          53
+1.0   0.3           0         216
+      0.7         159          57
+   GPU index (cuda_visible) x driver:
+cuda_visible    0    1    2    3
+driver                          
+580.105.08    165  157    0    0
+580.196.07    130  140  138  134
+   code_md5 distinct values: ['ac9738fc']
+   mean best_val by (kappa, p, driver) [descriptive]:
+driver     580.105.08  580.196.07
+kappa p                          
+0.0   0.3         NaN      0.0615
+      0.7      0.3873      0.3884
+1.0   0.3         NaN      0.0706
+      0.7      0.3820      0.3787
+== DONE

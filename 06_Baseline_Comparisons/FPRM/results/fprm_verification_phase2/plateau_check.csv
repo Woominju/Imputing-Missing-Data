@@ -1,0 +1,4 @@
+p,seed,from_matlab_init_nll,from_init_sigmaL,best_multistart_nll,best_sigmaL,n_starts_on_plateau(sL>100),best_plateau_nll
+0.1,2,-2496.64,6095.14,-3574.09,6.54,1,-2488.9
+0.1,0,-3571.87,5.03,-3571.87,5.03,0,
+0.5,1,-2540.86,1738.71,-3578.72,5.21,0,

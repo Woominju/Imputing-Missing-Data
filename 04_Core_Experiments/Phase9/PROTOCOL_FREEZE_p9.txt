@@ -1,0 +1,46 @@
+# Phase 9 PROTOCOL FREEZE (Gate C) — 2026-10-31 19:37:01 KST. Frozen BEFORE any Phase 9 pilot/main data, training or analysis (results/extra/phase9 empty except this file).
+# Verify: grep -E '^[0-9a-f]{64}  ' results/extra/phase9/PROTOCOL_FREEZE_p9.txt | sha256sum -c ; later changes -> protocol section 12 AND results/extra/phase9/FREEZE_CHANGES.md
+## A. documents
+63a4a991ebe3613dc167d7e925cf3f7123c441e7d85b1f3157c7447457af68d9  results/notes/phase9_mathematical_foundations.md
+2f9ccd592970bb68c2f13cba007daa599636fffe6ac57dde9e549315b8bbca5a  results/notes/phase9_model_design.md
+987bee828dcb65107fe373cf1944bac4861b947272b8ace4e3bcbca5ee0231c7  results/notes/phase9_preregistered_protocol.md
+c2cc6aa037e2542b8d5ea78ff0c2e453b017053b1e3ff99ffce71e858c8d87d0  results/notes/phase9_test_log.txt
+## B. Phase 9 code
+de7939fbb38ea959bac3bffaeaa751a5db2f2a504814fea7004c783e3cd18c06  experiments/phase9/analyze9.py
+42adb40b4a6f62414d05c12f147c29d132a3b431a7450f15916aa433d5cb7688  experiments/phase9/core9.py
+7907ad73ea0ee8af9891a935b7156d2b8d81782edbdb790f6030702582800f54  experiments/phase9/eval9.py
+65131190c66a4f940e83ee3b1254c5224ec9caebd18d3b2be12c7fb37fd859eb  experiments/phase9/gen9.py
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  experiments/phase9/__init__.py
+d42541b5936ceade6ae4a1074d3d243f62eefd801193f0f958bc755d091ecf0e  experiments/phase9/sched9.py
+8395ffa7acf3b18a463bbc04994cd726a2d243a557422d9dd442057186da51db  experiments/phase9/train9.py
+1bcbcf0b210239b6a2bce859bcce216df99aefa7aec4cbff230ae85ab43cf531  experiments/phase9/launch_p9.sh
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  experiments/phase9/tests/__init__.py
+9123db47d3b316102a80acbe88e8dbd6c5843655258ddbea77e9e21ddfba54c1  experiments/phase9/tests/test_phase9.py
+## C. imported frozen code (Phase 5-8)
+c4e40997a51927c080f7ccc49ce1b2f990d1ee9268c8993834ffb927162889a6  experiments/phase5/core.py
+b84cc1a30c90bc8fe785d412667eaa35fd521afb145045dca2eae9ca0087e1e4  experiments/phase8/core8.py
+c22a6974ef6a1ab06ff1a14bbf2fdf71ccaaff7221b9d4dc5ceed9312741e914  experiments/phase8/evaluate8.py
+7dec0bbfa7fa70c37f73ed14bf048d3227984a97353a6522af73a1471ce45e1e  experiments/phase8/oracle8.py
+f5ecda8408f64565007dc265dc3e4b6474e7b861c3ad9177deeb0f1b339c17a6  experiments/phase8/feats8.py
+37cac2543bde34e402785a11cd5d17f2b16cef508cf4bdbe89775bcc18e3d2f9  experiments/fdr/loss.py
+aa1e97a14fcef78c69f68b711477d2dc237dbb14d556bee485eb35b8a0e283e1  src/delay_embedding.py
+8b8adcf032c32a183db83bf40f388c35a359adf28b183b20b07b9e812dc0bdb9  src/lorenz.py
+b72db51946b09560ea47008b7185acfc7f79d724cffe974c7b60614ff201179d  experiments/phase6/gen6.py
+5cdbce95daadfa620c3b5cd3f644d754dbe7c4a279f6185ee00ba43ddf6a13e9  experiments/phase6/core6.py
+## D. read-only inputs (P8 diagnostic oracles, P6 normalisation pool)
+6e6928f14e289910176df4d0b6b774744125dca7f855fd2ae2876cc1ed8bcbb8  results/extra/phase8/oracle/raw_k0.0_p0.3.pt
+c1dea5213dde9071716a93451ff8c64b78298aed83553e222555fbb2ffb0ab8e  results/extra/phase8/oracle/raw_k0.0_p0.7.pt
+568fc91cc08751b5674ac79503c03ea507f697809bbedbd16a70a963b2df02d7  results/extra/phase8/oracle/raw_k1.0_p0.3.pt
+2584d4d3ff6aca3817e051fd88484147a17ddbe9146038b5aeb973ba30bc48c1  results/extra/phase8/oracle/raw_k1.0_p0.7.pt
+2727814795f79e94cca65e935f669ec8e42a8917baad00e0dc8511df66cbb963  results/extra/phase8/oracle/imp_k0.0_p0.3.pt
+de9d63568032ddabd9cd1556256fe3f456ee48652518388e3d03e9a32b83fb14  results/extra/phase8/oracle/imp_k0.0_p0.7.pt
+1bee1e43a02071be4480c73055e5b16231bdf6dc27bdf39883ce7cb32e62b5d4  results/extra/phase8/oracle/imp_k1.0_p0.3.pt
+d42a5a4706b0e76384b2d33d2b6a89fd7c266c4cc7bc9a8d5cba507f35941259  results/extra/phase8/oracle/imp_k1.0_p0.7.pt
+411c95c614a751dd51db62fb35f22cb9f475880ca4ec4ad6c3203e43ca3d80dd  results/extra/phase6/data/k0.0_id900.npz
+b7812b1f267cac00f7a10bb326d0946f828d97ed02d04ed0afb49731d6ef0cb2  results/extra/phase6/data/k0.0_id901.npz
+9598f07e16dba9d23b240024e27c79547abbe56e7f86c719c4c78f08fb0d9524  results/extra/phase6/data/k0.0_id902.npz
+bc98b9c943c53537b2a11dd1497624488a854ea01824dae03e81b46bf7b9ef8a  results/extra/phase6/data/k0.0_id903.npz
+124c4a2da4970361748e64eddddb8bae3dc374104fcaef08900434f1ad99247b  results/extra/phase6/data/k1.0_id900.npz
+5b2c4275eaa11e8bceef77cdf496d47872c24c363b579865a9980387087b3ea5  results/extra/phase6/data/k1.0_id901.npz
+3b033a43a5538a523967602757e5087bab2ed5d610026410604f3f8f9af379e6  results/extra/phase6/data/k1.0_id902.npz
+787b24e657cc915546d7babbab07f07e824d8a274c4384c8fec4f287884e9596  results/extra/phase6/data/k1.0_id903.npz

@@ -1,0 +1,22 @@
+== Phase 9 independent verification, stage pilot
+  replicates per cell: {(0.0, 0.3): 6, (0.0, 0.7): 6, (1.0, 0.3): 6, (1.0, 0.7): 6}
+  [OK] imputation pooled RMSE per rep x method n=168 max=1.11e-16
+  [OK] rho_ret per rep x feat n=96 max=8.33e-17
+  [OK] paired contrasts mean n=16 max=9.37e-17
+  [OK] paired contrasts lcb n=16 max=9.19e-17
+  [OK] paired contrasts ucb n=16 max=9.93e-17
+  [OK] L2 missing-position counts n (all strata) n=61440 max=0
+  [OK] L2 zero/LOCF SSE (relative) n=61440 max=7.18e-13
+                                                                                      check     n  max_abs_diff          tol   ok
+                                                                                   coverage     4  0.000000e+00 0.000000e+00 True
+                                                    imputation pooled RMSE per rep x method   168  1.110223e-16 1.000000e-12 True
+                                                                     rho_ret per rep x feat    96  8.326673e-17 1.000000e-12 True
+                                                                      paired contrasts mean    16  9.367507e-17 1.000000e-12 True
+                                                                       paired contrasts lcb    16  9.194034e-17 1.000000e-12 True
+                                                                       paired contrasts ucb    16  9.931292e-17 1.000000e-12 True
+                                                  L2 missing-position counts n (all strata) 61440  0.000000e+00 0.000000e+00 True
+                                                                L2 zero/LOCF SSE (relative) 61440  7.176482e-13 1.000000e-04 True
+                   training rows: count, valid, no cap, seeds, lam, tower active, not smoke   144  0.000000e+00 0.000000e+00 True
+                                                           no tmp files, no failure markers     0  0.000000e+00 0.000000e+00 True
+Phase 9 trajectories distinct from each other and from all P6-P8 trajectories (first state)   600  0.000000e+00 0.000000e+00 True
+== 11/11 OK

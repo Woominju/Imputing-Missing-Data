@@ -1,0 +1,8 @@
+{
+ "G_P1_all_valid": true,
+ "G_P2_tower_active": true,
+ "G_P3_no_collapse_rho_lt_0_8": true,
+ "G_P4_no_catastrophe": true,
+ "G_P5_integrity_tests": "see results/notes/phase9_test_log.txt",
+ "PILOT_PASS": true
+}

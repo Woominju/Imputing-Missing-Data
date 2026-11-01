@@ -1,0 +1,19 @@
+2026-10-28 21:40:30 KST
+P7-B protocol, code and analysis frozen before any P7-B training/evaluation
+06b366cab19d4d980c6ad3b35a1da34b  results/notes/phase7_p7b_protocol.md
+d448208533d7215db721eecd260c13dd  results/notes/phase7_mathematical_corrections.md
+993cd7c4ca0200c55040f6839dd3c7cd  experiments/phase7/analyze7.py
+81b5cc5a1fc8b80ec293563c7c8b8150  experiments/phase7/core7.py
+3b4959d87fd20d3746c0f8c11623e5c1  experiments/phase7/evaluate7.py
+547c1e61b365e70e0c825173c69b9fdd  experiments/phase7/gen7.py
+d41d8cd98f00b204e9800998ecf8427e  experiments/phase7/__init__.py
+50ddc619cd083f1059ea283b18e8e2bf  experiments/phase7/jac7.py
+abfb8447a8092ddda7e90242b0262724  experiments/phase7/p7a_recompute.py
+7ab413548e60a968baa6e9c02f5889d6  experiments/phase7/train7.py
+6fcd262695fdc5b2cbe5d665e7b589b0  experiments/phase7/tests/test_phase7.py
+59e64b782a3175bfbbebb7d985a75153  experiments/phase6/train6.py
+c16303383b092c35c8cfc4bcd51dde4d  experiments/phase6/evaluate6.py
+4e3a15462b2a819683d9eccb6fdbcc7e  experiments/phase5/core.py
+41c4d9580eae882443be54aac7373fb8  experiments/fdr/loss.py
+e716238295130b94b65654ad8aee3c11  experiments/phase7/run_lane7.sh
+6807ecb14c62856c224d3d04676dd468  experiments/phase7/eval_sched7.py

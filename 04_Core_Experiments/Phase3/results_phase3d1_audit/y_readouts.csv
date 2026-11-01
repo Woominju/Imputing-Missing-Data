@@ -1,0 +1,28 @@
+label,method,test_rmse,alpha,model,seed
+"completed-series window (obs kept, missing=past imputation)","ridge (train fit, val alpha)",0.1485766915831014,1.0,C-x,0
+FD2 on completed series,"analytic, no fit",0.18421332604000684,,C-x,0
+"completed-series window (obs kept, missing=past imputation)","ridge (train fit, val alpha)",0.0677984756003953,0.0001,C-xz,0
+FD2 on completed series,"analytic, no fit",0.08864336574012126,,C-xz,0
+FD2 on FDR decoded lags 0..2,"analytic, no fit",0.17505270723430297,,FDR-x,0
+FDR decoded delay vector (n x 8),"ridge (train fit, val alpha)",0.14303989651410406,1.0,FDR-x,0
+"completed-series window (obs kept, missing=past imputation)","ridge (train fit, val alpha)",0.14640539170549688,1.0,FDR-x,0
+FD2 on completed series,"analytic, no fit",0.18407405715682,,FDR-x,0
+FD2 on FDR decoded lags 0..2,"analytic, no fit",0.10900876132453136,,FDR-xz,0
+FDR decoded delay vector (n x 8),"ridge (train fit, val alpha)",0.08011651968753705,0.1,FDR-xz,0
+"completed-series window (obs kept, missing=past imputation)","ridge (train fit, val alpha)",0.08757973261276332,0.0001,FDR-xz,0
+FD2 on completed series,"analytic, no fit",0.10721717112267627,,FDR-xz,0
+"completed-series window (obs kept, missing=past imputation)","ridge (train fit, val alpha)",0.0879080363169248,0.0001,C-xz,1
+FD2 on completed series,"analytic, no fit",0.10643476830993182,,C-xz,1
+FD2 on FDR decoded lags 0..2,"analytic, no fit",0.1055333224825918,,FDR-xz,1
+FDR decoded delay vector (n x 8),"ridge (train fit, val alpha)",0.0819242267183699,0.1,FDR-xz,1
+"completed-series window (obs kept, missing=past imputation)","ridge (train fit, val alpha)",0.08691154304420858,0.0001,FDR-xz,1
+FD2 on completed series,"analytic, no fit",0.10696723260919287,,FDR-xz,1
+"completed-series window (obs kept, missing=past imputation)","ridge (train fit, val alpha)",0.10629853648005465,1.0,C-xz,2
+FD2 on completed series,"analytic, no fit",0.13243914160541653,,C-xz,2
+FD2 on FDR decoded lags 0..2,"analytic, no fit",0.12052755571082573,,FDR-xz,2
+FDR decoded delay vector (n x 8),"ridge (train fit, val alpha)",0.09566180391608008,0.0001,FDR-xz,2
+"completed-series window (obs kept, missing=past imputation)","ridge (train fit, val alpha)",0.11451054023390017,1.0,FDR-xz,2
+FD2 on completed series,"analytic, no fit",0.14403932172970602,,FDR-xz,2
+"TRUE full (x,z) window, oracle (no missingness)","ridge (train fit, val alpha)",0.01761802160515209,0.0001,reference,0
+"TRUE current (x_t,z_t), oracle","ridge (train fit, val alpha)",0.4584311694298213,0.1,reference,0
+FD2 on TRUE x (approximation floor),"analytic, no fit",0.0695817945232419,,reference,0

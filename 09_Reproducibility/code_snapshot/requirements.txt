@@ -1,0 +1,8 @@
+# Verified with conda env reef_gpu (python 3.10); openpyxl installed locally into .pydeps
+torch==2.5.1
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+sympy==1.13.1
+openpyxl==3.1.5

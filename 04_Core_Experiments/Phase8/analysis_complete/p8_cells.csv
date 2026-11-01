@@ -1,0 +1,5 @@
+kappa,p,n,cap_rate,nonfinite,finite,n_invalid_runs,inconclusive
+0.0,0.3,216,0.0,0,True,0,False
+0.0,0.7,216,0.0,0,True,0,False
+1.0,0.3,216,0.0,0,True,0,False
+1.0,0.7,216,0.0,0,True,0,False

@@ -1,0 +1,3 @@
+kappa,p,a_IIa2_certified,b_IIb1,c_all_joint_strata_Gtot_ucb_lt_deltaI,d_rho_Bfull_lt_Fact8,rho_diff_mean,note
+0.0,0.7,False,False,False,True,-0.0224197873573681,"descriptive; even all True = empirical evidence compatible with GSR, not injectivity/diffeomorphism"
+1.0,0.7,True,False,False,True,-0.020458654778918364,"descriptive; even all True = empirical evidence compatible with GSR, not injectivity/diffeomorphism"

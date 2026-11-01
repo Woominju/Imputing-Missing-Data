@@ -1,0 +1,43 @@
+--- launch_p8.sh.GateC_20261029	2026-10-31 18:50:56.174345153 +0900
++++ launch_p8.sh.current	2026-10-31 18:50:56.178345098 +0900
+@@ -2,16 +2,17 @@
+ # Phase 8 Gate D launcher (run ONLY after Gate C). Re-running it for a later reservation RESUMES without duplication
+ # (gen8 skips existing files; sched8 skips finished tasks, never retries permanently failed ones, resumes deadline-killed ones).
+ # usage: experiments/phase8/launch_p8.sh "YYYY-MM-DD HH:MM"   (= GPU reservation END as shown by labres-check)  [NPAR]
++#        [P8_GPUS=0,1,2,3] (added 2026-10-31, see FREEZE_CHANGES.md; default 0,1 = frozen behaviour)
+ # Refuses to start unless:
+ #   (0) no other Phase 8 run is active: exclusive lock ROOT/run.lock (held by the detached pipeline for its whole lifetime)
+ #       AND no Phase 8 worker process (gen8/sched8/train8/oracle8/knn8/evaluate8/eval_p7imp8) is running;
+ #   (1) ROOT/PROTOCOL_FREEZE_p8.txt exists and every SHA-256 in it verifies;
+-#   (2) labres-check shows GPU 0 and GPU 1 reserved until the stated end and no [GPU 예약 경고].
++#   (2) labres-check shows every GPU in P8_GPUS (env, default "0,1"; PCI_BUS_ID order) reserved until the stated end and no [GPU 예약 경고].
+ # Deadlines from END: DEADLINE_EPOCH = END - 35 min (no new task), HARD_DEADLINE_EPOCH = END - 5 min (terminate running tasks).
+ # Detached with setsid/nohup (survives SSH disconnect). sched8 runs analyze8 on exit (partial_* / complete_* directories).
+ set -u
+ cd /home/minju/faicpaston/Imputing_Missing_Data
+-ROOT="${P8_ROOT:-results/extra/phase8}"; END="${1:?reservation end 'YYYY-MM-DD HH:MM'}"; NPAR="${2:-24}"; PY=/home/minju/.conda/envs/reef_gpu/bin/python
++ROOT="${P8_ROOT:-results/extra/phase8}"; END="${1:?reservation end 'YYYY-MM-DD HH:MM'}"; NPAR="${2:-24}"; P8_GPUS="${P8_GPUS:-0,1}"; PY=/home/minju/.conda/envs/reef_gpu/bin/python
+ LOCK="$ROOT/run.lock"
+ if [ -e "$LOCK" ] && ! flock -n "$LOCK" true; then echo "REFUSED: another Phase 8 run holds $LOCK"; exit 3; fi
+ if pgrep -u "$(id -u)" -f "experiments/phase8/(gen8|sched8|train8|oracle8|knn8|evaluate8|eval_p7imp8)\.py" > /dev/null; then
+@@ -21,15 +22,16 @@
+ grep -E '^[0-9a-f]{64}  ' "$FZ" | sha256sum -c --quiet || { echo "REFUSED: freeze hashes do not verify"; exit 2; }
+ LC=$(labres-check 2>&1); echo "$LC"
+ HM=$(date -d "$END" +%H:%M) || exit 2
+-echo "$LC" | grep -q "GPU 0 · [0-9:]*~$HM" || { echo "REFUSED: labres-check does not show GPU 0 reserved until $HM"; exit 2; }
+-echo "$LC" | grep -q "GPU 1 · [0-9:]*~$HM" || { echo "REFUSED: labres-check does not show GPU 1 reserved until $HM"; exit 2; }
++[ "$(date -d "$END" +%F)" = "$(date +%F)" ] || HM="$(date -d "$END" +%-m/%-d) $HM"   # labres-check prints "~M/D HH:MM" for an end on another day
++for G in ${P8_GPUS//,/ }; do
++  echo "$LC" | grep -q "GPU $G · [0-9:]*~$HM" || { echo "REFUSED: labres-check does not show GPU $G reserved until $HM"; exit 2; }; done
+ echo "$LC" | grep -q "GPU 예약 경고" && { echo "REFUSED: [GPU 예약 경고] present"; exit 2; }
+ E=$(date -d "$END" +%s); DL=$((E - 35 * 60)); HD=$((E - 5 * 60)); NOW=$(date +%s)
+ [ "$NOW" -lt "$DL" ] || { echo "REFUSED: too close to reservation end"; exit 2; }
+ mkdir -p "$ROOT/logs"
+-echo "launch $(date '+%F %T') END=$END DEADLINE=$(date -d @$DL '+%T') HARD=$(date -d @$HD '+%T') NPAR=$NPAR" | tee -a "$ROOT/logs/launch.log"
++echo "launch $(date '+%F %T') END=$END DEADLINE=$(date -d @$DL '+%T') HARD=$(date -d @$HD '+%T') NPAR=$NPAR GPUS=$P8_GPUS" | tee -a "$ROOT/logs/launch.log"
+ setsid nohup flock -n "$LOCK" bash -c "
+-  export PYTHONPATH=.pydeps:. CUDA_DEVICE_ORDER=PCI_BUS_ID GPUS=0,1 DEADLINE_EPOCH=$DL HARD_DEADLINE_EPOCH=$HD P8_ROOT=$ROOT
++  export PYTHONPATH=.pydeps:. CUDA_DEVICE_ORDER=PCI_BUS_ID GPUS=$P8_GPUS DEADLINE_EPOCH=$DL HARD_DEADLINE_EPOCH=$HD P8_ROOT=$ROOT
+   echo \"[\$(date '+%F %T')] gen8 start\" >> $ROOT/logs/launch.log
+   $PY experiments/phase8/gen8.py 60 >> $ROOT/logs/gen8.log 2>&1 || { echo \"[\$(date '+%F %T')] gen8 FAILED\" >> $ROOT/logs/launch.log; exit 3; }
+   echo \"[\$(date '+%F %T')] gen8 done; sched8 start\" >> $ROOT/logs/launch.log

@@ -1,0 +1,5 @@
+kappa,p,n,valid,cap,nonfinite,evaluated_reps,invalid_runs
+0.0,0.3,144,True,0,0,24,0
+0.0,0.7,144,True,0,0,24,0
+1.0,0.3,144,True,0,0,24,0
+1.0,0.7,144,True,0,0,24,0

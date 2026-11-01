@@ -1,0 +1,67 @@
+model,seed,vars,var,stratum,n,rmse
+C-x,0,x,x,same-var lags1..7 obs <=3,98,0.16816452182860395
+C-x,0,x,x,same-var lags1..7 obs 4-5,503,0.058502865732987706
+C-x,0,x,x,same-var lags1..7 obs 6-7,297,0.035142615831894146
+C-xz,0,xz,x,same-var lags1..7 obs <=3,98,0.028087168930497716
+C-xz,0,xz,x,same-var lags1..7 obs 4-5,503,0.02121723217039805
+C-xz,0,xz,x,same-var lags1..7 obs 6-7,297,0.01839455679262527
+C-xz,0,xz,x,other var at t observed,639,0.020748383322765525
+C-xz,0,xz,x,other var at t missing,259,0.022330734438921408
+C-xz,0,xz,z,same-var lags1..7 obs <=3,61,0.026515242789013498
+C-xz,0,xz,z,same-var lags1..7 obs 4-5,461,0.022535078435929442
+C-xz,0,xz,z,same-var lags1..7 obs 6-7,314,0.02131485809835043
+C-xz,0,xz,z,other var at t observed,577,0.021453581698995413
+C-xz,0,xz,z,other var at t missing,259,0.0243910968579324
+FDR-x,0,x,x,same-var lags1..7 obs <=3,98,0.16169179693769806
+FDR-x,0,x,x,same-var lags1..7 obs 4-5,503,0.056376323992993894
+FDR-x,0,x,x,same-var lags1..7 obs 6-7,297,0.04170631039870953
+FDR-xz,0,xz,x,same-var lags1..7 obs <=3,98,0.0447037976797428
+FDR-xz,0,xz,x,same-var lags1..7 obs 4-5,503,0.02821149700847048
+FDR-xz,0,xz,x,same-var lags1..7 obs 6-7,297,0.03141391803670267
+FDR-xz,0,xz,x,other var at t observed,639,0.031951109557535835
+FDR-xz,0,xz,x,other var at t missing,259,0.03024543798522654
+FDR-xz,0,xz,z,same-var lags1..7 obs <=3,61,0.04305590207063632
+FDR-xz,0,xz,z,same-var lags1..7 obs 4-5,461,0.03063326200168925
+FDR-xz,0,xz,z,same-var lags1..7 obs 6-7,314,0.030354989734111822
+FDR-xz,0,xz,z,other var at t observed,577,0.03069640842604783
+FDR-xz,0,xz,z,other var at t missing,259,0.03353793626224565
+C-xz,1,xz,x,same-var lags1..7 obs <=3,149,0.04981521736453076
+C-xz,1,xz,x,same-var lags1..7 obs 4-5,474,0.03000349677490225
+C-xz,1,xz,x,same-var lags1..7 obs 6-7,287,0.025912334053258868
+C-xz,1,xz,x,other var at t observed,638,0.03159899408019047
+C-xz,1,xz,x,other var at t missing,272,0.035979796163858595
+C-xz,1,xz,z,same-var lags1..7 obs <=3,111,0.026704927490724974
+C-xz,1,xz,z,same-var lags1..7 obs 4-5,462,0.02450005816756944
+C-xz,1,xz,z,same-var lags1..7 obs 6-7,316,0.025955195697386087
+C-xz,1,xz,z,other var at t observed,617,0.024514395224788387
+C-xz,1,xz,z,other var at t missing,272,0.027019031831423283
+FDR-xz,1,xz,x,same-var lags1..7 obs <=3,149,0.04970141567809798
+FDR-xz,1,xz,x,same-var lags1..7 obs 4-5,474,0.02513806108823117
+FDR-xz,1,xz,x,same-var lags1..7 obs 6-7,287,0.028790212873094995
+FDR-xz,1,xz,x,other var at t observed,638,0.030804950410950677
+FDR-xz,1,xz,x,other var at t missing,272,0.0332136623517657
+FDR-xz,1,xz,z,same-var lags1..7 obs <=3,111,0.043253994818908355
+FDR-xz,1,xz,z,same-var lags1..7 obs 4-5,462,0.032948268052212584
+FDR-xz,1,xz,z,same-var lags1..7 obs 6-7,316,0.0325957224893833
+FDR-xz,1,xz,z,other var at t observed,617,0.029617169287375494
+FDR-xz,1,xz,z,other var at t missing,272,0.043034639886759665
+C-xz,2,xz,x,same-var lags1..7 obs <=3,130,0.08267055472722222
+C-xz,2,xz,x,same-var lags1..7 obs 4-5,483,0.03086295450172942
+C-xz,2,xz,x,same-var lags1..7 obs 6-7,308,0.02485013533103093
+C-xz,2,xz,x,other var at t observed,665,0.04332382890669378
+C-xz,2,xz,x,other var at t missing,256,0.03369018301636847
+C-xz,2,xz,z,same-var lags1..7 obs <=3,86,0.03831959986212598
+C-xz,2,xz,z,same-var lags1..7 obs 4-5,469,0.031154567792798085
+C-xz,2,xz,z,same-var lags1..7 obs 6-7,310,0.028233333166580662
+C-xz,2,xz,z,other var at t observed,609,0.029926521280591707
+C-xz,2,xz,z,other var at t missing,256,0.03325949008185452
+FDR-xz,2,xz,x,same-var lags1..7 obs <=3,130,0.10187530709906503
+FDR-xz,2,xz,x,same-var lags1..7 obs 4-5,483,0.037144654429976456
+FDR-xz,2,xz,x,same-var lags1..7 obs 6-7,308,0.03338295966545609
+FDR-xz,2,xz,x,other var at t observed,665,0.055439895594628856
+FDR-xz,2,xz,x,other var at t missing,256,0.035074276099152236
+FDR-xz,2,xz,z,same-var lags1..7 obs <=3,86,0.03834632577796826
+FDR-xz,2,xz,z,same-var lags1..7 obs 4-5,469,0.03414073652897809
+FDR-xz,2,xz,z,same-var lags1..7 obs 6-7,310,0.03210415178043865
+FDR-xz,2,xz,z,other var at t observed,609,0.03235797158061941
+FDR-xz,2,xz,z,other var at t missing,256,0.037237778683207094

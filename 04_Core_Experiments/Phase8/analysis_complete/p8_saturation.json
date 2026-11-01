@@ -1,0 +1,38 @@
+{
+ "results/extra/phase8/oracle/sat_k1.0_p0.7.json": {
+  "width": 256,
+  "val_risk_by_ntraj": {
+   "10": 0.06853147160745095,
+   "20": 0.06290894043653301,
+   "40": 0.058001401547126914
+  },
+  "smoke": false
+ },
+ "results/extra/phase8/oracle/sat_k0.0_p0.3.json": {
+  "width": 1024,
+  "val_risk_by_ntraj": {
+   "10": 0.0006051429147769361,
+   "20": 0.0005577737398973349,
+   "40": 0.0005096438825747241
+  },
+  "smoke": false
+ },
+ "results/extra/phase8/oracle/sat_k0.0_p0.7.json": {
+  "width": 256,
+  "val_risk_by_ntraj": {
+   "10": 0.07467816800617218,
+   "20": 0.06760448922110747,
+   "40": 0.06295812937754784
+  },
+  "smoke": false
+ },
+ "results/extra/phase8/oracle/sat_k1.0_p0.3.json": {
+  "width": 1024,
+  "val_risk_by_ntraj": {
+   "10": 0.0003301883398018212,
+   "20": 0.00042955855818996205,
+   "40": 0.0003872752563682336
+  },
+  "smoke": false
+ }
+}

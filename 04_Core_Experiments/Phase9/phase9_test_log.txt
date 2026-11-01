@@ -1,0 +1,18 @@
+PASS 1 lam=0 / non-P9 arm loss is bitwise the Phase 8 FDR loss
+PASS 2a P9 tower term active (finite, > 0, targets > 0)
+PASS 2b student input B = O - H <= teacher input O
+PASS 2c tower loss uses only originally-missing entries (zero D -> no loss)
+PASS 2d teacher computed under torch.no_grad()
+PASS 3 AE inputs are the 4 observed views only (y columns absent)
+PASS 3b build() uses nz_obs only
+PASS 4a all Phase 9 ids in [200000, 300000)
+PASS 4b Phase 9 rng seeds disjoint from all P6/P7/P8 seeds
+PASS 5a test mask seeds distinct from train/val/valhide and from pilot
+PASS 5b strata function is the frozen P8 one
+PASS 5c AE_CFG identical to Phase 8
+PASS 6 imputation evaluates M == 0 positions with n >= SPAN only
+PASS 7a smoke pipeline: 2 reps x 4 cells x 6 arms trained, 8 evaluations
+PASS 7b rows flag smoke and P9 rows have lam = 1 and tower targets > 0
+PASS 7c eval outputs present (ret, imp, mv)
+
+16/16 PASS

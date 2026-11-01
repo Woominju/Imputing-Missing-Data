@@ -1,0 +1,172 @@
+analysis,quantity,setting,value
+symbolic,det_D_O_x,,-sigma**2*x
+symbolic,det_D_O_x_equals_-sigma^2*x,,True
+symbolic,det_D_F_x_tau_2nd_order,,sigma**2*tau**3*x
+symbolic,det_D_F_x_tau_equals_sigma^2*tau^3*x,,True
+symbolic,det_D_O_multiview_1st_order,,tau*(2*beta + 1) + 1
+symbolic,det_D_O_z,,2*(-rho*x**2 + sigma*y**2 + x**2*z)
+symbolic,lorenz_Z2_symmetry_holds,,True
+symbolic,jacobian_f,,"Matrix([[-sigma, sigma, 0], [rho - z, -1, -x], [y, x, -beta]])"
+check,variational_vs_finite_diff_rel_err_max,3 states,2.7427217909643136e-09
+"O_x=[x,xdot,xddot]",max|det+sigma^2 x| (numeric),,5.229594535194337e-12
+"O_x=[x,xdot,xddot]",sigma_min_median,,0.5564027258496799
+"O_x=[x,xdot,xddot]",sigma_min_p05,,0.05159834398520109
+"O_x=[x,xdot,xddot]",sigma_min_p95,,0.7029147040657067
+"O_x=[x,xdot,xddot]",sigma_min_min,,6.127853935550568e-05
+"O_x=[x,xdot,xddot]",sigma_min_max,,0.7062223498284127
+"O_x=[x,xdot,xddot]",cond_median,,370.6918012304273
+"O_x=[x,xdot,xddot]",cond_p05,,227.77837962244868
+"O_x=[x,xdot,xddot]",cond_p95,,4976.247364204539
+"O_x=[x,xdot,xddot]",cond_min,,222.00483554865107
+"O_x=[x,xdot,xddot]",cond_max,,3739161.945521935
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",median_rel_err_det_vs_sigma2_tau3_x,tau=1dt,0.1208463853257579
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]","corr(det, x)",tau=1dt,0.9986353742975351
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",frac_numerical_rank<3(1e-10),tau=1dt,0.0
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_median,tau=1dt,0.0022805973905297913
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p05,tau=1dt,0.00020195285796833462
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p95,tau=1dt,0.0060718721182843605
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_min,tau=1dt,1.8436541053606635e-08
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_max,tau=1dt,0.007856096896341749
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_median,tau=1dt,854.717163049559
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p05,tau=1dt,317.427570903308
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p95,tau=1dt,9671.495625847714
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_min,tau=1dt,243.80074437544374
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_max,tau=1dt,105516484.37194283
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_median,tau=1dt,0.9294701853160203
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p05,tau=1dt,0.8316063978487012
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p95,tau=1dt,0.9871298061713286
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_min,tau=1dt,0.7672054025210563
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_max,tau=1dt,0.9997625297850009
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_median,tau=1dt,1.1967077859793014
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p05,tau=1dt,1.0800632783534525
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p95,tau=1dt,1.5058060754702614
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_min,tau=1dt,1.0634598287099843
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_max,tau=1dt,1.7649344617697849
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_median,tau=1dt,542.7018503968023
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p05,tau=1dt,114.17197264478126
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p95,tau=1dt,8792.509283931373
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_min,tau=1dt,64.51532637291218
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_max,tau=1dt,23305782.903301317
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",median_rel_err_det_vs_sigma2_tau3_x,tau=2dt,0.2528925974124241
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]","corr(det, x)",tau=2dt,0.9949492800029872
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",frac_numerical_rank<3(1e-10),tau=2dt,0.0
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_median,tau=2dt,0.009289623952383863
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p05,tau=2dt,0.0008229319868546213
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p95,tau=2dt,0.024695789736802223
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_min,tau=2dt,3.516127308448606e-07
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_max,tau=2dt,0.03188926191153805
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_median,tau=2dt,246.55013777189157
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p05,tau=2dt,88.11982713474949
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p95,tau=2dt,2798.9194547134744
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_min,tau=2dt,66.3751801157165
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_max,tau=2dt,6582991.7995209405
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_median,tau=2dt,0.8572085200716147
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p05,tau=2dt,0.6680913495838101
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p95,tau=2dt,0.9713181987478545
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_min,tau=2dt,0.5581305592700851
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_max,tau=2dt,0.9990145136938281
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_median,tau=2dt,1.4609642120057877
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p05,tau=2dt,1.1709578384026473
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p95,tau=2dt,2.374716383579016
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_min,tau=2dt,1.1324359426780344
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_max,tau=2dt,3.2903344099164635
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_median,tau=2dt,127.4775919642898
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p05,tau=2dt,29.133713110962958
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p95,tau=2dt,2042.0992708622566
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_min,tau=2dt,17.340129039416265
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_max,tau=2dt,3866406.2921530986
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",median_rel_err_det_vs_sigma2_tau3_x,tau=5dt,0.7399981251855601
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]","corr(det, x)",tau=5dt,0.976201665122197
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",frac_numerical_rank<3(1e-10),tau=5dt,0.0
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_median,tau=5dt,0.05894611215500133
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p05,tau=5dt,0.005241376358094791
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p95,tau=5dt,0.15275917525155921
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_min,tau=5dt,7.98171270867572e-06
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_max,tau=5dt,0.19197401956786767
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_median,tau=5dt,78.82806802151042
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p05,tau=5dt,21.79736316228672
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p95,tau=5dt,956.6456251870201
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_min,tau=5dt,14.332917177983482
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_max,tau=5dt,638778.3300181355
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_median,tau=5dt,0.6441593673224673
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p05,tau=5dt,0.1988964443320721
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p95,tau=5dt,0.9037886953047636
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_min,tau=5dt,0.04939011640456246
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_max,tau=5dt,0.9800091348331162
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_median,tau=5dt,3.140005903281142
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p05,tau=5dt,1.518800289096967
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p95,tau=5dt,16.0814388131543
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_min,tau=5dt,1.3727286681114972
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_max,tau=5dt,77.78151501322941
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_median,tau=5dt,19.995305752943153
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p05,tau=5dt,7.721296427721983
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p95,tau=5dt,279.36286881700283
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_min,tau=5dt,5.175064141139061
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_max,tau=5dt,365923.1533823857
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",median_rel_err_det_vs_sigma2_tau3_x,tau=10dt,2.1153048783086144
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]","corr(det, x)",tau=10dt,0.9452244718302615
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",frac_numerical_rank<3(1e-10),tau=10dt,0.0
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_median,tau=10dt,0.21435494685212284
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p05,tau=10dt,0.019983522796581575
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p95,tau=10dt,0.4713385367763376
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_min,tau=10dt,2.1860768535044196e-05
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_max,tau=10dt,0.5426936322320476
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_median,tau=10dt,98.13536330417291
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p05,tau=10dt,15.4722121571125
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p95,tau=10dt,1314.3102859785497
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_min,tau=10dt,7.949808020010719
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_max,tau=10dt,1164597.8375954616
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_median,tau=10dt,0.33343799014446185
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p05,tau=10dt,0.04488075434233327
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p95,tau=10dt,0.7086552139686301
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_min,tau=10dt,4.685866546924841e-06
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_max,tau=10dt,0.9131221430564337
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_median,tau=10dt,23.16661572215641
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p05,tau=10dt,3.37876874206816
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p95,tau=10dt,172.2624582693387
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_min,tau=10dt,1.4831051394726762
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_max,tau=10dt,961621.2729957019
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_median,tau=10dt,14.60966914584694
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p05,tau=10dt,10.648758185496575
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p95,tau=10dt,76.31581062428046
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_min,tau=10dt,5.148856968782732
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_max,tau=10dt,405698.1061902083
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",median_rel_err_det_vs_sigma2_tau3_x,tau=20dt,12.258049161049389
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]","corr(det, x)",tau=20dt,0.7786799139366142
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",frac_numerical_rank<3(1e-10),tau=20dt,0.0
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_median,tau=20dt,0.2558656127656471
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p05,tau=20dt,0.026337128824118088
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_p95,tau=20dt,0.6156998510227997
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_min,tau=20dt,6.121177726169451e-05
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",sigma_min_max,tau=20dt,0.7700282556721827
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_median,tau=20dt,1600.727993107134
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p05,tau=20dt,116.58282353252721
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_p95,tau=20dt,26855.920301863396
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_min,tau=20dt,37.393225436527715
+"F_x,tau=[x(t),x(t-tau),x(t-2tau)]",cond_max,tau=20dt,21470890.17625087
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_median,tau=20dt,0.42377575997475514
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p05,tau=20dt,0.05344152922844901
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_p95,tau=20dt,0.6335040837297685
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_min,tau=20dt,5.9308035666403955e-06
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",sigma_min_max,tau=20dt,0.8094859566121468
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_median,tau=20dt,218.68404257157167
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p05,tau=20dt,72.30567951332691
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_p95,tau=20dt,1885.8567686625984
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_min,tau=20dt,17.697849578236575
+"O_tau=[x(t),y(t-tau),z(t-2tau)]",cond_max,tau=20dt,27394052.634181254
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_median,tau=20dt,204.12716474820945
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p05,tau=20dt,47.75622720915221
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_p95,tau=20dt,2253.80484756884
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_min,tau=20dt,6.263969676896961
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",cond_max,tau=20dt,4218851.2271985095
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",max|z(t;s)-z(t;Gamma s)| over 5 time units,"Gamma(x,y,z)=(-x,-y,z)",0.0
+"F_z,tau=[z(t),z(t-tau),z(t-2tau)]",|s - Gamma s|,"Gamma(x,y,z)=(-x,-y,z)",7.230237991237772
+pattern_vs_error_modelC_p0.3_s0,mean_abs_err,"sigma_min_obs_window in [6.38e-02,2.00e-01] (n=546)",0.012584412743374978
+pattern_vs_error_modelC_p0.3_s0,mean_abs_err,"sigma_min_obs_window in [2.00e-01,2.17e-01] (n=548)",0.010827328210159538
+pattern_vs_error_modelC_p0.3_s0,mean_abs_err,"sigma_min_obs_window in [2.17e-01,2.32e-01] (n=546)",0.010087369805570323
+pattern_vs_error_modelC_p0.3_s0,mean_abs_err,"sigma_min_obs_window in [2.32e-01,2.52e-01] (n=546)",0.010325854251863975
+pattern_vs_error_modelC_p0.3_s0,mean_abs_err,"sigma_min_obs_window in [2.52e-01,3.24e-01] (n=546)",0.011402067364169618
+pattern_vs_error_modelC_p0.3_s0,mean_abs_err,other vars observed at time t = 0 (n=240),0.011420942897287508
+pattern_vs_error_modelC_p0.3_s0,mean_abs_err,other vars observed at time t = 1 (n=1178),0.010781537698730448
+pattern_vs_error_modelC_p0.3_s0,mean_abs_err,other vars observed at time t = 2 (n=1308),0.011202754327865027
+pattern_vs_error_modelC_p0.3_s0,"spearman(sigma_min, abs_err)",,0.007380194606224114

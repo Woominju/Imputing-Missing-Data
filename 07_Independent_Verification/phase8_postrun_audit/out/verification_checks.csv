@@ -1,0 +1,55 @@
+check,n,max_abs_diff,tol,ok
+coverage 24 reps x 8 traj x 5 masks per cell,4,0.0,0.0,True
+FamilyI_all mean,36,9.020562075079397e-17,1e-09,True
+FamilyI_all sd,36,9.71445146547012e-17,1e-09,True
+FamilyI_all lcb,36,9.020562075079397e-17,1e-09,True
+FamilyI_all ucb,36,9.73613550891983e-17,1e-09,True
+FamilyI_all d_z,36,1.7763568394002505e-15,1e-09,True
+FamilyI_all n_neg/n_pos,36,0.0,0.0,True
+"FamilyI_all sign p (two-sided, vs delta)",36,7.45931094670027e-17,1e-12,True
+"FamilyI sequence decisions (tested, confirmed, reverse)",4,0.0,0.0,True
+TA_LB T_A,18,9.71445146547012e-17,1e-07,True
+TA_LB T_A_ci_lo,18,9.367506770274758e-17,1e-07,True
+TA_LB T_A_ci_hi,18,8.326672684688674e-17,1e-07,True
+TA_LB R_A,18,5.551115123125783e-17,1e-07,True
+TA_LB info_ratio_LB_over_R,18,0.0,1e-07,True
+TA_LB LB,18,0.0,1e-07,True
+TA_LB LB_lo,18,5.551115123125783e-17,1e-07,True
+TA_LB LB_hi,18,0.0,1e-07,True
+TA_LB row count,1,0.0,0.0,True
+FamilyII_all mean,40,9.985502008591496e-17,1e-09,True
+FamilyII_all sd,40,9.8879238130678e-17,1e-09,True
+FamilyII_all lcb,40,9.540979117872439e-17,1e-09,True
+FamilyII_all ucb,40,9.454242944073599e-17,1e-09,True
+FamilyII_all d_z,40,4.440892098500626e-16,1e-09,True
+FamilyII_all sign_p,40,7.45931094670027e-17,1e-09,True
+gates sign_p_j1,4,5.551115123125783e-17,1e-09,True
+gates sign_p_j2,4,5.551115123125783e-17,1e-09,True
+gates tost_lo,4,8.543513119185775e-17,1e-09,True
+gates tost_hi,4,6.093216209368535e-17,1e-09,True
+gates status,4,0.0,0.0,True
+"FamilyII sequence decisions (tested, detected, confirmed)",4,0.0,0.0,True
+mask_decomposition mse,20,9.020562075079397e-17,1e-09,True
+mask_decomposition mask_var,20,9.71445146547012e-17,1e-09,True
+mask_decomposition mask_avg_bias2,20,9.627715291671279e-17,1e-09,True
+rho_phi,288,9.80118763926896e-17,1e-12,True
+latent_nn,12,5.551115123125783e-17,1e-12,True
+"GSR flags a,b,c,d",2,0.0,0.0,True
+GSR rho_diff_mean,2,6.245004513516506e-17,1e-12,True
+imputation per-view rmse,896,2.220446049250313e-16,1e-12,True
+imputation row count,1,0.0,0.0,True
+imputation_vs_state spearman,12,0.0,1e-12,True
+P7 imputation per-view rmse,512,2.220446049250313e-16,1e-12,True
+D5b mean,20,7.806255641895632e-17,1e-12,True
+D5b count,20,0.0,0.0,True
+kNN vs O_raw (kNN),58,9.540979117872439e-17,1e-12,True
+kNN vs O_raw (O_raw),58,8.673617379884035e-17,1e-12,True
+"training rows: 864, unique (k,p,r,arm), seeds = seed0 + r, params/latent per protocol 5.2, all valid, no cap",864,0.0,0.0,True
+"L2 strata point counts n (all strata, 96 cells x 40 masks)",368640,0.0,0.0,True
+L2 sym0 SSE (relative),368640,6.472600233564663e-13,0.0001,True
+"L2 imputation n (zero, LOCF)",245760,0.0,0.0,True
+L2 imputation SSE zero/LOCF (relative),245760,9.011680290882396e-13,0.0001,True
+"L3 O_raw SSE re-inference vs eval (relative, p=0.7, all strata)",184320,5.507067473820015e-06,0.002,True
+L3 O_raw rows matched,1,0.0,0.0,True
+L3 R_H(O_raw) per replicate kappa=0.0,24,2.200861298762291e-09,1e-05,True
+L3 R_H(O_raw) per replicate kappa=1.0,24,2.9240668220076316e-09,1e-05,True

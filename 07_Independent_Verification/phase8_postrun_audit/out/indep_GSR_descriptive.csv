@@ -1,0 +1,3 @@
+kappa,p,a_IIa2_certified,b_IIb1,c_all,c_per_stratum,d_rho,rho_diff_mean
+0.0,0.7,False,False,False,"{""both_L2+"": false, ""one_L2+"": false, ""H"": false}",True,-0.0224197873573681
+1.0,0.7,True,False,False,"{""both_L2+"": false, ""one_L2+"": false, ""H"": false}",True,-0.020458654778918364

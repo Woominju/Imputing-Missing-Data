@@ -1,0 +1,33 @@
+== Phase 9 independent verification, stage main
+  replicates per cell: {(0.0, 0.3): 24, (0.0, 0.7): 24, (1.0, 0.3): 24, (1.0, 0.7): 24}
+  [OK] imputation pooled RMSE per rep x method n=672 max=2.22e-16
+  [OK] rho_ret per rep x feat n=384 max=9.71e-17
+  [OK] paired contrasts mean n=16 max=9.54e-17
+  [OK] paired contrasts lcb n=16 max=9.54e-17
+  [OK] paired contrasts ucb n=16 max=9.92e-17
+step  tested  decision  n      mean       lcb      ucb
+ P-1    True     False 24  0.002109  0.000059 0.004158
+ P-2   False     False 24 -0.004036 -0.008608 0.000536
+ P-3   False     False 24  0.019709  0.016720 0.022699
+ P-4   False     False 24 -0.004276 -0.010269 0.001718
+  [OK] confirmatory decisions n=4 max=0
+  [OK] confirmatory mean n=4 max=9.54e-17
+  [OK] confirmatory ucb n=4 max=9.92e-17
+  [OK] L2 missing-position counts n (all strata) n=245760 max=0
+  [OK] L2 zero/LOCF SSE (relative) n=245760 max=9.47e-13
+                                                                                      check      n  max_abs_diff          tol   ok
+                                                                                   coverage      4  0.000000e+00 0.000000e+00 True
+                                                    imputation pooled RMSE per rep x method    672  2.220446e-16 1.000000e-12 True
+                                                                     rho_ret per rep x feat    384  9.714451e-17 1.000000e-12 True
+                                                                      paired contrasts mean     16  9.540979e-17 1.000000e-12 True
+                                                                       paired contrasts lcb     16  9.540979e-17 1.000000e-12 True
+                                                                       paired contrasts ucb     16  9.920450e-17 1.000000e-12 True
+                                                                     confirmatory decisions      4  0.000000e+00 0.000000e+00 True
+                                                                          confirmatory mean      4  9.540979e-17 1.000000e-12 True
+                                                                           confirmatory ucb      4  9.920450e-17 1.000000e-12 True
+                                                  L2 missing-position counts n (all strata) 245760  0.000000e+00 0.000000e+00 True
+                                                                L2 zero/LOCF SSE (relative) 245760  9.469092e-13 1.000000e-04 True
+                   training rows: count, valid, no cap, seeds, lam, tower active, not smoke    576  0.000000e+00 0.000000e+00 True
+                                                           no tmp files, no failure markers      0  0.000000e+00 0.000000e+00 True
+Phase 9 trajectories distinct from each other and from all P6-P8 trajectories (first state)    600  0.000000e+00 0.000000e+00 True
+== 14/14 OK

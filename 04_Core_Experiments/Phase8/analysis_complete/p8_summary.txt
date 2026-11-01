@@ -1,0 +1,54 @@
+== ANALYSIS STATUS: COMPLETE  missing tasks=0  failed tasks=0  invalid AE runs=0
+== training cells
+ kappa   p   n  cap_rate  nonfinite  finite  n_invalid_runs  inconclusive
+   0.0 0.3 216       0.0          0    True               0         False
+   0.0 0.7 216       0.0          0    True               0         False
+   1.0 0.3 216       0.0          0    True               0         False
+   1.0 0.7 216       0.0          0    True               0         False
+
+== Family I (MSE, coordinate mean; oracle-pool conditional)
+step  kappa contrast  tested_confirmatory  confirmed_gt_delta  descriptive_no_gap_ucb_lt_delta     mean      lcb      ucb       d_z  n  cell_inconclusive
+ I-1    1.0    G_tot                 True                True                            False 0.044120 0.041171 0.047068  6.318659 24              False
+ I-2    1.0    G_lat                 True               False                            False 0.018978 0.017457 0.020498  5.269827 24              False
+ I-3    0.0    G_tot                False               False                            False 0.054184 0.051967 0.056401 10.321554 24              False
+ I-4    0.0    G_lat                False               False                            False 0.027047 0.025655 0.028438  8.205969 24              False
+
+== T_A / LB (symmetric strata only)
+ kappa   p stratum    pipeline    T_A  T_A_ci_lo  T_A_ci_hi    R_A  info_ratio_LB_over_R     LB  LB_lo  LB_hi  n_traj
+   0.0 0.7      X0       O_raw 0.0957     0.0882     0.1032 0.7604                0.8767 0.6667 0.6665 0.6668      40
+   0.0 0.7      X0    R1:Bfull 0.1351     0.1236     0.1466 0.7998                0.8336 0.6667 0.6665 0.6668      40
+   0.0 0.7      X0 O_lat:Bfull 0.0899     0.0832     0.0966 0.7546                0.8835 0.6667 0.6665 0.6668      40
+   0.0 0.3   L1:L0       O_raw 0.1350     0.0465     0.2235 0.4464                0.7466 0.3333 0.3332 0.3334      40
+   0.0 0.3   L1:L0    R1:Bfull 0.0512     0.0219     0.0806 0.3627                0.9191 0.3333 0.3332 0.3334      40
+   0.0 0.3   L1:L0 O_lat:Bfull 0.0646     0.0200     0.1091 0.3760                0.8864 0.3333 0.3332 0.3334      40
+   0.0 0.7   L1:L0       O_raw 0.0755     0.0739     0.0771 0.4078                0.8173 0.3333 0.3332 0.3334      40
+   0.0 0.7   L1:L0    R1:Bfull 0.1254     0.1208     0.1301 0.4578                0.7281 0.3333 0.3332 0.3334      40
+   0.0 0.7   L1:L0 O_lat:Bfull 0.0893     0.0875     0.0911 0.4217                0.7904 0.3333 0.3332 0.3334      40
+   0.0 0.3   L2:L0       O_raw 0.1842     0.0649     0.3035 0.5076                0.6567 0.3334 0.3332 0.3335      40
+   0.0 0.3   L2:L0    R1:Bfull 0.0788     0.0508     0.1068 0.4022                0.8288 0.3334 0.3332 0.3335      40
+   0.0 0.3   L2:L0 O_lat:Bfull 0.1816     0.0611     0.3020 0.5050                0.6601 0.3334 0.3332 0.3335      40
+   0.0 0.7   L2:L0       O_raw 0.0797     0.0781     0.0812 0.4149                0.8036 0.3334 0.3332 0.3335      40
+   0.0 0.7   L2:L0    R1:Bfull 0.1233     0.1200     0.1265 0.4585                0.7271 0.3334 0.3332 0.3335      40
+   0.0 0.7   L2:L0 O_lat:Bfull 0.0903     0.0889     0.0918 0.4255                0.7834 0.3334 0.3332 0.3335      40
+   1.0 0.7      X0       O_raw 0.1250     0.1140     0.1360 0.7918                0.8435 0.6679 0.6670 0.6687      40
+   1.0 0.7      X0    R1:Bfull 0.1389     0.1256     0.1522 0.8057                0.8289 0.6679 0.6670 0.6687      40
+   1.0 0.7      X0 O_lat:Bfull 0.0940     0.0887     0.0993 0.7608                0.8778 0.6679 0.6670 0.6687      40
+
+== Family II (y_j RMSE; R1 readout)
+  p family status  sign_p_j1  sign_p_j2   tost_lo   tost_hi
+0.3    IIa   PASS   0.838820   0.307456 -0.003301 -0.000136
+0.3    IIb   PASS   0.838820   1.000000 -0.002791  0.000414
+0.7    IIa   PASS   0.541256   0.838820 -0.002010  0.001567
+0.7    IIb   PASS   0.151590   0.541256 -0.002031  0.001872
+ step               contrast gate        label  tested  detected  confirmed      mean       lcb       ucb       d_z  n_neg practical
+IIa-1               CG_Bfull PASS confirmatory    True      True       True -0.008629 -0.011781 -0.005478 -1.340183     21     False
+IIa-2                C_Bfull PASS confirmatory    True      True       True  0.033367  0.024465  0.042269  1.834620      0      None
+IIb-1               Delta_JF PASS confirmatory    True     False      False -0.002784 -0.005597  0.000029 -0.484494     18     False
+IIb-2 D_s6_Bfull_minus_Fact8 PASS confirmatory   False     False      False  0.017640  0.012412  0.022868  1.651509      0     False
+
+== GSR descriptive (not confirmatory)
+ kappa   p  a_IIa2_certified  b_IIb1  c_all_joint_strata_Gtot_ucb_lt_deltaI  d_rho_Bfull_lt_Fact8  rho_diff_mean                                                                                                note
+   0.0 0.7             False   False                                  False                  True      -0.022420 descriptive; even all True = empirical evidence compatible with GSR, not injectivity/diffeomorphism
+   1.0 0.7              True   False                                  False                  True      -0.020459 descriptive; even all True = empirical evidence compatible with GSR, not injectivity/diffeomorphism
+
+ANALYZE8 DONE complete

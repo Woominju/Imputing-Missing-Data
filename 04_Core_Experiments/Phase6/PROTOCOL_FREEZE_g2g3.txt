@@ -1,0 +1,16 @@
+2026-10-28 15:04:35 KST
+e04dac6ecc595dd65328a2e124073797  results/notes/phase6_g2_g3_protocol.md
+b1c12084d7500a94be027f7fcd35a309  results/notes/phase6_mathematical_errata.md
+30d2a4db8e4778bf876de5d1c2c22dfc  experiments/phase6/core6.py
+c16303383b092c35c8cfc4bcd51dde4d  experiments/phase6/evaluate6.py
+bad1c40dcd32ac633ed4d014f497d145  experiments/phase6/g0_checks.py
+d1a65d1eb77fabec6f318c967f5670b4  experiments/phase6/gen6.py
+d41d8cd98f00b204e9800998ecf8427e  experiments/phase6/__init__.py
+3964d1e1f0b77d2cf162800eeefaf76e  experiments/phase6/jac6.py
+59e64b782a3175bfbbebb7d985a75153  experiments/phase6/train6.py
+9e384a1dcc5603bf0072565be9141dfa  experiments/phase6/run_lane6.sh
+d642819c91f9e58a8e2e1c9e40462b77  experiments/phase6/tests/test_phase6.py
+--- analysis scripts frozen 2026-10-28 15:15:08 KST (before viewing any G1/G2 result)
+d79f3dfe339e912999fe9e8fcb552a23  experiments/phase6/analyze6.py
+3138d18faa18b9d8e46db3095bc4278a  experiments/phase6/analyze_g1.py
+d015aa7153e74129ec4b7956c5913425  experiments/phase6/eval_sched6.py

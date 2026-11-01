@@ -1,0 +1,33 @@
+{
+ "expected": 1276,
+ "missing": 0,
+ "empty": 0,
+ "duplicates": 0,
+ "nonzero_rc": 0,
+ "never_ended": 1,
+ "restarted": 26,
+ "failure_markers": 0,
+ "invalid_runs": 0,
+ "temp_files": 0,
+ "checkpoints": 864,
+ "side_files": {
+  "pair": 96,
+  "imp": 96,
+  "lat": 96
+ },
+ "leakage_exact_state_hits": {
+  "0.0|pool_train": 0,
+  "0.0|pool_val": 0,
+  "0.0|rep_train": 0,
+  "0.0|donor_test": 0,
+  "0.0|donor_train": 0,
+  "0.0|kNN_ref_windows": 0,
+  "1.0|pool_train": 0,
+  "1.0|pool_val": 0,
+  "1.0|rep_train": 0,
+  "1.0|donor_test": 0,
+  "1.0|donor_train": 0,
+  "1.0|kNN_ref_windows": 0
+ },
+ "all_traj_distinct": true
+}

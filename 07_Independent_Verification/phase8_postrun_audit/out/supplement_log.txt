@@ -1,0 +1,50 @@
+S1 identical point sets across all 18 pipelines for every (cell, rep, traj, mask, stratum): True (61440 groups)
+S2 latent-NN state distance (lower = better), paired over replicates:
+ kappa   p                   contrast  n    mean      lo      hi  n_neg
+   0.0 0.3  nnStateDist Bfull - Fact8 24 -0.0065 -0.0123 -0.0008     15
+   0.0 0.3 nnStateDist Bfull - Fact16 24 -0.0086 -0.0152 -0.0021     17
+   0.0 0.7  nnStateDist Bfull - Fact8 24  0.0264  0.0067  0.0461      6
+   0.0 0.7 nnStateDist Bfull - Fact16 24  0.0345  0.0169  0.0521      5
+   1.0 0.3  nnStateDist Bfull - Fact8 24 -0.0029 -0.0084  0.0025     14
+   1.0 0.3 nnStateDist Bfull - Fact16 24 -0.0031 -0.0080  0.0017     15
+   1.0 0.7  nnStateDist Bfull - Fact8 24 -0.0019 -0.0186  0.0149     11
+   1.0 0.7 nnStateDist Bfull - Fact16 24  0.0101 -0.0031  0.0233     10
+S3 AE:Fact8 - AE:Bfull imputation RMSE by view x own-L stratum (positive = B-full better):
+ kappa   p  view stratum  fact8  bfull  n    mean      lo      hi  n_neg
+   0.0 0.7     0   L1:L0 1.0182 1.0468 24 -0.0286 -0.0366 -0.0205     23
+   0.0 0.7     0   L1:L1 0.2834 0.3204 24 -0.0369 -0.0416 -0.0322     24
+   0.0 0.7     0  L1:L2+ 0.1373 0.1905 24 -0.0531 -0.0645 -0.0418     24
+   0.0 0.7     1   L1:L0 0.5743 0.5949 24 -0.0205 -0.0288 -0.0123     23
+   0.0 0.7     1   L1:L1 0.3216 0.3618 24 -0.0402 -0.0458 -0.0346     24
+   0.0 0.7     1  L1:L2+ 0.1428 0.1877 24 -0.0449 -0.0519 -0.0379     24
+   0.0 0.7     2   L2:L0 1.0224 1.0473 24 -0.0249 -0.0329 -0.0169     22
+   0.0 0.7     2   L2:L1 0.2869 0.3228 24 -0.0359 -0.0415 -0.0304     24
+   0.0 0.7     2  L2:L2+ 0.1384 0.1915 24 -0.0532 -0.0655 -0.0408     24
+   0.0 0.7     3   L2:L0 0.5767 0.6002 24 -0.0235 -0.0329 -0.0142     20
+   0.0 0.7     3   L2:L1 0.3228 0.3629 24 -0.0401 -0.0470 -0.0332     24
+   0.0 0.7     3  L2:L2+ 0.1425 0.1888 24 -0.0462 -0.0524 -0.0400     24
+   1.0 0.7     0   L1:L0 1.0248 1.0022 24  0.0226  0.0136  0.0316      3
+   1.0 0.7     0   L1:L1 0.2636 0.2846 24 -0.0210 -0.0273 -0.0147     22
+   1.0 0.7     0  L1:L2+ 0.1487 0.1709 24 -0.0222 -0.0318 -0.0126     21
+   1.0 0.7     1   L1:L0 0.5736 0.6001 24 -0.0265 -0.0348 -0.0181     22
+   1.0 0.7     1   L1:L1 0.3228 0.3569 24 -0.0342 -0.0421 -0.0263     24
+   1.0 0.7     1  L1:L2+ 0.1511 0.1866 24 -0.0355 -0.0440 -0.0270     23
+   1.0 0.7     2   L2:L0 1.0343 1.0029 24  0.0313  0.0209  0.0417      1
+   1.0 0.7     2   L2:L1 0.2632 0.2883 24 -0.0252 -0.0301 -0.0203     23
+   1.0 0.7     2  L2:L2+ 0.1471 0.1733 24 -0.0262 -0.0351 -0.0172     23
+   1.0 0.7     3   L2:L0 0.5667 0.5959 24 -0.0292 -0.0375 -0.0209     22
+   1.0 0.7     3   L2:L1 0.3187 0.3575 24 -0.0388 -0.0465 -0.0311     23
+   1.0 0.7     3  L2:L2+ 0.1482 0.1863 24 -0.0382 -0.0458 -0.0305     23
+S4 Family I H-stratum shares (descriptive):
+contrast  G_lat    G_rd   G_tot  R_Bfull_H  share_Gtot_of_R  share_Glat_of_Gtot  share_Grd_of_Gtot
+kappa                                                                                             
+0.0       0.027  0.0271  0.0542     0.2798           0.1937              0.4992             0.5008
+1.0       0.019  0.0251  0.0441     0.2581           0.1709              0.4301             0.5699
+S5 readout-level mask variance (R1:Bfull vs R1:Fact8) vs latent rho_phi (Bfull vs Fact8), p = 0.7:
+   kappa=0.0: mask_var R1:Bfull 0.07985  R1:Fact8 0.07225 | rho_phi Bfull 0.1085 Fact8 0.1309
+   kappa=1.0: mask_var R1:Bfull 0.07337  R1:Fact8 0.06834 | rho_phi Bfull 0.1006 Fact8 0.1210
+ kappa   p                     contrast  n    mean      lo      hi  n_neg
+   0.0 0.3 mask_var R1:Bfull - R1:Fact8 24 0.00025 0.00015 0.00035      4
+   0.0 0.7 mask_var R1:Bfull - R1:Fact8 24 0.00760 0.00628 0.00892      0
+   1.0 0.3 mask_var R1:Bfull - R1:Fact8 24 0.00016 0.00002 0.00029      5
+   1.0 0.7 mask_var R1:Bfull - R1:Fact8 24 0.00502 0.00384 0.00621      1

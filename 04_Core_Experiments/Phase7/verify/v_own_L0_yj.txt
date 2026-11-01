@@ -1,0 +1,11 @@
+EXPLORATORY: RMSE of own y_j in own-L0 stratum (own views fully missing in window). Bayes at kappa=0 (G1.2): E[y_j|U_j,..]=0 => RMSE ~ sqrt(E[y^2])/sd ~ 1
+feature    Bself_own   Bfull  raw_joint
+kappa p                                
+0.0   0.3     1.0198  0.9967     1.0536
+      0.7     1.0268  1.0415     1.0865
+1.0   0.3     0.9285  0.9113     1.0227
+      0.7     1.0197  1.0185     1.0651
+k=0.0 p=0.3 Bfull - Bself_own (own y_j, L0), rep-mean over j: -0.0231 [-0.0667, 0.0206]
+k=0.0 p=0.7 Bfull - Bself_own (own y_j, L0), rep-mean over j: 0.0147 [0.0104, 0.0191]
+k=1.0 p=0.3 Bfull - Bself_own (own y_j, L0), rep-mean over j: -0.0172 [-0.0550, 0.0206]
+k=1.0 p=0.7 Bfull - Bself_own (own y_j, L0), rep-mean over j: -0.0012 [-0.0056, 0.0032]

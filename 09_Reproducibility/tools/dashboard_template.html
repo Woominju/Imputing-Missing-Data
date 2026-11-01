@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phase 1–9 Research Dashboard — Reference-free Multi-view Delay-embedding Imputation</title>
+<style>
+:root{--bg:#f4f4f2;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#7a7975;--line:#e3e2de;--grid:#ecebe7;
+--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--good:#0ca30c;--warn:#fab219;--serious:#ec835a;--crit:#d03b3b;--math:#6250d6;--emp:#2a78d6;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#121211;--surface:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--muted:#9a998f;--line:#33332f;--grid:#2a2a27;
+--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--math:#9085e9;--emp:#3987e5;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;font:15px/1.55 -apple-system,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:var(--surface);border-bottom:1px solid var(--line);padding:18px 28px;position:sticky;top:0;z-index:5}
+header h1{margin:0;font-size:20px}header p{margin:2px 0 0;color:var(--ink2);font-size:13px}
+nav{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}nav a{color:var(--ink2);text-decoration:none;font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px}
+nav a:hover{color:var(--ink);border-color:var(--ink2)}
+main{max-width:1180px;margin:0 auto;padding:20px 24px 60px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px 24px;margin:18px 0}
+h2{margin:0 0 12px;font-size:18px}h3{font-size:15px;margin:16px 0 6px}
+.aim{border-left:4px solid var(--s1);padding:8px 14px;background:var(--bg);font-style:italic;color:var(--ink)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+.card{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:var(--surface)}
+.tl{display:flex;flex-direction:column;gap:8px}.ph{border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.ph>button{all:unset;cursor:pointer;display:flex;gap:12px;align-items:baseline;width:100%;padding:10px 14px;box-sizing:border-box}
+.ph>button:hover{background:var(--bg)}.ph .num{font-weight:700;color:var(--s1);min-width:28px}.ph .dt{color:var(--muted);font-size:12px;margin-left:auto;white-space:nowrap}
+.ph .body{display:none;padding:4px 16px 14px;border-top:1px solid var(--line)}.ph.open .body{display:block}
+dl{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;margin:8px 0}dt{color:var(--ink2);font-size:13px}dd{margin:0}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+input[type=search]{padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink);min-width:260px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink2);border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer}
+.chip.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.badge{display:inline-block;font-size:11px;padding:1px 7px;border-radius:4px;border:1px solid currentColor;margin-right:6px;white-space:nowrap}
+.b-math{color:var(--math)}.b-emp{color:var(--emp)}.b-cnt{color:var(--serious)}.b-un{color:var(--muted)}.b-wd{color:var(--crit)}
+ul.items{list-style:none;padding:0;margin:0}ul.items li{padding:5px 0;border-bottom:1px dashed var(--line)}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--ink2);font-weight:600}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+.st{white-space:nowrap;font-weight:600}.st::before{margin-right:4px}
+.st.pass{color:var(--good)}.st.pass::before{content:"✔"}.st.fail{color:var(--crit)}.st.fail::before{content:"✖"}.st.hold{color:var(--serious)}.st.hold::before{content:"⚠"}
+.st.untested{color:var(--muted)}.st.untested::before{content:"–"}.st.desc{color:var(--ink2)}.st.desc::before{content:"◇"}
+.aimst{font-weight:700;white-space:nowrap}.aimst.established{color:var(--good)}.aimst.partial{color:var(--serious)}.aimst.unresolved{color:var(--crit)}.aimst.noteval{color:var(--muted)}
+.chartbox{border:1px solid var(--line);border-radius:8px;padding:12px;margin:10px 0}.chartbox h4{margin:0 0 2px;font-size:14px}.chartbox .sub{color:var(--ink2);font-size:12px;margin-bottom:6px}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--ink2);margin:4px 0 6px;flex-wrap:wrap}.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;background:var(--c);vertical-align:-1px}
+.multi{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}
+svg text{fill:var(--ink2);font-size:11px}svg .val{fill:var(--ink);font-size:11px}svg .axis{stroke:var(--line)}svg .gl{stroke:var(--grid)}svg .ci{stroke:var(--ink);stroke-width:1.5}
+.tt{position:fixed;pointer-events:none;background:var(--ink);color:var(--surface);font-size:12px;padding:6px 8px;border-radius:6px;display:none;z-index:20;max-width:320px}
+.tbtn{font-size:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);border-radius:5px;padding:2px 8px;cursor:pointer;float:right}
+.note{color:var(--ink2);font-size:12px}a{color:var(--s1)}code.nolink{color:var(--muted);font-size:12px}
+.hide{display:none!important}.legendkey{font-size:12px;color:var(--ink2)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Phase 1–9 연구 대시보드</h1>
+  <p>참조 변수 없는 다변량 시계열 결측 대치: 다중 view 지연 매장과 공유 잠재 상태(Reference-free, Multi-view Delay Embedding, Shared Latent State)</p>
+  <nav><a href="#A">A. 개요</a><a href="#B">B. 연표</a><a href="#C">C. 수학 결과</a><a href="#D">D. 실험 비교</a><a href="#E">E. AIM 진척</a><a href="#F">F. 향후 연구</a><a href="#G">문서·파일</a></nav>
+</header>
+<main>
+<section id="A"><h2>A. Research Overview</h2>
+  <h3>Official AIM (원문)</h3>
+  <p class="aim">We aim to develop a dynamics-informed imputation framework that reconstructs missing values in multivariate time series without requiring any fully observed variable. It does so by learning a shared latent state to which the delay embeddings of all variables are mapped consistently, as implied by Takens' embedding theorem.</p>
+  <div class="grid2">
+    <div class="card"><h3>가장 강하게 정당화되는 기여</h3><ul>
+      <li><b>참조 없는 학습의 수학적 근거:</b> MCAR, holdout, 양성 조건에서 숨긴 관측 항목 손실의 최적해가 조건부 기댓값이다(Fisher 일관성; Phase 9 A4.1). <span class="badge b-math">증명</span></li>
+      <li><b>무조건 cross-mask 정렬의 불가능성</b>(Lorenz 대칭 반례; P7, A2.2). <span class="badge b-math">증명</span></li>
+      <li><b>상대 view의 숨은 상태 정보 존재와 부분 활용</b>(Phase 6, Phase 8 IIa, 독립 복제본 24). <span class="badge b-emp">확증·인증</span></li>
+      <li><b>모델 한계 ≥ 0.041 MSE</b>(Phase 8 I-1)와 X0층 정보 한계 ≥ 83%. <span class="badge b-emp">인증</span></li></ul></div>
+    <div class="card"><h3>아직 해결되지 않은 핵심 문제</h3><ul>
+      <li>결합 공유 잠재(B-full)가 병치(Fact8)보다 낫다는 증거가 없다. p=0.7 대치와 6차원 decodability에서는 <b>병치가 낫다</b>(Phase 8과 9에서 재현). <span class="badge b-cnt">부정적</span></li>
+      <li>Phase 9의 수학적으로 정당한 메커니즘(tower 자기 증류)도 개선하지 못했다(P-1 실패). <span class="badge b-cnt">부정적</span></li>
+      <li>학습된 잠재와 기저 상태의 대응(단사성, 미분동형)은 미입증이다. <span class="badge b-un">미해결</span></li>
+      <li>FPRM과의 같은 정보 조건 공정 비교는 수행되지 않았다. <span class="badge b-un">미평가</span></li></ul></div>
+  </div>
+</section>
+<section id="B"><h2>B. Phase 1–9 Research Timeline</h2>
+  <div class="tools"><input id="q" type="search" placeholder="검색 (예: Sham, X0, Fact8, 대칭)" aria-label="검색"><span class="legendkey">Phase:</span><span id="chips"></span><button class="chip" id="expand">모두 펼치기</button></div>
+  <div class="tl" id="tl"></div>
+</section>
+<section id="C"><h2>C. Mathematical Results</h2>
+  <p class="note">색 배지로 구분합니다: <span class="badge b-math">증명</span><span class="badge b-emp">통계적 인증</span><span class="badge b-cnt">반례</span><span class="badge b-un">가정·미해결</span><span class="badge b-wd">철회·무효</span>. 각 항목은 근거 문서로 연결됩니다.</p>
+  <div class="grid2" id="math"></div>
+</section>
+<section id="D"><h2>D. Experiment Comparison</h2>
+  <p class="note">서로 다른 평가 조건이나 척도는 한 순위로 섞지 않습니다. 각 차트는 하나의 지표·단계·결측률만 보여 줍니다. 막대는 독립 복제본 평균이고 수염은 95% t-CI입니다. 막대 위에 마우스를 올리면 세부 값과 출처가 보입니다. 모든 수치는 아카이브 안 CSV에서 생성했습니다.</p>
+  <div id="charts"></div>
+  <h3>주요 확증·핵심 검정 (원 CSV에서 생성)</h3>
+  <div class="tools"><input id="q2" type="search" placeholder="검정 필터" aria-label="검정 필터"></div>
+  <table id="tests"><thead><tr><th>Phase</th><th>검정</th><th>평균</th><th>구간</th><th>단위</th><th>판정</th><th>출처</th></tr></thead><tbody></tbody></table>
+  <p class="note">판정 기호: <span class="st pass">확증</span> · <span class="st fail">실패</span> · <span class="st hold">보류</span> · <span class="st untested">미검정</span> · <span class="st desc">서술(확증 아님)</span>. Phase 8 I는 97.5%, Phase 8 II는 98.75% 단측 한계, 나머지는 95% CI 또는 사전등록 수준.</p>
+  <h3>실제 자료: Jena (서술; 같은 계열의 seed 8개, 독립 자료 아님)</h3>
+  <table id="jena"><thead><tr><th>p</th><th>P9-MVAE</th><th>B-full</th><th>SelfV(변수별 AE)</th><th>LOCF</th><th>zero</th></tr></thead><tbody></tbody></table>
+  <p class="note" id="jenasrc"></p>
+</section>
+<section id="E"><h2>E. Official AIM Progress</h2>
+  <p class="note">상태는 근거가 있는 범주로만 표시합니다(퍼센트나 점수 없음): <span class="aimst established">Established</span> · <span class="aimst partial">Partially Supported</span> · <span class="aimst unresolved">Unresolved</span> · <span class="aimst noteval">Not Evaluated</span></p>
+  <table id="aim"><thead><tr><th>AIM 구성 요소</th><th>상태</th><th>근거</th></tr></thead><tbody></tbody></table>
+</section>
+<section id="F"><h2>F. Future Research</h2>
+  <p class="note">Phase 9의 최종(부정적) 결과로 정한 우선순위입니다. 새로운 구조나 손실을 무조건 제안하지 않습니다.</p>
+  <ol id="fut"></ol>
+</section>
+<section id="G"><h2>문서와 파일</h2><ul id="docs"></ul>
+  <p class="note">아카이브에 포함되지 않은 원본(대용량 checkpoint, 재생성 가능한 궤적, 재배포 불가 자료)은 링크하지 않으며, <span id="exl"></span>에 경로와 확보 방법이 있습니다.</p></section>
+</main>
+<div class="tt" id="tt"></div>
+<script>
+const D=/*__DATA__*/null;
+const $=s=>document.querySelector(s), esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
+const link=l=>l.ok?`<a href="${encodeURI(l.path)}">${esc(l.label)}</a>`:`<code class="nolink" title="아카이브 미포함">${esc(l.path)} (미포함)</code>`;
+const ENT={"B-full":"--s1","Fact8":"--s2","P9-MVAE":"--s3","B-self":"--s4"};
+// ---- timeline
+let ph=new Set();
+function renderTL(){const q=$("#q").value.trim().toLowerCase();$("#tl").innerHTML="";
+ D.phases.forEach(p=>{const txt=[p.title,p.q,p.math,p.model,p.exp,p.res,p.neg,p.interp].join(" ").toLowerCase();
+  if((ph.size&&!ph.has(p.id))||(q&&!txt.includes(q)))return;
+  const el=document.createElement("div");el.className="ph";el.innerHTML=`<button aria-expanded="false"><span class="num">P${p.id}</span><span>${esc(p.title)}</span><span class="dt">${esc(p.date)}</span></button>
+  <div class="body"><dl><dt>Research Question</dt><dd>${esc(p.q)}</dd><dt>Mathematical Basis</dt><dd>${esc(p.math)}</dd><dt>Model / Method</dt><dd>${esc(p.model)}</dd>
+  <dt>Experiment</dt><dd>${esc(p.exp)}</dd><dt>Main Results</dt><dd>${esc(p.res)}</dd><dt>Negative Results</dt><dd>${esc(p.neg)}</dd><dt>Interpretation</dt><dd>${esc(p.interp)}</dd>
+  <dt>Files</dt><dd>${p.files.map(link).join(" · ")}</dd></dl></div>`;
+  el.querySelector("button").onclick=()=>{el.classList.toggle("open");el.querySelector("button").setAttribute("aria-expanded",el.classList.contains("open"))};
+  if(q)el.classList.add("open");$("#tl").appendChild(el)})}
+D.phases.forEach(p=>{const c=document.createElement("button");c.className="chip";c.textContent=p.id;c.onclick=()=>{ph.has(p.id)?ph.delete(p.id):ph.add(p.id);c.classList.toggle("on");renderTL()};$("#chips").appendChild(c)});
+$("#q").oninput=renderTL;$("#expand").onclick=()=>document.querySelectorAll(".ph").forEach(e=>e.classList.add("open"));renderTL();
+// ---- math
+const MG=[["proven","Proven Theorems","b-math","증명"],["assumptions","Assumptions","b-un","가정"],["counter","Counterexamples","b-cnt","반례"],["cert","Empirical Certifications","b-emp","인증"],["unresolved","Unresolved Conjectures / Problems","b-un","미해결"],["withdrawn","Withdrawn / Invalidated","b-wd","철회"]];
+MG.forEach(([k,t,b,lab])=>{const d=document.createElement("div");d.className="card";d.innerHTML=`<h3>${t}</h3><ul class="items">${D.math[k].map(i=>`<li><span class="badge ${b}">${lab}</span>${esc(i.text)}<br><span class="note">근거: ${link(i.link)}</span></li>`).join("")}</ul>`;$("#math").appendChild(d)});
+// ---- charts (grouped bars with 95% CI, zero baseline, hover tooltip, table view)
+const tt=$("#tt");function tip(e,h){tt.innerHTML=h;tt.style.display="block";tt.style.left=Math.min(e.clientX+12,innerWidth-330)+"px";tt.style.top=(e.clientY+12)+"px"}function untip(){tt.style.display="none"}
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+function bars(host,groups,ylab,src){const W=360,H=230,ml=46,mr=8,mt=14,mb=34,ents=groups[0].bars.map(b=>b.entity);
+ const ymax=Math.max(...groups.flatMap(g=>g.bars.map(b=>b.hi??b.mean)))*1.15,y=v=>mt+(H-mt-mb)*(1-v/ymax);
+ const gw=(W-ml-mr)/groups.length,bw=Math.min(34,(gw-24)/ents.length-2);let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(ylab)}">`;
+ const step=Math.pow(10,Math.floor(Math.log10(ymax/4)));const tk=[1,2,2.5,5,10].map(m=>m*step).find(t=>ymax/t<=6);
+ for(let v=0;v<=ymax+1e-12;v+=tk){s+=`<line class="gl" x1="${ml}" x2="${W-mr}" y1="${y(v)}" y2="${y(v)}"/><text x="${ml-6}" y="${y(v)+4}" text-anchor="end">${+v.toFixed(4)}</text>`}
+ s+=`<line class="axis" x1="${ml}" x2="${W-mr}" y1="${y(0)}" y2="${y(0)}"/><text x="12" y="${mt+ (H-mt-mb)/2}" transform="rotate(-90 12 ${mt+(H-mt-mb)/2})" text-anchor="middle">${esc(ylab)}</text>`;
+ groups.forEach((g,gi)=>{const x0=ml+gi*gw+(gw-(bw+2)*ents.length+2)/2;
+  g.bars.forEach((b,bi)=>{const x=x0+bi*(bw+2),yt=y(b.mean),h=y(0)-yt,r=Math.min(4,h);
+   const path=`M${x},${y(0)} V${yt+r} Q${x},${yt} ${x+r},${yt} H${x+bw-r} Q${x+bw},${yt} ${x+bw},${yt+r} V${y(0)} Z`;
+   const info=`<b>${esc(b.entity)}</b> · ${esc(g.label)}<br>평균 ${b.mean.toFixed(4)}`+(b.lo!=null?`<br>95% CI [${b.lo.toFixed(4)}, ${b.hi.toFixed(4)}]`:"")+`<br>n = ${b.n} 복제본`+(g.note?`<br>${esc(g.note)}`:"")+`<br><span style="opacity:.8">${esc(src.path)}</span>`;
+   s+=`<g class="hit" data-i='${encodeURIComponent(info)}'><rect x="${x-1}" y="${mt}" width="${bw+2}" height="${H-mt-mb}" fill="transparent"/><path d="${path}" fill="var(${ENT[b.entity]})"/>`;
+   if(b.lo!=null)s+=`<line class="ci" x1="${x+bw/2}" x2="${x+bw/2}" y1="${y(b.lo)}" y2="${y(b.hi)}"/><line class="ci" x1="${x+bw/2-4}" x2="${x+bw/2+4}" y1="${y(b.hi)}" y2="${y(b.hi)}"/><line class="ci" x1="${x+bw/2-4}" x2="${x+bw/2+4}" y1="${y(b.lo)}" y2="${y(b.lo)}"/>`;
+   s+=`<text class="val" x="${x+bw/2}" y="${y(b.hi??b.mean)-4}" text-anchor="middle">${b.mean.toFixed(3)}</text></g>`});
+  s+=`<text x="${ml+gi*gw+gw/2}" y="${H-mb+16}" text-anchor="middle">${esc(g.label)}</text>`});
+ host.insertAdjacentHTML("beforeend",s+"</svg>");host.querySelectorAll(".hit").forEach(n=>{n.onmousemove=e=>tip(e,decodeURIComponent(n.dataset.i));n.onmouseleave=untip})}
+function chart(title,sub,obj,ylab,src){const box=document.createElement("div");box.className="chartbox";const ents=Object.values(obj)[0][0].bars.map(b=>b.entity);
+ box.innerHTML=`<button class="tbtn">표 보기</button><h4>${esc(title)}</h4><div class="sub">${esc(sub)} · 출처 ${link(src)}</div><div class="legend">${ents.map(e=>`<span style="--c:var(${ENT[e]})">${esc(e)}</span>`).join("")}</div><div class="multi"></div><div class="tbl hide"></div>`;
+ const m=box.querySelector(".multi");Object.entries(obj).forEach(([p,groups])=>{const c=document.createElement("div");c.innerHTML=`<div class="note">p = ${p}</div>`;m.appendChild(c);bars(c,groups,ylab,src)});
+ const rows=Object.entries(obj).flatMap(([p,gs])=>gs.flatMap(g=>g.bars.map(b=>`<tr><td>${p}</td><td>${esc(g.label)}</td><td>${esc(b.entity)}</td><td class="n">${b.mean.toFixed(4)}</td><td class="n">${b.lo!=null?`[${b.lo.toFixed(4)}, ${b.hi.toFixed(4)}]`:"—"}</td><td class="n">${b.n}</td></tr>`)));
+ box.querySelector(".tbl").innerHTML=`<table><thead><tr><th>p</th><th>κ</th><th>모델</th><th>평균</th><th>95% CI</th><th>n</th></tr></thead><tbody>${rows.join("")}</tbody></table>`;
+ box.querySelector(".tbtn").onclick=e=>{const t=box.querySelector(".tbl");t.classList.toggle("hide");e.target.textContent=t.classList.contains("hide")?"표 보기":"표 숨기기"};$("#charts").appendChild(box)}
+chart("Phase 9 — 결측 위치 대치 RMSE (낮을수록 좋음)","main, 결측 위치 4 view 합동 정규화 RMSE, 복제본 24",D.charts.p9imp,"RMSE",D.src.p9imp);
+chart("Phase 9 — cross-mask 상태 검색 ρ_ret (낮을수록 좋음; 1 ≈ 무작위)","백색화 잠재 10-NN 상태거리 / 무작위 비(일관성 + 구별성), 잠재 16차원 모델만",D.charts.p9ret,"ρ_ret",D.src.p9ret);
+chart("Phase 8 — 결측 위치 대치 RMSE (Family III, 서술)","독립 감사 재계산(복제본 24). Phase 9와 test 자료가 다르므로 Phase 9 차트와 직접 비교하지 않음",D.charts.p8imp,"RMSE",D.src.p8imp);
+chart("Phase 7 — 6차원 상태 decodability RMSE_s6 (낮을수록 좋음)","공유 2×128 readout, 복제본 24. 막대는 평균(모델별 CI는 원 CSV에 없음), 대비 CI는 툴팁",D.charts.p7,"RMSE_s6",D.src.p7);
+// ---- tests table
+function renderTests(){const q=$("#q2").value.trim().toLowerCase();$("#tests tbody").innerHTML=D.tests.filter(t=>!q||(t.phase+t.test+t.decision).toLowerCase().includes(q)).map(t=>`<tr><td>${t.phase}</td><td>${esc(t.test)}</td><td class="n">${t.mean.toFixed(5)}</td><td class="n">[${t.lo.toFixed(5)}, ${t.hi.toFixed(5)}]</td><td>${esc(t.unit)}</td><td><span class="st ${t.status}">${esc(t.decision)}</span></td><td>${link(t.src)}</td></tr>`).join("")}
+$("#q2").oninput=renderTests;renderTests();
+$("#jena tbody").innerHTML=D.jena.map(j=>`<tr><td>${j.p}</td>${["AE:P9","AE:Bfull","AE:SelfV","LOCF","zero"].map(m=>`<td class="n">${j[m].toFixed(4)}</td>`).join("")}</tr>`).join("");$("#jenasrc").innerHTML="출처 "+link(D.src.jena)+" (결측 위치 5 변수 합동 RMSE, seed 8개 평균)";
+// ---- AIM, future, docs
+const AL={established:"Established",partial:"Partially Supported",unresolved:"Unresolved",noteval:"Not Evaluated"};
+$("#aim tbody").innerHTML=D.aim.map(a=>`<tr><td>${esc(a.c)}</td><td><span class="aimst ${a.s}">${AL[a.s]}</span></td><td>${esc(a.e)}</td></tr>`).join("");
+$("#fut").innerHTML=D.fut.map(f=>`<li><b>${esc(f.t)}</b> — ${esc(f.d)}</li>`).join("");
+const DN={start:"00_START_HERE.md (파일 안내)",synth:"통합 연구 요약 보고서",keyf:"핵심 결과 10분 요약",master:"실험 마스터 표(CSV)",plan:"향후 연구 계획",repro:"재현 안내",excl:"제외 자료 색인"};
+$("#docs").innerHTML=Object.entries(D.docs).map(([k,l])=>`<li>${esc(DN[k])}: ${link(l)}</li>`).join("");$("#exl").innerHTML=link(D.docs.excl);
+</script>
+</body>
+</html>

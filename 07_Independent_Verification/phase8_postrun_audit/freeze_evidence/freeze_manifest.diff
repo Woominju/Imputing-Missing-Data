@@ -1,0 +1,23 @@
+--- PROTOCOL_FREEZE_p8.GateC_20261029.txt	2026-10-31 18:50:56.178345098 +0900
++++ PROTOCOL_FREEZE_p8.current.txt	2026-10-31 18:50:56.182345041 +0900
+@@ -4,7 +4,8 @@
+ # Verify: grep -E '^[0-9a-f]{64}  ' results/extra/phase8/PROTOCOL_FREEZE_p8.txt | sha256sum -c   (launch_p8.sh refuses to start if any line fails)
+ # Any later change must be logged in protocol v2 section 14 AND in results/extra/phase8/FREEZE_CHANGES.md.
+ ## A. protocol and review documents
+-79dfb379e48854b9cf5351e0a32b7f7d8c74b984491f779d4beada8f9df86a86  results/notes/phase8_mathematical_protocol_v2.md
++# post-freeze update 2026-10-31 (§14 entry appended), was: 79dfb379e48854b9cf5351e0a32b7f7d8c74b984491f779d4beada8f9df86a86
++14478cf0f35095cad78a990c50c3cec0454ec7231e8591c351ddf1f337b9a38e  results/notes/phase8_mathematical_protocol_v2.md
+ 9e53226c5cf17205b73bd14f4f7e0aa6a1b9835aac0c5c29445b80b8e2d7e550  results/notes/phase8_revision_crosswalk.md
+ 6d947d8e9642950135c739d3f5aa156cee2be749f8ddf826cbfbe81c233ca2b7  results/notes/phase8_gateB_integrity.md
+ b3d7b667ef075ef5c78fd93f01e6cbb7bf114eec015d173e69fa8c2a7bac3636  results/notes/phase8_final_precheck.md
+@@ -26,7 +27,9 @@
+ 7dec0bbfa7fa70c37f73ed14bf048d3227984a97353a6522af73a1471ce45e1e  experiments/phase8/oracle8.py
+ 7697deb9891fcf3909481261ee0a211d017c19f91478e9ad7247001a1f3036ce  experiments/phase8/sched8.py
+ 3316b379cbc23d57afc3aaf982cb0ffd4b847a473af6fe41bba20c7e84a842e1  experiments/phase8/train8.py
+-3055471b0e199bf4eaa6aab66ee8eb95585907d86e1bd3700736bd7cfbab4713  experiments/phase8/launch_p8.sh
++# post-freeze update 2026-10-31 (GPU 0-3; FREEZE_CHANGES.md, protocol v2 §14), was: 3055471b0e199bf4eaa6aab66ee8eb95585907d86e1bd3700736bd7cfbab4713
++# post-freeze update 2026-10-31 (cross-day reservation guard; FREEZE_CHANGES.md), was: fbc2b210603147457da5e674c6d5c4f61cdefd480ee0ea140f9a460c7a0a2fc3
++acf27bf6c6b2c0f3955ecbca0cc4b4bf40e564e925ec3c24490bd820fdfa0e7a  experiments/phase8/launch_p8.sh
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  experiments/phase8/tests/__init__.py
+ 5af288c356271aeb3574e67af4e7d7db64f48989db119e01fbabbba0f86a50a6  experiments/phase8/tests/test_phase8.py
+ ## C. Phase 5-7 dependency code (imported, unmodified)

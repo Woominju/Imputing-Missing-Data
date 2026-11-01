@@ -1,0 +1,5 @@
+kappa,p,n,cap_rate,nonfinite,finite,valid,uniq_reps,uniq_arms,code_md5,epochs_mean,epochs_max
+0.0,0.3,216,0.0,0,True,True,24,9,ac9738fc,109.02314814814815,212
+0.0,0.7,216,0.0,0,True,True,24,9,ac9738fc,74.14351851851852,164
+1.0,0.3,216,0.0,0,True,True,24,9,ac9738fc,120.49537037037037,249
+1.0,0.7,216,0.0,0,True,True,24,9,ac9738fc,72.03703703703704,149

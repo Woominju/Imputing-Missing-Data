@@ -1,0 +1,5 @@
+step,contrast,gate,tested,detected,confirmed,mean,lcb,ucb,practical_mean_beyond_delta,practical_bound_beyond_delta
+IIa-1,CG_Bfull,PASS,True,True,True,-0.00862940822941142,-0.01178105654638524,-0.0054777599124376,False,False
+IIa-2,C_Bfull,PASS,True,True,True,0.03336715804713047,0.0244650270173144,0.042269289076946534,,
+IIb-1,Delta_JF,PASS,True,False,False,-0.00278405661747671,-0.0055966747136648055,2.8561478711385934e-05,False,False
+IIb-2,D_s6_Bfull_minus_Fact8,PASS,False,False,False,0.017639707646790598,0.012411757622706483,0.022867657670874713,False,False

@@ -1,0 +1,298 @@
+== Phase 8 independent verification  2026-10-31 18:54:36  root=/home/minju/faicpaston/Imputing_Missing_Data
+   python 3.10.20  numpy 2.2.6  pandas 2.3.3
+   hashed 1382 input files -> input_sha256.txt
+   acc files: 96 (expected 96)
+   replicate coverage per cell:
+           reps  trajs  masks
+kappa p                      
+0.0   0.3    24    192      5
+      0.7    24    192      5
+1.0   0.3    24    192      5
+      0.7    24    192      5
+
+== L1 Family I (p = 0.7; coordinate-mean MSE; unit = replicate, n = 24; one-sided alpha 0.025)
+  [OK] FamilyI_all mean: n=36 max|diff|=9.02e-17 (tol 1e-09)
+  [OK] FamilyI_all sd: n=36 max|diff|=9.71e-17 (tol 1e-09)
+  [OK] FamilyI_all lcb: n=36 max|diff|=9.02e-17 (tol 1e-09)
+  [OK] FamilyI_all ucb: n=36 max|diff|=9.74e-17 (tol 1e-09)
+  [OK] FamilyI_all d_z: n=36 max|diff|=1.78e-15 (tol 1e-09)
+  [OK] FamilyI_all n_neg/n_pos: n=36 max|diff|=0 (tol 0)
+  [OK] FamilyI_all sign p (two-sided, vs delta): n=36 max|diff|=7.46e-17 (tol 1e-12)
+step  kappa contrast  tested_confirmatory  confirmed_gt_delta  reverse_ucb_lt_delta_descr     mean      lcb      ucb  sign1_p_gt_delta
+ I-1    1.0    G_tot                 True                True                       False 0.044120 0.041171 0.047068      5.960464e-08
+ I-2    1.0    G_lat                 True               False                       False 0.018978 0.017457 0.020498      9.886721e-01
+ I-3    0.0    G_tot                False               False                       False 0.054184 0.051967 0.056401      5.960464e-08
+ I-4    0.0    G_lat                False               False                       False 0.027047 0.025655 0.028438      1.490116e-06
+  [OK] FamilyI sequence decisions (tested, confirmed, reverse): n=4 max|diff|=0 (tol 0)
+
+== L1/L2 T_A, LB (symmetric strata) -- LB re-derived from the RAW oracle-pool train trajectories
+ kappa   p stratum    pipeline  reps_with_points    T_A  T_A_ci_lo  T_A_ci_hi    R_A  info_ratio_LB_over_R     LB  LB_lo  LB_hi  points_in_stratum
+   0.0 0.7      X0       O_raw                24 0.0957     0.0882     0.1032 0.7604                0.8767 0.6667 0.6665 0.6668              16072
+   0.0 0.7      X0    R1:Bfull                24 0.1351     0.1236     0.1466 0.7998                0.8336 0.6667 0.6665 0.6668              16072
+   0.0 0.7      X0 O_lat:Bfull                24 0.0899     0.0832     0.0966 0.7546                0.8835 0.6667 0.6665 0.6668              16072
+   0.0 0.3   L1:L0       O_raw                24 0.1350     0.0465     0.2235 0.4464                0.7466 0.3333 0.3332 0.3334                302
+   0.0 0.3   L1:L0    R1:Bfull                24 0.0512     0.0219     0.0806 0.3627                0.9191 0.3333 0.3332 0.3334                302
+   0.0 0.3   L1:L0 O_lat:Bfull                24 0.0646     0.0200     0.1091 0.3760                0.8864 0.3333 0.3332 0.3334                302
+   0.0 0.7   L1:L0       O_raw                24 0.0755     0.0739     0.0771 0.4078                0.8173 0.3333 0.3332 0.3334             275797
+   0.0 0.7   L1:L0    R1:Bfull                24 0.1254     0.1208     0.1301 0.4578                0.7281 0.3333 0.3332 0.3334             275797
+   0.0 0.7   L1:L0 O_lat:Bfull                24 0.0893     0.0875     0.0911 0.4217                0.7904 0.3333 0.3332 0.3334             275797
+   0.0 0.3   L2:L0       O_raw                24 0.1842     0.0649     0.3035 0.5076                0.6567 0.3334 0.3332 0.3335                331
+   0.0 0.3   L2:L0    R1:Bfull                24 0.0788     0.0508     0.1068 0.4022                0.8288 0.3334 0.3332 0.3335                331
+   0.0 0.3   L2:L0 O_lat:Bfull                24 0.1816     0.0611     0.3020 0.5050                0.6601 0.3334 0.3332 0.3335                331
+   0.0 0.7   L2:L0       O_raw                24 0.0797     0.0781     0.0812 0.4149                0.8036 0.3334 0.3332 0.3335             276081
+   0.0 0.7   L2:L0    R1:Bfull                24 0.1233     0.1200     0.1265 0.4585                0.7271 0.3334 0.3332 0.3335             276081
+   0.0 0.7   L2:L0 O_lat:Bfull                24 0.0903     0.0889     0.0918 0.4255                0.7834 0.3334 0.3332 0.3335             276081
+   1.0 0.7      X0       O_raw                24 0.1250     0.1140     0.1360 0.7918                0.8435 0.6679 0.6670 0.6687              15922
+   1.0 0.7      X0    R1:Bfull                24 0.1389     0.1256     0.1522 0.8057                0.8289 0.6679 0.6670 0.6687              15922
+   1.0 0.7      X0 O_lat:Bfull                24 0.0940     0.0887     0.0993 0.7608                0.8778 0.6679 0.6670 0.6687              15922
+  [OK] TA_LB T_A: n=18 max|diff|=9.71e-17 (tol 1e-07)
+  [OK] TA_LB T_A_ci_lo: n=18 max|diff|=9.37e-17 (tol 1e-07)
+  [OK] TA_LB T_A_ci_hi: n=18 max|diff|=8.33e-17 (tol 1e-07)
+  [OK] TA_LB R_A: n=18 max|diff|=5.55e-17 (tol 1e-07)
+  [OK] TA_LB info_ratio_LB_over_R: n=18 max|diff|=0 (tol 1e-07)
+  [OK] TA_LB LB: n=18 max|diff|=0 (tol 1e-07)
+  [OK] TA_LB LB_lo: n=18 max|diff|=5.55e-17 (tol 1e-07)
+  [OK] TA_LB LB_hi: n=18 max|diff|=0 (tol 1e-07)
+  [OK] TA_LB row count: n=1 max|diff|=0 (tol 0)
+
+== L1 Family II (y_j RMSE; R1 readout; unit = replicate)
+  p family status  sign_p_j1  sign_p_j2   tost_lo   tost_hi  equivalent  avg_mean   avg_sd  margin_over_sd
+0.3    IIa   PASS   0.838820   0.307456 -0.003301 -0.000136        True -0.001718 0.004523        2.210702
+0.3    IIb   PASS   0.838820   1.000000 -0.002791  0.000414        True -0.001189 0.004582        2.182687
+0.7    IIa   PASS   0.541256   0.838820 -0.002010  0.001567        True -0.000222 0.005112        1.955991
+0.7    IIb   PASS   0.151590   0.541256 -0.002031  0.001872        True -0.000079 0.005577        1.792964
+  [OK] FamilyII_all mean: n=40 max|diff|=9.99e-17 (tol 1e-09)
+  [OK] FamilyII_all sd: n=40 max|diff|=9.89e-17 (tol 1e-09)
+  [OK] FamilyII_all lcb: n=40 max|diff|=9.54e-17 (tol 1e-09)
+  [OK] FamilyII_all ucb: n=40 max|diff|=9.45e-17 (tol 1e-09)
+  [OK] FamilyII_all d_z: n=40 max|diff|=4.44e-16 (tol 1e-09)
+  [OK] FamilyII_all sign_p: n=40 max|diff|=7.46e-17 (tol 1e-09)
+  [OK] gates sign_p_j1: n=4 max|diff|=5.55e-17 (tol 1e-09)
+  [OK] gates sign_p_j2: n=4 max|diff|=5.55e-17 (tol 1e-09)
+  [OK] gates tost_lo: n=4 max|diff|=8.54e-17 (tol 1e-09)
+  [OK] gates tost_hi: n=4 max|diff|=6.09e-17 (tol 1e-09)
+  [OK] gates status: n=4 max|diff|=0 (tol 0)
+ step               contrast gate  tested  detected  confirmed      mean       lcb       ucb practical_mean_beyond_delta practical_bound_beyond_delta
+IIa-1               CG_Bfull PASS    True      True       True -0.008629 -0.011781 -0.005478                       False                        False
+IIa-2                C_Bfull PASS    True      True       True  0.033367  0.024465  0.042269                        None                         None
+IIb-1               Delta_JF PASS    True     False      False -0.002784 -0.005597  0.000029                       False                        False
+IIb-2 D_s6_Bfull_minus_Fact8 PASS   False     False      False  0.017640  0.012412  0.022868                       False                        False
+  [OK] FamilyII sequence decisions (tested, detected, confirmed): n=4 max|diff|=0 (tol 0)
+
+== L1 mask-variance decomposition (stratum all), Family IV, GSR descriptive criteria
+  [OK] mask_decomposition mse: n=20 max|diff|=9.02e-17 (tol 1e-09)
+  [OK] mask_decomposition mask_var: n=20 max|diff|=9.71e-17 (tol 1e-09)
+  [OK] mask_decomposition mask_avg_bias2: n=20 max|diff|=9.63e-17 (tol 1e-09)
+  [OK] rho_phi: n=288 max|diff|=9.8e-17 (tol 1e-12)
+  [OK] latent_nn: n=12 max|diff|=5.55e-17 (tol 1e-12)
+ kappa   p               contrast  n     mean      sd      lcb      ucb      d_z  n_neg  n_pos  rho_Bfull  rho_other
+   0.0 0.3  rho_Bfull_minus_Fact8 24 -0.00216 0.00185 -0.00294 -0.00138 -1.16551     20      4    0.00720    0.00936
+   0.0 0.3 rho_Bfull_minus_Fact16 24 -0.00268 0.00294 -0.00392 -0.00144 -0.91141     21      3    0.00720    0.00988
+   0.0 0.7  rho_Bfull_minus_Fact8 24 -0.02242 0.00910 -0.02626 -0.01858 -2.46362     24      0    0.10845    0.13087
+   0.0 0.7 rho_Bfull_minus_Fact16 24 -0.03251 0.00952 -0.03653 -0.02849 -3.41384     24      0    0.10845    0.14096
+   1.0 0.3  rho_Bfull_minus_Fact8 24 -0.00186 0.00167 -0.00257 -0.00116 -1.11804     22      2    0.00531    0.00717
+   1.0 0.3 rho_Bfull_minus_Fact16 24 -0.00263 0.00177 -0.00337 -0.00188 -1.48370     23      1    0.00531    0.00793
+   1.0 0.7  rho_Bfull_minus_Fact8 24 -0.02046 0.00967 -0.02454 -0.01637 -2.11466     24      0    0.10055    0.12101
+   1.0 0.7 rho_Bfull_minus_Fact16 24 -0.02806 0.01002 -0.03230 -0.02383 -2.80065     24      0    0.10055    0.12862
+ kappa   p  a_IIa2_certified  b_IIb1  c_all                                     c_per_stratum  d_rho  rho_diff_mean
+   0.0 0.7             False   False  False {"both_L2+": false, "one_L2+": false, "H": false}   True      -0.022420
+   1.0 0.7              True   False  False {"both_L2+": false, "one_L2+": false, "H": false}   True      -0.020459
+  [OK] GSR flags a,b,c,d: n=2 max|diff|=0 (tol 0)
+  [OK] GSR rho_diff_mean: n=2 max|diff|=6.25e-17 (tol 1e-12)
+
+== L1 Family III (missing-position RMSE, normalised units; descriptive)
+  [OK] imputation per-view rmse: n=896 max|diff|=2.22e-16 (tol 1e-12)
+  [OK] imputation row count: n=1 max|diff|=0 (tol 0)
+ kappa   p        method  n_views  rmse_pooled  rmse_pooled_sd  rmse_simple_mean
+   0.0 0.3      AE:Bfull        4       0.0423          0.0032            0.0422
+   0.0 0.3 AE:BfullSham1        2       0.0437          0.0055            0.0437
+   0.0 0.3 AE:BfullSham2        2       0.0443          0.0074            0.0442
+   0.0 0.3     AE:Fact16        4       0.0347          0.0024            0.0344
+   0.0 0.3      AE:Fact8        4       0.0350          0.0029            0.0348
+   0.0 0.3          LOCF        4       0.5503          0.0024            0.5345
+   0.0 0.3         O_imp        4       0.0356          0.0014            0.0353
+   0.0 0.3          zero        4       0.9990          0.0013            0.9990
+   0.0 0.7      AE:Bfull        4       0.3265          0.0040            0.3223
+   0.0 0.7 AE:BfullSham1        2       0.3268          0.0057            0.3226
+   0.0 0.7 AE:BfullSham2        2       0.3295          0.0069            0.3255
+   0.0 0.7     AE:Fact16        4       0.2920          0.0062            0.2868
+   0.0 0.7      AE:Fact8        4       0.2947          0.0063            0.2894
+   0.0 0.7          LOCF        4       0.9639          0.0035            0.9433
+   0.0 0.7         O_imp        4       0.2703          0.0022            0.2638
+   0.0 0.7          zero        4       0.9991          0.0009            0.9991
+   1.0 0.3      AE:Bfull        4       0.0404          0.0029            0.0404
+   1.0 0.3 AE:BfullSham1        2       0.0589          0.0060            0.0581
+   1.0 0.3 AE:BfullSham2        2       0.0599          0.0049            0.0592
+   1.0 0.3     AE:Fact16        4       0.0515          0.0040            0.0508
+   1.0 0.3      AE:Fact8        4       0.0524          0.0046            0.0516
+   1.0 0.3          LOCF        4       0.5276          0.0072            0.5103
+   1.0 0.3         O_imp        4       0.0303          0.0013            0.0300
+   1.0 0.3          zero        4       0.9983          0.0048            0.9982
+   1.0 0.7      AE:Bfull        4       0.3121          0.0062            0.3092
+   1.0 0.7 AE:BfullSham1        2       0.3224          0.0054            0.3188
+   1.0 0.7 AE:BfullSham2        2       0.3217          0.0061            0.3176
+   1.0 0.7     AE:Fact16        4       0.2932          0.0051            0.2881
+   1.0 0.7      AE:Fact8        4       0.2959          0.0058            0.2908
+   1.0 0.7          LOCF        4       0.9303          0.0129            0.9051
+   1.0 0.7         O_imp        4       0.2595          0.0031            0.2549
+   1.0 0.7          zero        4       0.9979          0.0045            0.9979
+ kappa   p                 contrast    view stratum  n    mean     sd     lcb     ucb      d_z  n_neg  n_pos
+   0.0 0.3      AE:Fact8 - AE:Bfull       0     all 24 -0.0074 0.0067 -0.0102 -0.0046  -1.1048     20      4
+   0.0 0.3      AE:Fact8 - AE:Bfull       1     all 24 -0.0081 0.0069 -0.0110 -0.0052  -1.1713     23      1
+   0.0 0.3      AE:Fact8 - AE:Bfull       2     all 24 -0.0062 0.0057 -0.0086 -0.0038  -1.0922     21      3
+   0.0 0.3      AE:Fact8 - AE:Bfull       3     all 24 -0.0081 0.0057 -0.0105 -0.0057  -1.4138     22      2
+   0.0 0.3      AE:Fact8 - AE:Bfull pooled4     all 24 -0.0073 0.0050 -0.0094 -0.0052  -1.4692     22      2
+   0.0 0.3     AE:Fact16 - AE:Bfull       0     all 24 -0.0086 0.0053 -0.0109 -0.0064  -1.6171     23      1
+   0.0 0.3     AE:Fact16 - AE:Bfull       1     all 24 -0.0085 0.0051 -0.0107 -0.0064  -1.6874     23      1
+   0.0 0.3     AE:Fact16 - AE:Bfull       2     all 24 -0.0061 0.0061 -0.0086 -0.0035  -0.9922     21      3
+   0.0 0.3     AE:Fact16 - AE:Bfull       3     all 24 -0.0081 0.0061 -0.0107 -0.0056  -1.3391     23      1
+   0.0 0.3     AE:Fact16 - AE:Bfull pooled4     all 24 -0.0077 0.0042 -0.0095 -0.0059  -1.8238     24      0
+   0.0 0.3          LOCF - AE:Bfull       0     all 24  0.3587 0.0055  0.3564  0.3611  64.6499      0     24
+   0.0 0.3          LOCF - AE:Bfull       1     all 24  0.6252 0.0059  0.6227  0.6277 106.5951      0     24
+   0.0 0.3          LOCF - AE:Bfull       2     all 24  0.3607 0.0051  0.3586  0.3629  70.0583      0     24
+   0.0 0.3          LOCF - AE:Bfull       3     all 24  0.6243 0.0072  0.6212  0.6274  86.1461      0     24
+   0.0 0.3          LOCF - AE:Bfull pooled4     all 24  0.5080 0.0037  0.5065  0.5096 137.5873      0     24
+   0.0 0.3         O_imp - AE:Bfull       0     all 24 -0.0048 0.0047 -0.0068 -0.0029  -1.0392     21      3
+   0.0 0.3         O_imp - AE:Bfull       1     all 24 -0.0105 0.0039 -0.0122 -0.0089  -2.7150     24      0
+   0.0 0.3         O_imp - AE:Bfull       2     all 24 -0.0036 0.0053 -0.0058 -0.0013  -0.6740     20      4
+   0.0 0.3         O_imp - AE:Bfull       3     all 24 -0.0089 0.0041 -0.0107 -0.0072  -2.1617     24      0
+   0.0 0.3         O_imp - AE:Bfull pooled4     all 24 -0.0068 0.0035 -0.0082 -0.0053  -1.9456     24      0
+   0.0 0.3 AE:BfullSham1 - AE:Bfull       0     all 24  0.0008 0.0065 -0.0020  0.0035   0.1159     14     10
+   0.0 0.3 AE:BfullSham1 - AE:Bfull       1     all 24  0.0018 0.0056 -0.0006  0.0041   0.3111     13     11
+   0.0 0.3 AE:BfullSham2 - AE:Bfull       2     all 24  0.0027 0.0093 -0.0012  0.0066   0.2886     11     13
+   0.0 0.3 AE:BfullSham2 - AE:Bfull       3     all 24  0.0016 0.0055 -0.0007  0.0039   0.2876     10     14
+   0.0 0.7      AE:Fact8 - AE:Bfull       0     all 24 -0.0303 0.0105 -0.0348 -0.0259  -2.8779     24      0
+   0.0 0.7      AE:Fact8 - AE:Bfull       1     all 24 -0.0355 0.0127 -0.0408 -0.0301  -2.7971     24      0
+   0.0 0.7      AE:Fact8 - AE:Bfull       2     all 24 -0.0293 0.0109 -0.0339 -0.0247  -2.6776     24      0
+   0.0 0.7      AE:Fact8 - AE:Bfull       3     all 24 -0.0364 0.0127 -0.0418 -0.0311  -2.8793     24      0
+   0.0 0.7      AE:Fact8 - AE:Bfull pooled4     all 24 -0.0318 0.0083 -0.0353 -0.0283  -3.8382     24      0
+   0.0 0.7     AE:Fact16 - AE:Bfull       0     all 24 -0.0331 0.0075 -0.0363 -0.0299  -4.4215     24      0
+   0.0 0.7     AE:Fact16 - AE:Bfull       1     all 24 -0.0373 0.0130 -0.0427 -0.0318  -2.8746     24      0
+   0.0 0.7     AE:Fact16 - AE:Bfull       2     all 24 -0.0330 0.0085 -0.0366 -0.0294  -3.8655     24      0
+   0.0 0.7     AE:Fact16 - AE:Bfull       3     all 24 -0.0386 0.0129 -0.0441 -0.0332  -2.9845     24      0
+   0.0 0.7     AE:Fact16 - AE:Bfull pooled4     all 24 -0.0345 0.0072 -0.0376 -0.0315  -4.7694     24      0
+   0.0 0.7          LOCF - AE:Bfull       0     all 24  0.3705 0.0078  0.3672  0.3738  47.4874      0     24
+   0.0 0.7          LOCF - AE:Bfull       1     all 24  0.8709 0.0110  0.8663  0.8756  79.5294      0     24
+   0.0 0.7          LOCF - AE:Bfull       2     all 24  0.3715 0.0061  0.3690  0.3741  61.0665      0     24
+   0.0 0.7          LOCF - AE:Bfull       3     all 24  0.8713 0.0079  0.8680  0.8746 110.2571      0     24
+   0.0 0.7          LOCF - AE:Bfull pooled4     all 24  0.6373 0.0050  0.6352  0.6394 126.9091      0     24
+   0.0 0.7         O_imp - AE:Bfull       0     all 24 -0.0517 0.0051 -0.0539 -0.0495 -10.0399     24      0
+   0.0 0.7         O_imp - AE:Bfull       1     all 24 -0.0642 0.0072 -0.0672 -0.0612  -8.9615     24      0
+   0.0 0.7         O_imp - AE:Bfull       2     all 24 -0.0520 0.0059 -0.0545 -0.0495  -8.8375     24      0
+   0.0 0.7         O_imp - AE:Bfull       3     all 24 -0.0661 0.0080 -0.0695 -0.0627  -8.2283     24      0
+   0.0 0.7         O_imp - AE:Bfull pooled4     all 24 -0.0562 0.0037 -0.0578 -0.0547 -15.2219     24      0
+   0.0 0.7 AE:BfullSham1 - AE:Bfull       0     all 24  0.0004 0.0073 -0.0027  0.0035   0.0558     12     12
+   0.0 0.7 AE:BfullSham1 - AE:Bfull       1     all 24  0.0015 0.0120 -0.0035  0.0066   0.1281     11     13
+   0.0 0.7 AE:BfullSham2 - AE:Bfull       2     all 24  0.0010 0.0068 -0.0018  0.0039   0.1526     12     12
+   0.0 0.7 AE:BfullSham2 - AE:Bfull       3     all 24  0.0043 0.0112 -0.0005  0.0090   0.3811      9     15
+   1.0 0.3      AE:Fact8 - AE:Bfull       0     all 24  0.0200 0.0077  0.0168  0.0233   2.6068      0     24
+   1.0 0.3      AE:Fact8 - AE:Bfull       1     all 24  0.0046 0.0073  0.0015  0.0077   0.6324      6     18
+   1.0 0.3      AE:Fact8 - AE:Bfull       2     all 24  0.0181 0.0066  0.0154  0.0209   2.7630      0     24
+   1.0 0.3      AE:Fact8 - AE:Bfull       3     all 24  0.0022 0.0074 -0.0009  0.0054   0.3025     10     14
+   1.0 0.3      AE:Fact8 - AE:Bfull pooled4     all 24  0.0120 0.0055  0.0097  0.0143   2.1727      0     24
+   1.0 0.3     AE:Fact16 - AE:Bfull       0     all 24  0.0183 0.0053  0.0161  0.0205   3.4429      0     24
+   1.0 0.3     AE:Fact16 - AE:Bfull       1     all 24  0.0031 0.0061  0.0005  0.0057   0.5125      6     18
+   1.0 0.3     AE:Fact16 - AE:Bfull       2     all 24  0.0176 0.0061  0.0150  0.0202   2.8940      0     24
+   1.0 0.3     AE:Fact16 - AE:Bfull       3     all 24  0.0027 0.0068 -0.0002  0.0056   0.3929      8     16
+   1.0 0.3     AE:Fact16 - AE:Bfull pooled4     all 24  0.0111 0.0045  0.0092  0.0130   2.4750      0     24
+   1.0 0.3          LOCF - AE:Bfull       0     all 24  0.3346 0.0064  0.3319  0.3373  52.5495      0     24
+   1.0 0.3          LOCF - AE:Bfull       1     all 24  0.6045 0.0099  0.6004  0.6087  61.0928      0     24
+   1.0 0.3          LOCF - AE:Bfull       2     all 24  0.3369 0.0069  0.3339  0.3398  48.6977      0     24
+   1.0 0.3          LOCF - AE:Bfull       3     all 24  0.6038 0.0127  0.5984  0.6091  47.4168      0     24
+   1.0 0.3          LOCF - AE:Bfull pooled4     all 24  0.4871 0.0077  0.4839  0.4904  62.9675      0     24
+   1.0 0.3         O_imp - AE:Bfull       0     all 24 -0.0078 0.0048 -0.0098 -0.0057  -1.6299     23      1
+   1.0 0.3         O_imp - AE:Bfull       1     all 24 -0.0122 0.0039 -0.0139 -0.0105  -3.0984     24      0
+   1.0 0.3         O_imp - AE:Bfull       2     all 24 -0.0060 0.0034 -0.0075 -0.0046  -1.7568     23      1
+   1.0 0.3         O_imp - AE:Bfull       3     all 24 -0.0155 0.0036 -0.0171 -0.0140  -4.3320     24      0
+   1.0 0.3         O_imp - AE:Bfull pooled4     all 24 -0.0101 0.0034 -0.0115 -0.0087  -3.0001     24      0
+   1.0 0.3 AE:BfullSham1 - AE:Bfull       0     all 24  0.0266 0.0071  0.0236  0.0296   3.7682      0     24
+   1.0 0.3 AE:BfullSham1 - AE:Bfull       1     all 24  0.0088 0.0048  0.0068  0.0109   1.8336      0     24
+   1.0 0.3 AE:BfullSham2 - AE:Bfull       2     all 24  0.0269 0.0053  0.0247  0.0292   5.0491      0     24
+   1.0 0.3 AE:BfullSham2 - AE:Bfull       3     all 24  0.0108 0.0060  0.0083  0.0133   1.8103      0     24
+   1.0 0.7      AE:Fact8 - AE:Bfull       0     all 24 -0.0053 0.0084 -0.0089 -0.0018  -0.6324     15      9
+   1.0 0.7      AE:Fact8 - AE:Bfull       1     all 24 -0.0302 0.0167 -0.0373 -0.0232  -1.8083     23      1
+   1.0 0.7      AE:Fact8 - AE:Bfull       2     all 24 -0.0052 0.0094 -0.0092 -0.0012  -0.5535     19      5
+   1.0 0.7      AE:Fact8 - AE:Bfull       3     all 24 -0.0331 0.0152 -0.0395 -0.0266  -2.1709     23      1
+   1.0 0.7      AE:Fact8 - AE:Bfull pooled4     all 24 -0.0161 0.0089 -0.0199 -0.0124  -1.8136     23      1
+   1.0 0.7     AE:Fact16 - AE:Bfull       0     all 24 -0.0083 0.0067 -0.0111 -0.0055  -1.2354     22      2
+   1.0 0.7     AE:Fact16 - AE:Bfull       1     all 24 -0.0311 0.0139 -0.0370 -0.0252  -2.2351     23      1
+   1.0 0.7     AE:Fact16 - AE:Bfull       2     all 24 -0.0090 0.0107 -0.0135 -0.0045  -0.8435     18      6
+   1.0 0.7     AE:Fact16 - AE:Bfull       3     all 24 -0.0363 0.0145 -0.0424 -0.0301  -2.4976     24      0
+   1.0 0.7     AE:Fact16 - AE:Bfull pooled4     all 24 -0.0189 0.0073 -0.0219 -0.0158  -2.5930     24      0
+   1.0 0.7          LOCF - AE:Bfull       0     all 24  0.3401 0.0122  0.3350  0.3453  27.9336      0     24
+   1.0 0.7          LOCF - AE:Bfull       1     all 24  0.8524 0.0159  0.8457  0.8591  53.7095      0     24
+   1.0 0.7          LOCF - AE:Bfull       2     all 24  0.3397 0.0140  0.3338  0.3456  24.3294      0     24
+   1.0 0.7          LOCF - AE:Bfull       3     all 24  0.8511 0.0181  0.8435  0.8588  46.9882      0     24
+   1.0 0.7          LOCF - AE:Bfull pooled4     all 24  0.6182 0.0126  0.6129  0.6235  49.2187      0     24
+   1.0 0.7         O_imp - AE:Bfull       0     all 24 -0.0470 0.0066 -0.0498 -0.0442  -7.1232     24      0
+   1.0 0.7         O_imp - AE:Bfull       1     all 24 -0.0610 0.0111 -0.0657 -0.0563  -5.4732     24      0
+   1.0 0.7         O_imp - AE:Bfull       2     all 24 -0.0475 0.0050 -0.0496 -0.0454  -9.5731     24      0
+   1.0 0.7         O_imp - AE:Bfull       3     all 24 -0.0618 0.0106 -0.0663 -0.0573  -5.8520     24      0
+   1.0 0.7         O_imp - AE:Bfull pooled4     all 24 -0.0526 0.0061 -0.0551 -0.0500  -8.6239     24      0
+   1.0 0.7 AE:BfullSham1 - AE:Bfull       0     all 24  0.0172 0.0064  0.0145  0.0198   2.6924      0     24
+   1.0 0.7 AE:BfullSham1 - AE:Bfull       1     all 24  0.0032 0.0130 -0.0023  0.0087   0.2461      7     17
+   1.0 0.7 AE:BfullSham2 - AE:Bfull       2     all 24  0.0168 0.0074  0.0137  0.0199   2.2700      0     24
+   1.0 0.7 AE:BfullSham2 - AE:Bfull       3     all 24 -0.0012 0.0112 -0.0059  0.0035  -0.1060     10     14
+  [OK] imputation_vs_state spearman: n=12 max|diff|=0 (tol 1e-12)
+  [OK] P7 imputation per-view rmse: n=512 max|diff|=2.22e-16 (tol 1e-12)
+ kappa   p    method  n_views  rmse_pooled  rmse_simple_mean
+   0.0 0.3      LOCF        4       0.5514            0.5353
+   0.0 0.3  P7:Bfull        4       0.0413            0.0411
+   0.0 0.3 P7:Bself1        2       0.0353            0.0352
+   0.0 0.3 P7:Bself2        2       0.0364            0.0363
+   0.0 0.3      zero        4       0.9991            0.9991
+   0.0 0.7      LOCF        4       0.9639            0.9436
+   0.0 0.7  P7:Bfull        4       0.3260            0.3217
+   0.0 0.7 P7:Bself1        2       0.3075            0.3028
+   0.0 0.7 P7:Bself2        2       0.3068            0.3020
+   0.0 0.7      zero        4       0.9990            0.9990
+   1.0 0.3      LOCF        4       0.5288            0.5114
+   1.0 0.3  P7:Bfull        4       0.0413            0.0413
+   1.0 0.3 P7:Bself1        2       0.0374            0.0373
+   1.0 0.3 P7:Bself2        2       0.0392            0.0391
+   1.0 0.3      zero        4       0.9985            0.9984
+   1.0 0.7      LOCF        4       0.9322            0.9070
+   1.0 0.7  P7:Bfull        4       0.3112            0.3081
+   1.0 0.7 P7:Bself1        2       0.3007            0.2971
+   1.0 0.7 P7:Bself2        2       0.2975            0.2936
+   1.0 0.7      zero        4       0.9984            0.9983
+
+== L1 exploratory (D5b, kNN) and training-cell checks
+  [OK] D5b mean: n=20 max|diff|=7.81e-17 (tol 1e-12)
+  [OK] D5b count: n=20 max|diff|=0 (tol 0)
+  [OK] kNN vs O_raw (kNN): n=58 max|diff|=9.54e-17 (tol 1e-12)
+  [OK] kNN vs O_raw (O_raw): n=58 max|diff|=8.67e-17 (tol 1e-12)
+ kappa   p   n  cap_rate  nonfinite  finite  valid  uniq_reps  uniq_arms code_md5  epochs_mean  epochs_max
+   0.0 0.3 216       0.0          0    True   True         24          9 ac9738fc   109.023148         212
+   0.0 0.7 216       0.0          0    True   True         24          9 ac9738fc    74.143519         164
+   1.0 0.3 216       0.0          0    True   True         24          9 ac9738fc   120.495370         249
+   1.0 0.7 216       0.0          0    True   True         24          9 ac9738fc    72.037037         149
+  training rows 864 dup=0 seed_ok=True params_ok=True latent_ok=True gpu(cuda_visible) counts={1: 297, 0: 295, 2: 138, 3: 134}
+
+== L2 raw-data re-derivation: masks (own seed_of / MCAR), strata n, sym0 SSE, zero / LOCF imputation SSE
+  [OK] L2 strata point counts n (all strata, 96 cells x 40 masks): n=368640 max|diff|=0 (tol 0)
+  [OK] L2 sym0 SSE (relative): n=368640 max|diff|=6.47e-13 (tol 0.0001)
+  [OK] L2 imputation n (zero, LOCF): n=245760 max|diff|=0 (tol 0)
+  [OK] L2 imputation SSE zero/LOCF (relative): n=245760 max|diff|=9.01e-13 (tol 0.0001)
+  observed fraction of regenerated test masks:
+               mean      min      max
+kappa p                              
+0.0   0.3  0.699922  0.69035  0.71065
+      0.7  0.300033  0.29110  0.31065
+1.0   0.3  0.699939  0.68880  0.71235
+      0.7  0.300018  0.29045  0.31025
+  stratum frequency p=0.7 (empirical vs design): {"X0": {"design": 0.00332, "k0": 0.00335, "k1": 0.00332}, "H": {"design": 0.06518, "k0": 0.06531, "k1": 0.06468}, "L1:L0": {"design": 0.05765, "k0": 0.05754, "k1": 0.05743}}
+
+== L3 O_raw re-inference, p = 0.7 (own raw-window features, numpy MLP forward from the stored state dict)
+  kappa=0.0: O_raw width 256 din 64 dout 6 pool-val risk 0.06296
+  kappa=1.0: O_raw width 256 din 64 dout 6 pool-val risk 0.05800
+  [OK] L3 O_raw SSE re-inference vs eval (relative, p=0.7, all strata): n=184320 max|diff|=5.51e-06 (tol 0.002)
+  [OK] L3 O_raw rows matched: n=1 max|diff|=0 (tol 0)
+  [OK] L3 R_H(O_raw) per replicate kappa=0.0: n=24 max|diff|=2.2e-09 (tol 1e-05)
+  kappa=0.0 G_tot(H) with re-inferred O_raw: mean 0.054184 LCB 0.051967
+  [OK] L3 R_H(O_raw) per replicate kappa=1.0: n=24 max|diff|=2.92e-09 (tol 1e-05)
+  kappa=1.0 G_tot(H) with re-inferred O_raw: mean 0.044120 LCB 0.041171
+
+== CHECKS: 54/54 OK
+   no mismatches
+== DONE 2026-10-31 18:55:44

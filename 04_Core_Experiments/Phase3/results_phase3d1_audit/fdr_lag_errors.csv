@@ -1,0 +1,2377 @@
+model,seed,vars,split,var,lag,cat,window_bin,n,rmse
+C-x,0,x,val,x,0,observed,all windows,2078,0.29915368929087865
+C-x,0,x,val,x,0,observed,window obs <=9,2078,0.29915368929087865
+C-x,0,x,val,x,0,observed,window obs 10-12,0,0.0
+C-x,0,x,val,x,0,observed,window obs >=13,0,0.0
+C-x,0,x,val,x,0,missing,all windows,922,0.05483060835041306
+C-x,0,x,val,x,0,missing,window obs <=9,922,0.05483060835041306
+C-x,0,x,val,x,0,missing,window obs 10-12,0,0.0
+C-x,0,x,val,x,0,missing,window obs >=13,0,0.0
+C-x,0,x,val,x,0,all,all windows,3000,0.25082411162186696
+C-x,0,x,val,x,0,all,window obs <=9,3000,0.25082411162186696
+C-x,0,x,val,x,0,all,window obs 10-12,0,0.0
+C-x,0,x,val,x,0,all,window obs >=13,0,0.0
+C-x,0,x,val,pooled,0,observed,all windows,2078,0.29915368929087865
+C-x,0,x,val,pooled,0,observed,window obs <=9,2078,0.29915368929087865
+C-x,0,x,val,pooled,0,observed,window obs 10-12,0,0.0
+C-x,0,x,val,pooled,0,observed,window obs >=13,0,0.0
+C-x,0,x,val,pooled,0,missing,all windows,922,0.05483060835041306
+C-x,0,x,val,pooled,0,missing,window obs <=9,922,0.05483060835041306
+C-x,0,x,val,pooled,0,missing,window obs 10-12,0,0.0
+C-x,0,x,val,pooled,0,missing,window obs >=13,0,0.0
+C-x,0,x,val,pooled,0,all,all windows,3000,0.25082411162186696
+C-x,0,x,val,pooled,0,all,window obs <=9,3000,0.25082411162186696
+C-x,0,x,val,pooled,0,all,window obs 10-12,0,0.0
+C-x,0,x,val,pooled,0,all,window obs >=13,0,0.0
+C-x,0,x,test,x,0,observed,all windows,2102,0.27065400946585827
+C-x,0,x,test,x,0,observed,window obs <=9,2102,0.27065400946585827
+C-x,0,x,test,x,0,observed,window obs 10-12,0,0.0
+C-x,0,x,test,x,0,observed,window obs >=13,0,0.0
+C-x,0,x,test,x,0,missing,all windows,898,0.07356442305408226
+C-x,0,x,test,x,0,missing,window obs <=9,898,0.07356442305408226
+C-x,0,x,test,x,0,missing,window obs 10-12,0,0.0
+C-x,0,x,test,x,0,missing,window obs >=13,0,0.0
+C-x,0,x,test,x,0,all,all windows,3000,0.230100543680538
+C-x,0,x,test,x,0,all,window obs <=9,3000,0.230100543680538
+C-x,0,x,test,x,0,all,window obs 10-12,0,0.0
+C-x,0,x,test,x,0,all,window obs >=13,0,0.0
+C-x,0,x,test,pooled,0,observed,all windows,2102,0.27065400946585827
+C-x,0,x,test,pooled,0,observed,window obs <=9,2102,0.27065400946585827
+C-x,0,x,test,pooled,0,observed,window obs 10-12,0,0.0
+C-x,0,x,test,pooled,0,observed,window obs >=13,0,0.0
+C-x,0,x,test,pooled,0,missing,all windows,898,0.07356442305408226
+C-x,0,x,test,pooled,0,missing,window obs <=9,898,0.07356442305408226
+C-x,0,x,test,pooled,0,missing,window obs 10-12,0,0.0
+C-x,0,x,test,pooled,0,missing,window obs >=13,0,0.0
+C-x,0,x,test,pooled,0,all,all windows,3000,0.230100543680538
+C-x,0,x,test,pooled,0,all,window obs <=9,3000,0.230100543680538
+C-x,0,x,test,pooled,0,all,window obs 10-12,0,0.0
+C-x,0,x,test,pooled,0,all,window obs >=13,0,0.0
+C-xz,0,xz,val,x,0,observed,all windows,2078,0.04280666742461383
+C-xz,0,xz,val,x,0,observed,window obs <=9,300,0.05409890299231934
+C-xz,0,xz,val,x,0,observed,window obs 10-12,1217,0.04159947765192025
+C-xz,0,xz,val,x,0,observed,window obs >=13,561,0.03831810681274006
+C-xz,0,xz,val,x,0,missing,all windows,922,0.022489795913470906
+C-xz,0,xz,val,x,0,missing,window obs <=9,271,0.029037735678754225
+C-xz,0,xz,val,x,0,missing,window obs 10-12,560,0.01961277232817843
+C-xz,0,xz,val,x,0,missing,window obs >=13,91,0.015697918827461695
+C-xz,0,xz,val,x,0,all,all windows,3000,0.03774514900832853
+C-xz,0,xz,val,x,0,all,window obs <=9,571,0.04402100889120108
+C-xz,0,xz,val,x,0,all,window obs 10-12,1777,0.03614396820632769
+C-xz,0,xz,val,x,0,all,window obs >=13,652,0.03602419548197343
+C-xz,0,xz,val,z,0,observed,all windows,2072,0.07202948928046124
+C-xz,0,xz,val,z,0,observed,window obs <=9,300,0.08484088555398275
+C-xz,0,xz,val,z,0,observed,window obs 10-12,1226,0.07016628750101844
+C-xz,0,xz,val,z,0,observed,window obs >=13,546,0.06840249622652778
+C-xz,0,xz,val,z,0,missing,all windows,928,0.022082216428466306
+C-xz,0,xz,val,z,0,missing,window obs <=9,271,0.029087355116046203
+C-xz,0,xz,val,z,0,missing,window obs 10-12,551,0.018802145968283186
+C-xz,0,xz,val,z,0,missing,window obs >=13,106,0.016379726458596977
+C-xz,0,xz,val,z,0,all,all windows,3000,0.06110800218613419
+C-xz,0,xz,val,z,0,all,window obs <=9,571,0.06467863266903633
+C-xz,0,xz,val,z,0,all,window obs 10-12,1777,0.05921435261014808
+C-xz,0,xz,val,z,0,all,window obs >=13,652,0.06294314712537026
+C-xz,0,xz,val,pooled,0,observed,all windows,4150,0.05922755393449089
+C-xz,0,xz,val,pooled,0,observed,window obs <=9,600,0.07115007788666285
+C-xz,0,xz,val,pooled,0,observed,window obs 10-12,2443,0.05773035020800701
+C-xz,0,xz,val,pooled,0,observed,window obs >=13,1107,0.05524343584103729
+C-xz,0,xz,val,pooled,0,missing,all windows,1850,0.022286276986048906
+C-xz,0,xz,val,pooled,0,missing,window obs <=9,542,0.029062555987009946
+C-xz,0,xz,val,pooled,0,missing,window obs 10-12,1111,0.01921501745787969
+C-xz,0,xz,val,pooled,0,missing,window obs >=13,197,0.016068375500404262
+C-xz,0,xz,val,pooled,0,all,all windows,6000,0.050788208300950655
+C-xz,0,xz,val,pooled,0,all,window obs <=9,1142,0.05532257562575759
+C-xz,0,xz,val,pooled,0,all,window obs 10-12,3554,0.04905469392799723
+C-xz,0,xz,val,pooled,0,all,window obs >=13,1304,0.05128148998502989
+C-xz,0,xz,test,x,0,observed,all windows,2102,0.04147227927783885
+C-xz,0,xz,test,x,0,observed,window obs <=9,211,0.05549617581003522
+C-xz,0,xz,test,x,0,observed,window obs 10-12,1189,0.03960558956259304
+C-xz,0,xz,test,x,0,observed,window obs >=13,702,0.03959234877921742
+C-xz,0,xz,test,x,0,missing,all windows,898,0.021216876392081873
+C-xz,0,xz,test,x,0,missing,window obs <=9,207,0.02435913838060636
+C-xz,0,xz,test,x,0,missing,window obs 10-12,561,0.020321531294860907
+C-xz,0,xz,test,x,0,missing,window obs >=13,130,0.01956049592529256
+C-xz,0,xz,test,x,0,all,all windows,3000,0.036604074179024323
+C-xz,0,xz,test,x,0,all,window obs <=9,418,0.04299411010680545
+C-xz,0,xz,test,x,0,all,window obs 10-12,1750,0.03461413253338949
+C-xz,0,xz,test,x,0,all,window obs >=13,832,0.037180734768789914
+C-xz,0,xz,test,z,0,observed,all windows,2164,0.07432498091764841
+C-xz,0,xz,test,z,0,observed,window obs <=9,230,0.07822956423098743
+C-xz,0,xz,test,z,0,observed,window obs 10-12,1220,0.07626601544980424
+C-xz,0,xz,test,z,0,observed,window obs >=13,714,0.06951885171657796
+C-xz,0,xz,test,z,0,missing,all windows,836,0.02240486374669027
+C-xz,0,xz,test,z,0,missing,window obs <=9,188,0.02882900658613667
+C-xz,0,xz,test,z,0,missing,window obs 10-12,530,0.020158605471534537
+C-xz,0,xz,test,z,0,missing,window obs >=13,118,0.020174826463350292
+C-xz,0,xz,test,z,0,all,all windows,3000,0.06422364147992318
+C-xz,0,xz,test,z,0,all,window obs <=9,418,0.06116527672745174
+C-xz,0,xz,test,z,0,all,window obs 10-12,1750,0.06463750351382583
+C-xz,0,xz,test,z,0,all,window obs >=13,832,0.06484725487472719
+C-xz,0,xz,test,pooled,0,observed,all windows,4266,0.0604129204927366
+C-xz,0,xz,test,pooled,0,observed,window obs <=9,441,0.06830324660829054
+C-xz,0,xz,test,pooled,0,observed,window obs 10-12,2409,0.060990866477307976
+C-xz,0,xz,test,pooled,0,observed,window obs >=13,1416,0.05669257888361406
+C-xz,0,xz,test,pooled,0,missing,all windows,1734,0.021797715937957398
+C-xz,0,xz,test,pooled,0,missing,window obs <=9,395,0.02658047644549246
+C-xz,0,xz,test,pooled,0,missing,window obs 10-12,1091,0.02024254688030017
+C-xz,0,xz,test,pooled,0,missing,window obs >=13,248,0.019855168905621032
+C-xz,0,xz,test,pooled,0,all,all windows,6000,0.052271093213387194
+C-xz,0,xz,test,pooled,0,all,window obs <=9,836,0.05286626798357276
+C-xz,0,xz,test,pooled,0,all,window obs 10-12,3500,0.05184662492168077
+C-xz,0,xz,test,pooled,0,all,window obs >=13,1664,0.05285628393452822
+FDR-x,0,x,val,x,0,observed,all windows,2078,0.06805736752178582
+FDR-x,0,x,val,x,0,observed,window obs <=9,2078,0.06805736752178582
+FDR-x,0,x,val,x,0,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,0,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,x,0,missing,all windows,922,0.058433107193538066
+FDR-x,0,x,val,x,0,missing,window obs <=9,922,0.058433107193538066
+FDR-x,0,x,val,x,0,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,0,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,x,0,all,all windows,3000,0.06525078285707452
+FDR-x,0,x,val,x,0,all,window obs <=9,3000,0.06525078285707452
+FDR-x,0,x,val,x,0,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,0,all,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,0,observed,all windows,2078,0.06805736752178582
+FDR-x,0,x,val,pooled,0,observed,window obs <=9,2078,0.06805736752178582
+FDR-x,0,x,val,pooled,0,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,0,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,0,missing,all windows,922,0.058433107193538066
+FDR-x,0,x,val,pooled,0,missing,window obs <=9,922,0.058433107193538066
+FDR-x,0,x,val,pooled,0,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,0,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,0,all,all windows,3000,0.06525078285707452
+FDR-x,0,x,val,pooled,0,all,window obs <=9,3000,0.06525078285707452
+FDR-x,0,x,val,pooled,0,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,0,all,window obs >=13,0,0.0
+FDR-x,0,x,val,x,1,observed,all windows,2077,0.05972901806517004
+FDR-x,0,x,val,x,1,observed,window obs <=9,2077,0.05972901806517004
+FDR-x,0,x,val,x,1,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,1,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,x,1,missing,all windows,922,0.045013215732219634
+FDR-x,0,x,val,x,1,missing,window obs <=9,922,0.045013215732219634
+FDR-x,0,x,val,x,1,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,1,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,x,1,all,all windows,2999,0.05562089974750148
+FDR-x,0,x,val,x,1,all,window obs <=9,2999,0.05562089974750148
+FDR-x,0,x,val,x,1,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,1,all,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,1,observed,all windows,2077,0.05972901806517004
+FDR-x,0,x,val,pooled,1,observed,window obs <=9,2077,0.05972901806517004
+FDR-x,0,x,val,pooled,1,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,1,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,1,missing,all windows,922,0.045013215732219634
+FDR-x,0,x,val,pooled,1,missing,window obs <=9,922,0.045013215732219634
+FDR-x,0,x,val,pooled,1,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,1,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,1,all,all windows,2999,0.05562089974750148
+FDR-x,0,x,val,pooled,1,all,window obs <=9,2999,0.05562089974750148
+FDR-x,0,x,val,pooled,1,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,1,all,window obs >=13,0,0.0
+FDR-x,0,x,val,x,2,observed,all windows,2077,0.04203430239288867
+FDR-x,0,x,val,x,2,observed,window obs <=9,2077,0.04203430239288867
+FDR-x,0,x,val,x,2,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,2,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,x,2,missing,all windows,921,0.050548339590336375
+FDR-x,0,x,val,x,2,missing,window obs <=9,921,0.050548339590336375
+FDR-x,0,x,val,x,2,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,2,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,x,2,all,all windows,2998,0.044822286821524844
+FDR-x,0,x,val,x,2,all,window obs <=9,2998,0.044822286821524844
+FDR-x,0,x,val,x,2,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,2,all,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,2,observed,all windows,2077,0.04203430239288867
+FDR-x,0,x,val,pooled,2,observed,window obs <=9,2077,0.04203430239288867
+FDR-x,0,x,val,pooled,2,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,2,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,2,missing,all windows,921,0.050548339590336375
+FDR-x,0,x,val,pooled,2,missing,window obs <=9,921,0.050548339590336375
+FDR-x,0,x,val,pooled,2,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,2,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,2,all,all windows,2998,0.044822286821524844
+FDR-x,0,x,val,pooled,2,all,window obs <=9,2998,0.044822286821524844
+FDR-x,0,x,val,pooled,2,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,2,all,window obs >=13,0,0.0
+FDR-x,0,x,val,x,3,observed,all windows,2076,0.044230248134836225
+FDR-x,0,x,val,x,3,observed,window obs <=9,2076,0.044230248134836225
+FDR-x,0,x,val,x,3,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,3,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,x,3,missing,all windows,921,0.06496244257434416
+FDR-x,0,x,val,x,3,missing,window obs <=9,921,0.06496244257434416
+FDR-x,0,x,val,x,3,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,3,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,x,3,all,all windows,2997,0.05149755713451622
+FDR-x,0,x,val,x,3,all,window obs <=9,2997,0.05149755713451622
+FDR-x,0,x,val,x,3,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,3,all,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,3,observed,all windows,2076,0.044230248134836225
+FDR-x,0,x,val,pooled,3,observed,window obs <=9,2076,0.044230248134836225
+FDR-x,0,x,val,pooled,3,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,3,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,3,missing,all windows,921,0.06496244257434416
+FDR-x,0,x,val,pooled,3,missing,window obs <=9,921,0.06496244257434416
+FDR-x,0,x,val,pooled,3,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,3,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,3,all,all windows,2997,0.05149755713451622
+FDR-x,0,x,val,pooled,3,all,window obs <=9,2997,0.05149755713451622
+FDR-x,0,x,val,pooled,3,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,3,all,window obs >=13,0,0.0
+FDR-x,0,x,val,x,4,observed,all windows,2076,0.04005400784664133
+FDR-x,0,x,val,x,4,observed,window obs <=9,2076,0.04005400784664133
+FDR-x,0,x,val,x,4,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,4,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,x,4,missing,all windows,920,0.06749205986152763
+FDR-x,0,x,val,x,4,missing,window obs <=9,920,0.06749205986152763
+FDR-x,0,x,val,x,4,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,4,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,x,4,all,all windows,2996,0.050104495517647174
+FDR-x,0,x,val,x,4,all,window obs <=9,2996,0.050104495517647174
+FDR-x,0,x,val,x,4,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,4,all,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,4,observed,all windows,2076,0.04005400784664133
+FDR-x,0,x,val,pooled,4,observed,window obs <=9,2076,0.04005400784664133
+FDR-x,0,x,val,pooled,4,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,4,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,4,missing,all windows,920,0.06749205986152763
+FDR-x,0,x,val,pooled,4,missing,window obs <=9,920,0.06749205986152763
+FDR-x,0,x,val,pooled,4,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,4,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,4,all,all windows,2996,0.050104495517647174
+FDR-x,0,x,val,pooled,4,all,window obs <=9,2996,0.050104495517647174
+FDR-x,0,x,val,pooled,4,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,4,all,window obs >=13,0,0.0
+FDR-x,0,x,val,x,5,observed,all windows,2076,0.04477085845049643
+FDR-x,0,x,val,x,5,observed,window obs <=9,2076,0.04477085845049643
+FDR-x,0,x,val,x,5,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,5,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,x,5,missing,all windows,919,0.056392102230611835
+FDR-x,0,x,val,x,5,missing,window obs <=9,919,0.056392102230611835
+FDR-x,0,x,val,x,5,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,5,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,x,5,all,all windows,2995,0.048632998492180245
+FDR-x,0,x,val,x,5,all,window obs <=9,2995,0.048632998492180245
+FDR-x,0,x,val,x,5,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,5,all,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,5,observed,all windows,2076,0.04477085845049643
+FDR-x,0,x,val,pooled,5,observed,window obs <=9,2076,0.04477085845049643
+FDR-x,0,x,val,pooled,5,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,5,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,5,missing,all windows,919,0.056392102230611835
+FDR-x,0,x,val,pooled,5,missing,window obs <=9,919,0.056392102230611835
+FDR-x,0,x,val,pooled,5,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,5,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,5,all,all windows,2995,0.048632998492180245
+FDR-x,0,x,val,pooled,5,all,window obs <=9,2995,0.048632998492180245
+FDR-x,0,x,val,pooled,5,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,5,all,window obs >=13,0,0.0
+FDR-x,0,x,val,x,6,observed,all windows,2075,0.047609858854985164
+FDR-x,0,x,val,x,6,observed,window obs <=9,2075,0.047609858854985164
+FDR-x,0,x,val,x,6,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,6,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,x,6,missing,all windows,919,0.04863290652591638
+FDR-x,0,x,val,x,6,missing,window obs <=9,919,0.04863290652591638
+FDR-x,0,x,val,x,6,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,6,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,x,6,all,all windows,2994,0.047926203394793344
+FDR-x,0,x,val,x,6,all,window obs <=9,2994,0.047926203394793344
+FDR-x,0,x,val,x,6,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,6,all,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,6,observed,all windows,2075,0.047609858854985164
+FDR-x,0,x,val,pooled,6,observed,window obs <=9,2075,0.047609858854985164
+FDR-x,0,x,val,pooled,6,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,6,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,6,missing,all windows,919,0.04863290652591638
+FDR-x,0,x,val,pooled,6,missing,window obs <=9,919,0.04863290652591638
+FDR-x,0,x,val,pooled,6,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,6,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,6,all,all windows,2994,0.047926203394793344
+FDR-x,0,x,val,pooled,6,all,window obs <=9,2994,0.047926203394793344
+FDR-x,0,x,val,pooled,6,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,6,all,window obs >=13,0,0.0
+FDR-x,0,x,val,x,7,observed,all windows,2075,0.06235706241152194
+FDR-x,0,x,val,x,7,observed,window obs <=9,2075,0.06235706241152194
+FDR-x,0,x,val,x,7,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,7,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,x,7,missing,all windows,918,0.07293740113038588
+FDR-x,0,x,val,x,7,missing,window obs <=9,918,0.07293740113038588
+FDR-x,0,x,val,x,7,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,7,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,x,7,all,all windows,2993,0.06578339326261758
+FDR-x,0,x,val,x,7,all,window obs <=9,2993,0.06578339326261758
+FDR-x,0,x,val,x,7,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,x,7,all,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,7,observed,all windows,2075,0.06235706241152194
+FDR-x,0,x,val,pooled,7,observed,window obs <=9,2075,0.06235706241152194
+FDR-x,0,x,val,pooled,7,observed,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,7,observed,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,7,missing,all windows,918,0.07293740113038588
+FDR-x,0,x,val,pooled,7,missing,window obs <=9,918,0.07293740113038588
+FDR-x,0,x,val,pooled,7,missing,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,7,missing,window obs >=13,0,0.0
+FDR-x,0,x,val,pooled,7,all,all windows,2993,0.06578339326261758
+FDR-x,0,x,val,pooled,7,all,window obs <=9,2993,0.06578339326261758
+FDR-x,0,x,val,pooled,7,all,window obs 10-12,0,0.0
+FDR-x,0,x,val,pooled,7,all,window obs >=13,0,0.0
+FDR-x,0,x,test,x,0,observed,all windows,2102,0.06885123855523682
+FDR-x,0,x,test,x,0,observed,window obs <=9,2102,0.06885123855523682
+FDR-x,0,x,test,x,0,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,0,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,x,0,missing,all windows,898,0.07217139428664149
+FDR-x,0,x,test,x,0,missing,window obs <=9,898,0.07217139428664149
+FDR-x,0,x,test,x,0,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,0,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,x,0,all,all windows,3000,0.06986162062721796
+FDR-x,0,x,test,x,0,all,window obs <=9,3000,0.06986162062721796
+FDR-x,0,x,test,x,0,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,0,all,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,0,observed,all windows,2102,0.06885123855523682
+FDR-x,0,x,test,pooled,0,observed,window obs <=9,2102,0.06885123855523682
+FDR-x,0,x,test,pooled,0,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,0,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,0,missing,all windows,898,0.07217139428664149
+FDR-x,0,x,test,pooled,0,missing,window obs <=9,898,0.07217139428664149
+FDR-x,0,x,test,pooled,0,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,0,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,0,all,all windows,3000,0.06986162062721796
+FDR-x,0,x,test,pooled,0,all,window obs <=9,3000,0.06986162062721796
+FDR-x,0,x,test,pooled,0,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,0,all,window obs >=13,0,0.0
+FDR-x,0,x,test,x,1,observed,all windows,2101,0.05940659880231878
+FDR-x,0,x,test,x,1,observed,window obs <=9,2101,0.05940659880231878
+FDR-x,0,x,test,x,1,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,1,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,x,1,missing,all windows,898,0.06359293420111461
+FDR-x,0,x,test,x,1,missing,window obs <=9,898,0.06359293420111461
+FDR-x,0,x,test,x,1,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,1,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,x,1,all,all windows,2999,0.060690421708947645
+FDR-x,0,x,test,x,1,all,window obs <=9,2999,0.060690421708947645
+FDR-x,0,x,test,x,1,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,1,all,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,1,observed,all windows,2101,0.05940659880231878
+FDR-x,0,x,test,pooled,1,observed,window obs <=9,2101,0.05940659880231878
+FDR-x,0,x,test,pooled,1,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,1,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,1,missing,all windows,898,0.06359293420111461
+FDR-x,0,x,test,pooled,1,missing,window obs <=9,898,0.06359293420111461
+FDR-x,0,x,test,pooled,1,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,1,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,1,all,all windows,2999,0.060690421708947645
+FDR-x,0,x,test,pooled,1,all,window obs <=9,2999,0.060690421708947645
+FDR-x,0,x,test,pooled,1,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,1,all,window obs >=13,0,0.0
+FDR-x,0,x,test,x,2,observed,all windows,2100,0.04258334227038238
+FDR-x,0,x,test,x,2,observed,window obs <=9,2100,0.04258334227038238
+FDR-x,0,x,test,x,2,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,2,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,x,2,missing,all windows,898,0.05138678859947553
+FDR-x,0,x,test,x,2,missing,window obs <=9,898,0.05138678859947553
+FDR-x,0,x,test,x,2,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,2,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,x,2,all,all windows,2998,0.045399702943245225
+FDR-x,0,x,test,x,2,all,window obs <=9,2998,0.045399702943245225
+FDR-x,0,x,test,x,2,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,2,all,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,2,observed,all windows,2100,0.04258334227038238
+FDR-x,0,x,test,pooled,2,observed,window obs <=9,2100,0.04258334227038238
+FDR-x,0,x,test,pooled,2,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,2,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,2,missing,all windows,898,0.05138678859947553
+FDR-x,0,x,test,pooled,2,missing,window obs <=9,898,0.05138678859947553
+FDR-x,0,x,test,pooled,2,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,2,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,2,all,all windows,2998,0.045399702943245225
+FDR-x,0,x,test,pooled,2,all,window obs <=9,2998,0.045399702943245225
+FDR-x,0,x,test,pooled,2,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,2,all,window obs >=13,0,0.0
+FDR-x,0,x,test,x,3,observed,all windows,2099,0.046971160114637305
+FDR-x,0,x,test,x,3,observed,window obs <=9,2099,0.046971160114637305
+FDR-x,0,x,test,x,3,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,3,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,x,3,missing,all windows,898,0.051439274255835166
+FDR-x,0,x,test,x,3,missing,window obs <=9,898,0.051439274255835166
+FDR-x,0,x,test,x,3,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,3,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,x,3,all,all windows,2997,0.04835329575643795
+FDR-x,0,x,test,x,3,all,window obs <=9,2997,0.04835329575643795
+FDR-x,0,x,test,x,3,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,3,all,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,3,observed,all windows,2099,0.046971160114637305
+FDR-x,0,x,test,pooled,3,observed,window obs <=9,2099,0.046971160114637305
+FDR-x,0,x,test,pooled,3,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,3,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,3,missing,all windows,898,0.051439274255835166
+FDR-x,0,x,test,pooled,3,missing,window obs <=9,898,0.051439274255835166
+FDR-x,0,x,test,pooled,3,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,3,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,3,all,all windows,2997,0.04835329575643795
+FDR-x,0,x,test,pooled,3,all,window obs <=9,2997,0.04835329575643795
+FDR-x,0,x,test,pooled,3,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,3,all,window obs >=13,0,0.0
+FDR-x,0,x,test,x,4,observed,all windows,2098,0.0402855851321914
+FDR-x,0,x,test,x,4,observed,window obs <=9,2098,0.0402855851321914
+FDR-x,0,x,test,x,4,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,4,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,x,4,missing,all windows,898,0.05258760962574063
+FDR-x,0,x,test,x,4,missing,window obs <=9,898,0.05258760962574063
+FDR-x,0,x,test,x,4,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,4,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,x,4,all,all windows,2996,0.04433262662489637
+FDR-x,0,x,test,x,4,all,window obs <=9,2996,0.04433262662489637
+FDR-x,0,x,test,x,4,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,4,all,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,4,observed,all windows,2098,0.0402855851321914
+FDR-x,0,x,test,pooled,4,observed,window obs <=9,2098,0.0402855851321914
+FDR-x,0,x,test,pooled,4,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,4,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,4,missing,all windows,898,0.05258760962574063
+FDR-x,0,x,test,pooled,4,missing,window obs <=9,898,0.05258760962574063
+FDR-x,0,x,test,pooled,4,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,4,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,4,all,all windows,2996,0.04433262662489637
+FDR-x,0,x,test,pooled,4,all,window obs <=9,2996,0.04433262662489637
+FDR-x,0,x,test,pooled,4,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,4,all,window obs >=13,0,0.0
+FDR-x,0,x,test,x,5,observed,all windows,2097,0.04406925828580268
+FDR-x,0,x,test,x,5,observed,window obs <=9,2097,0.04406925828580268
+FDR-x,0,x,test,x,5,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,5,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,x,5,missing,all windows,898,0.04907429378225461
+FDR-x,0,x,test,x,5,missing,window obs <=9,898,0.04907429378225461
+FDR-x,0,x,test,x,5,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,5,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,x,5,all,all windows,2995,0.045627598377086985
+FDR-x,0,x,test,x,5,all,window obs <=9,2995,0.045627598377086985
+FDR-x,0,x,test,x,5,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,5,all,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,5,observed,all windows,2097,0.04406925828580268
+FDR-x,0,x,test,pooled,5,observed,window obs <=9,2097,0.04406925828580268
+FDR-x,0,x,test,pooled,5,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,5,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,5,missing,all windows,898,0.04907429378225461
+FDR-x,0,x,test,pooled,5,missing,window obs <=9,898,0.04907429378225461
+FDR-x,0,x,test,pooled,5,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,5,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,5,all,all windows,2995,0.045627598377086985
+FDR-x,0,x,test,pooled,5,all,window obs <=9,2995,0.045627598377086985
+FDR-x,0,x,test,pooled,5,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,5,all,window obs >=13,0,0.0
+FDR-x,0,x,test,x,6,observed,all windows,2096,0.04932002793770625
+FDR-x,0,x,test,x,6,observed,window obs <=9,2096,0.04932002793770625
+FDR-x,0,x,test,x,6,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,6,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,x,6,missing,all windows,898,0.05183147688974813
+FDR-x,0,x,test,x,6,missing,window obs <=9,898,0.05183147688974813
+FDR-x,0,x,test,x,6,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,6,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,x,6,all,all windows,2994,0.05008651753003189
+FDR-x,0,x,test,x,6,all,window obs <=9,2994,0.05008651753003189
+FDR-x,0,x,test,x,6,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,6,all,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,6,observed,all windows,2096,0.04932002793770625
+FDR-x,0,x,test,pooled,6,observed,window obs <=9,2096,0.04932002793770625
+FDR-x,0,x,test,pooled,6,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,6,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,6,missing,all windows,898,0.05183147688974813
+FDR-x,0,x,test,pooled,6,missing,window obs <=9,898,0.05183147688974813
+FDR-x,0,x,test,pooled,6,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,6,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,6,all,all windows,2994,0.05008651753003189
+FDR-x,0,x,test,pooled,6,all,window obs <=9,2994,0.05008651753003189
+FDR-x,0,x,test,pooled,6,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,6,all,window obs >=13,0,0.0
+FDR-x,0,x,test,x,7,observed,all windows,2095,0.0629480516908299
+FDR-x,0,x,test,x,7,observed,window obs <=9,2095,0.0629480516908299
+FDR-x,0,x,test,x,7,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,7,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,x,7,missing,all windows,898,0.09022529524013932
+FDR-x,0,x,test,x,7,missing,window obs <=9,898,0.09022529524013932
+FDR-x,0,x,test,x,7,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,7,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,x,7,all,all windows,2993,0.07222216291280938
+FDR-x,0,x,test,x,7,all,window obs <=9,2993,0.07222216291280938
+FDR-x,0,x,test,x,7,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,x,7,all,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,7,observed,all windows,2095,0.0629480516908299
+FDR-x,0,x,test,pooled,7,observed,window obs <=9,2095,0.0629480516908299
+FDR-x,0,x,test,pooled,7,observed,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,7,observed,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,7,missing,all windows,898,0.09022529524013932
+FDR-x,0,x,test,pooled,7,missing,window obs <=9,898,0.09022529524013932
+FDR-x,0,x,test,pooled,7,missing,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,7,missing,window obs >=13,0,0.0
+FDR-x,0,x,test,pooled,7,all,all windows,2993,0.07222216291280938
+FDR-x,0,x,test,pooled,7,all,window obs <=9,2993,0.07222216291280938
+FDR-x,0,x,test,pooled,7,all,window obs 10-12,0,0.0
+FDR-x,0,x,test,pooled,7,all,window obs >=13,0,0.0
+FDR-xz,0,xz,val,x,0,observed,all windows,2078,0.035337718701736284
+FDR-xz,0,xz,val,x,0,observed,window obs <=9,300,0.042507756747497745
+FDR-xz,0,xz,val,x,0,observed,window obs 10-12,1217,0.03478800741579049
+FDR-xz,0,xz,val,x,0,observed,window obs >=13,561,0.032154337773403055
+FDR-xz,0,xz,val,x,0,missing,all windows,922,0.03179785549365194
+FDR-xz,0,xz,val,x,0,missing,window obs <=9,271,0.04112229763683814
+FDR-xz,0,xz,val,x,0,missing,window obs 10-12,560,0.026958670803293436
+FDR-xz,0,xz,val,x,0,missing,window obs >=13,91,0.027128837728167068
+FDR-xz,0,xz,val,x,0,all,all windows,3000,0.034288720684344534
+FDR-xz,0,xz,val,x,0,all,window obs <=9,571,0.041855927660558546
+FDR-xz,0,xz,val,x,0,all,window obs 10-12,1777,0.03252470777532626
+FDR-xz,0,xz,val,x,0,all,window obs >=13,652,0.03150110343863546
+FDR-xz,0,xz,val,z,0,observed,all windows,2072,0.029477801035398883
+FDR-xz,0,xz,val,z,0,observed,window obs <=9,300,0.03833185598672621
+FDR-xz,0,xz,val,z,0,observed,window obs 10-12,1226,0.029334243685800874
+FDR-xz,0,xz,val,z,0,observed,window obs >=13,546,0.023622315135883587
+FDR-xz,0,xz,val,z,0,missing,all windows,928,0.030803965482570424
+FDR-xz,0,xz,val,z,0,missing,window obs <=9,271,0.03905996842030381
+FDR-xz,0,xz,val,z,0,missing,window obs 10-12,551,0.027383785268616557
+FDR-xz,0,xz,val,z,0,missing,window obs >=13,106,0.022555116825828093
+FDR-xz,0,xz,val,z,0,all,all windows,3000,0.02989431307487296
+FDR-xz,0,xz,val,z,0,all,window obs <=9,571,0.038679131388966476
+FDR-xz,0,xz,val,z,0,all,window obs 10-12,1777,0.028743619307171824
+FDR-xz,0,xz,val,z,0,all,window obs >=13,652,0.023452119640483344
+FDR-xz,0,xz,val,pooled,0,observed,all windows,4150,0.032544156503397315
+FDR-xz,0,xz,val,pooled,0,observed,window obs <=9,600,0.04047369866401857
+FDR-xz,0,xz,val,pooled,0,observed,window obs 10-12,2443,0.032166869535838825
+FDR-xz,0,xz,val,pooled,0,observed,window obs >=13,1107,0.028269803256946113
+FDR-xz,0,xz,val,pooled,0,missing,all windows,1850,0.03130324353036467
+FDR-xz,0,xz,val,pooled,0,missing,window obs <=9,542,0.04010439187874462
+FDR-xz,0,xz,val,pooled,0,missing,window obs 10-12,1111,0.0271703375403589
+FDR-xz,0,xz,val,pooled,0,missing,window obs >=13,197,0.02477301507900695
+FDR-xz,0,xz,val,pooled,0,all,all windows,6000,0.032166646704214576
+FDR-xz,0,xz,val,pooled,0,all,window obs <=9,1142,0.040298845425960045
+FDR-xz,0,xz,val,pooled,0,all,window obs 10-12,3554,0.030692444239144506
+FDR-xz,0,xz,val,pooled,0,all,window obs >=13,1304,0.027769780639061187
+FDR-xz,0,xz,val,x,1,observed,all windows,2077,0.027117240998372087
+FDR-xz,0,xz,val,x,1,observed,window obs <=9,288,0.0323928879591184
+FDR-xz,0,xz,val,x,1,observed,window obs 10-12,1235,0.026743275165757006
+FDR-xz,0,xz,val,x,1,observed,window obs >=13,554,0.02484019253991137
+FDR-xz,0,xz,val,x,1,missing,all windows,922,0.026133234104601475
+FDR-xz,0,xz,val,x,1,missing,window obs <=9,282,0.03253745636311414
+FDR-xz,0,xz,val,x,1,missing,window obs 10-12,542,0.023043171777402532
+FDR-xz,0,xz,val,x,1,missing,window obs >=13,98,0.02102750941686566
+FDR-xz,0,xz,val,x,1,all,all windows,2999,0.02681856597778155
+FDR-xz,0,xz,val,x,1,all,window obs <=9,570,0.032464491738589375
+FDR-xz,0,xz,val,x,1,all,window obs 10-12,1777,0.025671299855740015
+FDR-xz,0,xz,val,x,1,all,window obs >=13,652,0.024305342408188407
+FDR-xz,0,xz,val,z,1,observed,all windows,2071,0.023910033812218963
+FDR-xz,0,xz,val,z,1,observed,window obs <=9,310,0.03190716427767452
+FDR-xz,0,xz,val,z,1,observed,window obs 10-12,1215,0.023517435641442617
+FDR-xz,0,xz,val,z,1,observed,window obs >=13,546,0.018965401844107027
+FDR-xz,0,xz,val,z,1,missing,all windows,928,0.02323465252939459
+FDR-xz,0,xz,val,z,1,missing,window obs <=9,260,0.028552389032747233
+FDR-xz,0,xz,val,z,1,missing,window obs 10-12,562,0.021129793466603698
+FDR-xz,0,xz,val,z,1,missing,window obs >=13,106,0.018959418637821846
+FDR-xz,0,xz,val,z,1,all,all windows,2999,0.023703102365855946
+FDR-xz,0,xz,val,z,1,all,window obs <=9,570,0.030422836818811173
+FDR-xz,0,xz,val,z,1,all,window obs 10-12,1777,0.02278937463195662
+FDR-xz,0,xz,val,z,1,all,window obs >=13,652,0.018964429242750366
+FDR-xz,0,xz,val,pooled,1,observed,all windows,4148,0.025566298129069673
+FDR-xz,0,xz,val,pooled,1,observed,window obs <=9,598,0.03214200769314943
+FDR-xz,0,xz,val,pooled,1,observed,window obs 10-12,2450,0.025195198752263833
+FDR-xz,0,xz,val,pooled,1,observed,window obs >=13,1100,0.022120050400317094
+FDR-xz,0,xz,val,pooled,1,missing,all windows,1850,0.024721760708399487
+FDR-xz,0,xz,val,pooled,1,missing,window obs <=9,542,0.03069044317516486
+FDR-xz,0,xz,val,pooled,1,missing,window obs 10-12,1104,0.022089870817252954
+FDR-xz,0,xz,val,pooled,1,missing,window obs >=13,204,0.019979648439713622
+FDR-xz,0,xz,val,pooled,1,all,all windows,5998,0.025308818056863774
+FDR-xz,0,xz,val,pooled,1,all,window obs <=9,1140,0.03146023064083408
+FDR-xz,0,xz,val,pooled,1,all,window obs 10-12,3554,0.024273145988921434
+FDR-xz,0,xz,val,pooled,1,all,window obs >=13,1304,0.02179907390329423
+FDR-xz,0,xz,val,x,2,observed,all windows,2077,0.025207765556209606
+FDR-xz,0,xz,val,x,2,observed,window obs <=9,285,0.030280222111614644
+FDR-xz,0,xz,val,x,2,observed,window obs 10-12,1239,0.024619797084643857
+FDR-xz,0,xz,val,x,2,observed,window obs >=13,553,0.02357997434755693
+FDR-xz,0,xz,val,x,2,missing,all windows,921,0.02252129714108868
+FDR-xz,0,xz,val,x,2,missing,window obs <=9,284,0.027434450594752788
+FDR-xz,0,xz,val,x,2,missing,window obs 10-12,538,0.020359773121340363
+FDR-xz,0,xz,val,x,2,missing,window obs >=13,99,0.017516236241208585
+FDR-xz,0,xz,val,x,2,all,all windows,2998,0.024413947648259618
+FDR-xz,0,xz,val,x,2,all,window obs <=9,569,0.028894892128060408
+FDR-xz,0,xz,val,x,2,all,window obs 10-12,1777,0.023412001773245834
+FDR-xz,0,xz,val,x,2,all,window obs >=13,652,0.02276350252815355
+FDR-xz,0,xz,val,z,2,observed,all windows,2070,0.02331693974002709
+FDR-xz,0,xz,val,z,2,observed,window obs <=9,304,0.031171915308865077
+FDR-xz,0,xz,val,z,2,observed,window obs 10-12,1228,0.022132639459048475
+FDR-xz,0,xz,val,z,2,observed,window obs >=13,538,0.020608012257974182
+FDR-xz,0,xz,val,z,2,missing,all windows,928,0.022748927667865897
+FDR-xz,0,xz,val,z,2,missing,window obs <=9,265,0.028845284195966155
+FDR-xz,0,xz,val,z,2,missing,window obs 10-12,549,0.020231683134487546
+FDR-xz,0,xz,val,z,2,missing,window obs >=13,114,0.017532458914212276
+FDR-xz,0,xz,val,z,2,all,all windows,2998,0.023142607305284047
+FDR-xz,0,xz,val,z,2,all,window obs <=9,569,0.03011070977674891
+FDR-xz,0,xz,val,z,2,all,window obs 10-12,1777,0.021563240283008024
+FDR-xz,0,xz,val,z,2,all,window obs >=13,652,0.020104231547179642
+FDR-xz,0,xz,val,pooled,2,observed,all windows,4147,0.024282359823007943
+FDR-xz,0,xz,val,pooled,2,observed,window obs <=9,589,0.030743680510508936
+FDR-xz,0,xz,val,pooled,2,observed,window obs 10-12,2467,0.023414809595881388
+FDR-xz,0,xz,val,pooled,2,observed,window obs >=13,1091,0.02216428352136665
+FDR-xz,0,xz,val,pooled,2,missing,all windows,1849,0.02263582942483088
+FDR-xz,0,xz,val,pooled,2,missing,window obs <=9,549,0.02812429152968061
+FDR-xz,0,xz,val,pooled,2,missing,window obs 10-12,1087,0.020295181060997022
+FDR-xz,0,xz,val,pooled,2,missing,window obs >=13,213,0.017524920666430684
+FDR-xz,0,xz,val,pooled,2,all,all windows,5996,0.02378677271782101
+FDR-xz,0,xz,val,pooled,2,all,window obs <=9,1138,0.02950906330563417
+FDR-xz,0,xz,val,pooled,2,all,window obs 10-12,3554,0.02250661190109704
+FDR-xz,0,xz,val,pooled,2,all,window obs >=13,1304,0.021475068957419744
+FDR-xz,0,xz,val,x,3,observed,all windows,2076,0.024109848668545764
+FDR-xz,0,xz,val,x,3,observed,window obs <=9,267,0.026901230884113544
+FDR-xz,0,xz,val,x,3,observed,window obs 10-12,1269,0.023962109062951948
+FDR-xz,0,xz,val,x,3,observed,window obs >=13,540,0.022968895631115857
+FDR-xz,0,xz,val,x,3,missing,all windows,921,0.022817850086757588
+FDR-xz,0,xz,val,x,3,missing,window obs <=9,301,0.027665873541636594
+FDR-xz,0,xz,val,x,3,missing,window obs 10-12,508,0.019820878193205816
+FDR-xz,0,xz,val,x,3,missing,window obs >=13,112,0.021035786297798665
+FDR-xz,0,xz,val,x,3,all,all windows,2997,0.02372029934265298
+FDR-xz,0,xz,val,x,3,all,window obs <=9,568,0.027309104391939447
+FDR-xz,0,xz,val,x,3,all,window obs 10-12,1777,0.02285495791555605
+FDR-xz,0,xz,val,x,3,all,window obs >=13,652,0.022648567855688025
+FDR-xz,0,xz,val,z,3,observed,all windows,2069,0.023298108551567623
+FDR-xz,0,xz,val,z,3,observed,window obs <=9,314,0.02944289440034191
+FDR-xz,0,xz,val,z,3,observed,window obs 10-12,1219,0.021999808574087468
+FDR-xz,0,xz,val,z,3,observed,window obs >=13,536,0.022061216318839533
+FDR-xz,0,xz,val,z,3,missing,all windows,928,0.027624414220017306
+FDR-xz,0,xz,val,z,3,missing,window obs <=9,254,0.03598824946942166
+FDR-xz,0,xz,val,z,3,missing,window obs 10-12,558,0.02399864890017857
+FDR-xz,0,xz,val,z,3,missing,window obs >=13,116,0.022326633175452016
+FDR-xz,0,xz,val,z,3,all,all windows,2997,0.02471878215328987
+FDR-xz,0,xz,val,z,3,all,window obs <=9,568,0.032533047309623295
+FDR-xz,0,xz,val,z,3,all,window obs 10-12,1777,0.02264647869143875
+FDR-xz,0,xz,val,z,3,all,window obs >=13,652,0.022108670743341965
+FDR-xz,0,xz,val,pooled,3,observed,all windows,4145,0.023708138414746203
+FDR-xz,0,xz,val,pooled,3,observed,window obs <=9,581,0.028303224644706398
+FDR-xz,0,xz,val,pooled,3,observed,window obs 10-12,2488,0.02302158519754602
+FDR-xz,0,xz,val,pooled,3,observed,window obs >=13,1076,0.022521316300893542
+FDR-xz,0,xz,val,pooled,3,missing,all windows,1849,0.025344431668210883
+FDR-xz,0,xz,val,pooled,3,missing,window obs <=9,555,0.03174659546400696
+FDR-xz,0,xz,val,pooled,3,missing,window obs 10-12,1066,0.022106436139602434
+FDR-xz,0,xz,val,pooled,3,missing,window obs >=13,228,0.021702129600511218
+FDR-xz,0,xz,val,pooled,3,all,all windows,5994,0.024224685674399005
+FDR-xz,0,xz,val,pooled,3,all,window obs <=9,1136,0.030034865988880607
+FDR-xz,0,xz,val,pooled,3,all,window obs 10-12,3554,0.022750957105621156
+FDR-xz,0,xz,val,pooled,3,all,window obs >=13,1304,0.02238024740648782
+FDR-xz,0,xz,val,x,4,observed,all windows,2076,0.025745322212084473
+FDR-xz,0,xz,val,x,4,observed,window obs <=9,278,0.032336204787146654
+FDR-xz,0,xz,val,x,4,observed,window obs 10-12,1237,0.024484682774187354
+FDR-xz,0,xz,val,x,4,observed,window obs >=13,561,0.024753738199322313
+FDR-xz,0,xz,val,x,4,missing,all windows,920,0.02231537684381037
+FDR-xz,0,xz,val,x,4,missing,window obs <=9,289,0.028779728690094354
+FDR-xz,0,xz,val,x,4,missing,window obs 10-12,540,0.01858961147655254
+FDR-xz,0,xz,val,x,4,missing,window obs >=13,91,0.018798337588356848
+FDR-xz,0,xz,val,x,4,all,all windows,2996,0.024742705595229904
+FDR-xz,0,xz,val,x,4,all,window obs <=9,567,0.03057520330370008
+FDR-xz,0,xz,val,x,4,all,window obs 10-12,1777,0.02285466906451403
+FDR-xz,0,xz,val,x,4,all,window obs >=13,652,0.02401139588882173
+FDR-xz,0,xz,val,z,4,observed,all windows,2069,0.024604795071257533
+FDR-xz,0,xz,val,z,4,observed,window obs <=9,319,0.02996556894123607
+FDR-xz,0,xz,val,z,4,observed,window obs 10-12,1207,0.02324873264807975
+FDR-xz,0,xz,val,z,4,observed,window obs >=13,543,0.024037073288415017
+FDR-xz,0,xz,val,z,4,missing,all windows,927,0.029092368437242257
+FDR-xz,0,xz,val,z,4,missing,window obs <=9,248,0.038358417082064146
+FDR-xz,0,xz,val,z,4,missing,window obs 10-12,570,0.024831405312416364
+FDR-xz,0,xz,val,z,4,missing,window obs >=13,109,0.02501754125450579
+FDR-xz,0,xz,val,z,4,all,all windows,2996,0.02607594812381703
+FDR-xz,0,xz,val,z,4,all,window obs <=9,567,0.033893199612573185
+FDR-xz,0,xz,val,z,4,all,window obs 10-12,1777,0.023767882665546667
+FDR-xz,0,xz,val,z,4,all,window obs >=13,652,0.024203750973052076
+FDR-xz,0,xz,val,pooled,4,observed,all windows,4145,0.025182479382798724
+FDR-xz,0,xz,val,pooled,4,observed,window obs <=9,597,0.031091978602187827
+FDR-xz,0,xz,val,pooled,4,observed,window obs 10-12,2444,0.023882288785452607
+FDR-xz,0,xz,val,pooled,4,observed,window obs >=13,1104,0.024403878336670678
+FDR-xz,0,xz,val,pooled,4,missing,all windows,1847,0.02593898916697251
+FDR-xz,0,xz,val,pooled,4,missing,window obs <=9,537,0.033545048461444564
+FDR-xz,0,xz,val,pooled,4,missing,window obs 10-12,1110,0.022017008715797506
+FDR-xz,0,xz,val,pooled,4,missing,window obs >=13,200,0.022402899981887225
+FDR-xz,0,xz,val,pooled,4,all,all windows,5992,0.025418069859139757
+FDR-xz,0,xz,val,pooled,4,all,window obs <=9,1134,0.03227686506648627
+FDR-xz,0,xz,val,pooled,4,all,window obs 10-12,3554,0.02331574730146611
+FDR-xz,0,xz,val,pooled,4,all,window obs >=13,1304,0.024107765281079503
+FDR-xz,0,xz,val,x,5,observed,all windows,2076,0.02460178096455216
+FDR-xz,0,xz,val,x,5,observed,window obs <=9,282,0.0292429951765439
+FDR-xz,0,xz,val,x,5,observed,window obs 10-12,1236,0.022635277711426694
+FDR-xz,0,xz,val,x,5,observed,window obs >=13,558,0.026166999772966597
+FDR-xz,0,xz,val,x,5,missing,all windows,919,0.025157519382244083
+FDR-xz,0,xz,val,x,5,missing,window obs <=9,284,0.03305183998428426
+FDR-xz,0,xz,val,x,5,missing,window obs 10-12,541,0.020545429795537692
+FDR-xz,0,xz,val,x,5,missing,window obs >=13,94,0.02139380538701095
+FDR-xz,0,xz,val,x,5,all,all windows,2995,0.024773632187652262
+FDR-xz,0,xz,val,x,5,all,window obs <=9,566,0.03121229972254375
+FDR-xz,0,xz,val,x,5,all,window obs 10-12,1777,0.022020042668863492
+FDR-xz,0,xz,val,x,5,all,window obs >=13,652,0.025533946755653347
+FDR-xz,0,xz,val,z,5,observed,all windows,2068,0.02533458145138455
+FDR-xz,0,xz,val,z,5,observed,window obs <=9,308,0.030987127343360104
+FDR-xz,0,xz,val,z,5,observed,window obs 10-12,1209,0.023969354346743806
+FDR-xz,0,xz,val,z,5,observed,window obs >=13,551,0.02473005923257339
+FDR-xz,0,xz,val,z,5,missing,all windows,927,0.02826566258160686
+FDR-xz,0,xz,val,z,5,missing,window obs <=9,258,0.03531404170301029
+FDR-xz,0,xz,val,z,5,missing,window obs 10-12,568,0.025355961381452054
+FDR-xz,0,xz,val,z,5,missing,window obs >=13,101,0.02305743777369752
+FDR-xz,0,xz,val,z,5,all,all windows,2995,0.02627675819915016
+FDR-xz,0,xz,val,z,5,all,window obs <=9,566,0.033029841750394015
+FDR-xz,0,xz,val,z,5,all,window obs 10-12,1777,0.024421131431878428
+FDR-xz,0,xz,val,z,5,all,window obs >=13,652,0.024478438967704436
+FDR-xz,0,xz,val,pooled,5,observed,all windows,4144,0.024970162197443475
+FDR-xz,0,xz,val,pooled,5,observed,window obs <=9,590,0.030166074643673383
+FDR-xz,0,xz,val,pooled,5,observed,window obs 10-12,2445,0.02330449698190924
+FDR-xz,0,xz,val,pooled,5,observed,window obs >=13,1109,0.025463202282598733
+FDR-xz,0,xz,val,pooled,5,missing,all windows,1846,0.026763483136327954
+FDR-xz,0,xz,val,pooled,5,missing,window obs <=9,542,0.03414737674667396
+FDR-xz,0,xz,val,pooled,5,missing,window obs 10-12,1109,0.023134555998634343
+FDR-xz,0,xz,val,pooled,5,missing,window obs >=13,195,0.022271001099577248
+FDR-xz,0,xz,val,pooled,5,all,all windows,5990,0.025536257294537946
+FDR-xz,0,xz,val,pooled,5,all,window obs <=9,1132,0.03213392366352089
+FDR-xz,0,xz,val,pooled,5,all,window obs 10-12,3554,0.023251601445402094
+FDR-xz,0,xz,val,pooled,5,all,window obs >=13,1304,0.025011761345576717
+FDR-xz,0,xz,val,x,6,observed,all windows,2075,0.028814021290551124
+FDR-xz,0,xz,val,x,6,observed,window obs <=9,288,0.03454420095370457
+FDR-xz,0,xz,val,x,6,observed,window obs 10-12,1224,0.026305177921104695
+FDR-xz,0,xz,val,x,6,observed,window obs >=13,563,0.030743635675652737
+FDR-xz,0,xz,val,x,6,missing,all windows,919,0.03312932048536329
+FDR-xz,0,xz,val,x,6,missing,window obs <=9,278,0.04309177829453511
+FDR-xz,0,xz,val,x,6,missing,window obs 10-12,552,0.026151201713782903
+FDR-xz,0,xz,val,x,6,missing,window obs >=13,89,0.035934847872823784
+FDR-xz,0,xz,val,x,6,all,all windows,2994,0.03020423912207573
+FDR-xz,0,xz,val,x,6,all,window obs <=9,566,0.03897742168659365
+FDR-xz,0,xz,val,x,6,all,window obs 10-12,1776,0.026257417158862192
+FDR-xz,0,xz,val,x,6,all,window obs >=13,652,0.03150270783258522
+FDR-xz,0,xz,val,z,6,observed,all windows,2068,0.028075065830562795
+FDR-xz,0,xz,val,z,6,observed,window obs <=9,307,0.038492113936193985
+FDR-xz,0,xz,val,z,6,observed,window obs 10-12,1220,0.025759874530945203
+FDR-xz,0,xz,val,z,6,observed,window obs >=13,541,0.02599572481801492
+FDR-xz,0,xz,val,z,6,missing,all windows,926,0.030420679551157355
+FDR-xz,0,xz,val,z,6,missing,window obs <=9,259,0.03647943537096876
+FDR-xz,0,xz,val,z,6,missing,window obs 10-12,556,0.027595938923231752
+FDR-xz,0,xz,val,z,6,missing,window obs >=13,111,0.02829364321222953
+FDR-xz,0,xz,val,z,6,all,all windows,2994,0.028820927483766363
+FDR-xz,0,xz,val,z,6,all,window obs <=9,566,0.03758449596056379
+FDR-xz,0,xz,val,z,6,all,window obs 10-12,1776,0.02634843957022397
+FDR-xz,0,xz,val,z,6,all,window obs >=13,652,0.02640106540071354
+FDR-xz,0,xz,val,pooled,6,observed,all windows,4143,0.02844756731642526
+FDR-xz,0,xz,val,pooled,6,observed,window obs <=9,595,0.03663435670952065
+FDR-xz,0,xz,val,pooled,6,observed,window obs 10-12,2444,0.026034400205958146
+FDR-xz,0,xz,val,pooled,6,observed,window obs >=13,1104,0.028515935813360184
+FDR-xz,0,xz,val,pooled,6,missing,all windows,1845,0.031798714885593195
+FDR-xz,0,xz,val,pooled,6,missing,window obs <=9,537,0.04003914800357832
+FDR-xz,0,xz,val,pooled,6,missing,window obs 10-12,1108,0.026885884054860153
+FDR-xz,0,xz,val,pooled,6,missing,window obs >=13,200,0.03192066260956612
+FDR-xz,0,xz,val,pooled,6,all,all windows,5988,0.029520687000542934
+FDR-xz,0,xz,val,pooled,6,all,window obs <=9,1132,0.03828729383192404
+FDR-xz,0,xz,val,pooled,6,all,window obs 10-12,3552,0.026302967737883258
+FDR-xz,0,xz,val,pooled,6,all,window obs >=13,1304,0.029064040110400858
+FDR-xz,0,xz,val,x,7,observed,all windows,2075,0.04568781697001231
+FDR-xz,0,xz,val,x,7,observed,window obs <=9,284,0.05148453487795254
+FDR-xz,0,xz,val,x,7,observed,window obs 10-12,1233,0.042144057187848374
+FDR-xz,0,xz,val,x,7,observed,window obs >=13,558,0.04988448887284244
+FDR-xz,0,xz,val,x,7,missing,all windows,918,0.05466132393532032
+FDR-xz,0,xz,val,x,7,missing,window obs <=9,282,0.06648070262757633
+FDR-xz,0,xz,val,x,7,missing,window obs 10-12,542,0.0473864782725331
+FDR-xz,0,xz,val,x,7,missing,window obs >=13,94,0.054524608739967596
+FDR-xz,0,xz,val,x,7,all,all windows,2993,0.04861655155730985
+FDR-xz,0,xz,val,x,7,all,window obs <=9,566,0.05943101116613267
+FDR-xz,0,xz,val,x,7,all,window obs 10-12,1775,0.04381142130312726
+FDR-xz,0,xz,val,x,7,all,window obs >=13,652,0.05057973148330003
+FDR-xz,0,xz,val,z,7,observed,all windows,2067,0.03747617191795049
+FDR-xz,0,xz,val,z,7,observed,window obs <=9,320,0.0452908908894694
+FDR-xz,0,xz,val,z,7,observed,window obs 10-12,1207,0.03447913668881062
+FDR-xz,0,xz,val,z,7,observed,window obs >=13,540,0.03877108801867767
+FDR-xz,0,xz,val,z,7,missing,all windows,926,0.03949613775394667
+FDR-xz,0,xz,val,z,7,missing,window obs <=9,246,0.047600338494749574
+FDR-xz,0,xz,val,z,7,missing,window obs 10-12,568,0.03656582822878954
+FDR-xz,0,xz,val,z,7,missing,window obs >=13,112,0.033763109191667744
+FDR-xz,0,xz,val,z,7,all,all windows,2993,0.038112565398349334
+FDR-xz,0,xz,val,z,7,all,window obs <=9,566,0.04630879650169067
+FDR-xz,0,xz,val,z,7,all,window obs 10-12,1775,0.035160354428336135
+FDR-xz,0,xz,val,z,7,all,window obs >=13,652,0.03795785215973626
+FDR-xz,0,xz,val,pooled,7,observed,all windows,4142,0.041792099031172154
+FDR-xz,0,xz,val,pooled,7,observed,window obs <=9,604,0.04830215702397524
+FDR-xz,0,xz,val,pooled,7,observed,window obs 10-12,2440,0.0385434213045259
+FDR-xz,0,xz,val,pooled,7,observed,window obs >=13,1098,0.04476500519888139
+FDR-xz,0,xz,val,pooled,7,missing,all windows,1844,0.04765296617705561
+FDR-xz,0,xz,val,pooled,7,missing,window obs <=9,528,0.058447978116970827
+FDR-xz,0,xz,val,pooled,7,missing,window obs 10-12,1110,0.04219751085834193
+FDR-xz,0,xz,val,pooled,7,missing,window obs >=13,206,0.0444562522392807
+FDR-xz,0,xz,val,pooled,7,all,all windows,5986,0.04368144186361081
+FDR-xz,0,xz,val,pooled,7,all,window obs <=9,1132,0.05327546208933332
+FDR-xz,0,xz,val,pooled,7,all,window obs 10-12,3550,0.03972210442641684
+FDR-xz,0,xz,val,pooled,7,all,window obs >=13,1304,0.044716371596447355
+FDR-xz,0,xz,test,x,0,observed,all windows,2102,0.039739343274349095
+FDR-xz,0,xz,test,x,0,observed,window obs <=9,211,0.05344776929669366
+FDR-xz,0,xz,test,x,0,observed,window obs 10-12,1189,0.03761726494175649
+FDR-xz,0,xz,test,x,0,observed,window obs >=13,702,0.03838346711846375
+FDR-xz,0,xz,test,x,0,missing,all windows,898,0.03146865043483989
+FDR-xz,0,xz,test,x,0,missing,window obs <=9,207,0.03501023633995582
+FDR-xz,0,xz,test,x,0,missing,window obs 10-12,561,0.03035219043577277
+FDR-xz,0,xz,test,x,0,missing,window obs >=13,130,0.030219727452680915
+FDR-xz,0,xz,test,x,0,all,all windows,3000,0.03745565640949874
+FDR-xz,0,xz,test,x,0,all,window obs <=9,418,0.045265814051389186
+FDR-xz,0,xz,test,x,0,all,window obs 10-12,1750,0.035450803066811205
+FDR-xz,0,xz,test,x,0,all,window obs >=13,832,0.03722608478670176
+FDR-xz,0,xz,test,z,0,observed,all windows,2164,0.03341102056209528
+FDR-xz,0,xz,test,z,0,observed,window obs <=9,230,0.04289195943530989
+FDR-xz,0,xz,test,z,0,observed,window obs 10-12,1220,0.03365970643305867
+FDR-xz,0,xz,test,z,0,observed,window obs >=13,714,0.029236287903309302
+FDR-xz,0,xz,test,z,0,missing,all windows,836,0.03160406457757516
+FDR-xz,0,xz,test,z,0,missing,window obs <=9,188,0.03956481369125593
+FDR-xz,0,xz,test,z,0,missing,window obs 10-12,530,0.027390302876911965
+FDR-xz,0,xz,test,z,0,missing,window obs >=13,118,0.03482392968528775
+FDR-xz,0,xz,test,z,0,all,all windows,3000,0.032917452862993066
+FDR-xz,0,xz,test,z,0,all,window obs <=9,418,0.04142861633392869
+FDR-xz,0,xz,test,z,0,all,window obs 10-12,1750,0.0318913488307676
+FDR-xz,0,xz,test,z,0,all,window obs >=13,832,0.030091973117731353
+FDR-xz,0,xz,test,pooled,0,observed,all windows,4266,0.03666595051509472
+FDR-xz,0,xz,test,pooled,0,observed,window obs <=9,441,0.048231578448424496
+FDR-xz,0,xz,test,pooled,0,observed,window obs 10-12,2409,0.03566794430505008
+FDR-xz,0,xz,test,pooled,0,observed,window obs >=13,1416,0.03407938745479901
+FDR-xz,0,xz,test,pooled,0,missing,all windows,1734,0.03153400920197418
+FDR-xz,0,xz,test,pooled,0,missing,window obs <=9,395,0.037247504340887215
+FDR-xz,0,xz,test,pooled,0,missing,window obs 10-12,1091,0.0289511982632685
+FDR-xz,0,xz,test,pooled,0,missing,window obs >=13,248,0.03249190146247571
+FDR-xz,0,xz,test,pooled,0,all,all windows,6000,0.0352596433621626
+FDR-xz,0,xz,test,pooled,0,all,window obs <=9,836,0.04338965414173525
+FDR-xz,0,xz,test,pooled,0,all,window obs 10-12,3500,0.03371807800221961
+FDR-xz,0,xz,test,pooled,0,all,window obs >=13,1664,0.03384751272002844
+FDR-xz,0,xz,test,x,1,observed,all windows,2101,0.028414406931403437
+FDR-xz,0,xz,test,x,1,observed,window obs <=9,225,0.0322974068755413
+FDR-xz,0,xz,test,x,1,observed,window obs 10-12,1173,0.027993388888822846
+FDR-xz,0,xz,test,x,1,observed,window obs >=13,703,0.02777684730617892
+FDR-xz,0,xz,test,x,1,missing,all windows,898,0.02635920397673748
+FDR-xz,0,xz,test,x,1,missing,window obs <=9,192,0.02965064482853828
+FDR-xz,0,xz,test,x,1,missing,window obs 10-12,577,0.0253434980019052
+FDR-xz,0,xz,test,x,1,missing,window obs >=13,129,0.025599084839979875
+FDR-xz,0,xz,test,x,1,all,all windows,2999,0.027814943225006116
+FDR-xz,0,xz,test,x,1,all,window obs <=9,417,0.031106740588570214
+FDR-xz,0,xz,test,x,1,all,window obs 10-12,1750,0.0271482783320283
+FDR-xz,0,xz,test,x,1,all,window obs >=13,832,0.02745050895798254
+FDR-xz,0,xz,test,z,1,observed,all windows,2163,0.02778141743802501
+FDR-xz,0,xz,test,z,1,observed,window obs <=9,216,0.02921175406098375
+FDR-xz,0,xz,test,z,1,observed,window obs 10-12,1246,0.02913873105573267
+FDR-xz,0,xz,test,z,1,observed,window obs >=13,701,0.02468531010072359
+FDR-xz,0,xz,test,z,1,missing,all windows,836,0.025609264358818145
+FDR-xz,0,xz,test,z,1,missing,window obs <=9,201,0.030931432093345583
+FDR-xz,0,xz,test,z,1,missing,window obs 10-12,504,0.02463448653021725
+FDR-xz,0,xz,test,z,1,missing,window obs >=13,131,0.019558822843742094
+FDR-xz,0,xz,test,z,1,all,all windows,2999,0.027193356606434294
+FDR-xz,0,xz,test,z,1,all,window obs <=9,417,0.030052950553995938
+FDR-xz,0,xz,test,z,1,all,window obs 10-12,1750,0.02791612121893424
+FDR-xz,0,xz,test,z,1,all,window obs >=13,832,0.02395102846420475
+FDR-xz,0,xz,test,pooled,1,observed,all windows,4264,0.02809509260038951
+FDR-xz,0,xz,test,pooled,1,observed,window obs <=9,441,0.030824685336882186
+FDR-xz,0,xz,test,pooled,1,observed,window obs 10-12,2419,0.028589072874390314
+FDR-xz,0,xz,test,pooled,1,observed,window obs >=13,1404,0.026278782497389772
+FDR-xz,0,xz,test,pooled,1,missing,all windows,1734,0.0260003419322052
+FDR-xz,0,xz,test,pooled,1,missing,window obs <=9,393,0.030312465780260735
+FDR-xz,0,xz,test,pooled,1,missing,window obs 10-12,1081,0.025015432666837787
+FDR-xz,0,xz,test,pooled,1,missing,window obs >=13,260,0.022757004403078183
+FDR-xz,0,xz,test,pooled,1,all,all windows,5998,0.02750590582161418
+FDR-xz,0,xz,test,pooled,1,all,window obs <=9,834,0.030584384471863468
+FDR-xz,0,xz,test,pooled,1,all,window obs 10-12,3500,0.027534876432476575
+FDR-xz,0,xz,test,pooled,1,all,window obs >=13,1664,0.02576026209635129
+FDR-xz,0,xz,test,x,2,observed,all windows,2100,0.025232944414102884
+FDR-xz,0,xz,test,x,2,observed,window obs <=9,204,0.02555913464164201
+FDR-xz,0,xz,test,x,2,observed,window obs 10-12,1195,0.025585684880867387
+FDR-xz,0,xz,test,x,2,observed,window obs >=13,701,0.02452186357936678
+FDR-xz,0,xz,test,x,2,missing,all windows,898,0.021839402126595613
+FDR-xz,0,xz,test,x,2,missing,window obs <=9,212,0.024333817350683944
+FDR-xz,0,xz,test,x,2,missing,window obs 10-12,555,0.021686072707659765
+FDR-xz,0,xz,test,x,2,missing,window obs >=13,131,0.01785618489635421
+FDR-xz,0,xz,test,x,2,all,all windows,2998,0.024266303390389876
+FDR-xz,0,xz,test,x,2,all,window obs <=9,416,0.024942216854566015
+FDR-xz,0,xz,test,x,2,all,window obs 10-12,1750,0.024416483654589902
+FDR-xz,0,xz,test,x,2,all,window obs >=13,832,0.023597563805179352
+FDR-xz,0,xz,test,z,2,observed,all windows,2163,0.025374162392808243
+FDR-xz,0,xz,test,z,2,observed,window obs <=9,221,0.02621294206995155
+FDR-xz,0,xz,test,z,2,observed,window obs 10-12,1232,0.02652296555089369
+FDR-xz,0,xz,test,z,2,observed,window obs >=13,710,0.022954888939341146
+FDR-xz,0,xz,test,z,2,missing,all windows,835,0.02548611355866859
+FDR-xz,0,xz,test,z,2,missing,window obs <=9,195,0.029332813151238885
+FDR-xz,0,xz,test,z,2,missing,window obs 10-12,518,0.02404714814767514
+FDR-xz,0,xz,test,z,2,missing,window obs >=13,122,0.02480173811410293
+FDR-xz,0,xz,test,z,2,all,all windows,2998,0.025405392486720555
+FDR-xz,0,xz,test,z,2,all,window obs <=9,416,0.027719138556378788
+FDR-xz,0,xz,test,z,2,all,window obs 10-12,1750,0.025814875572253045
+FDR-xz,0,xz,test,z,2,all,window obs >=13,832,0.02323488744931859
+FDR-xz,0,xz,test,pooled,2,observed,all windows,4263,0.025304695376675825
+FDR-xz,0,xz,test,pooled,2,observed,window obs <=9,425,0.025901174242932912
+FDR-xz,0,xz,test,pooled,2,observed,window obs 10-12,2427,0.026065681964529568
+FDR-xz,0,xz,test,pooled,2,observed,window obs >=13,1411,0.02374630703193907
+FDR-xz,0,xz,test,pooled,2,missing,all windows,1733,0.023666722977499752
+FDR-xz,0,xz,test,pooled,2,missing,window obs <=9,407,0.026845323862676438
+FDR-xz,0,xz,test,pooled,2,missing,window obs 10-12,1073,0.022856373832784507
+FDR-xz,0,xz,test,pooled,2,missing,window obs >=13,253,0.021487552740341094
+FDR-xz,0,xz,test,pooled,2,all,all windows,5996,0.024842377579840907
+FDR-xz,0,xz,test,pooled,2,all,window obs <=9,832,0.0263672602286237
+FDR-xz,0,xz,test,pooled,2,all,window obs 10-12,3500,0.025125410194320835
+FDR-xz,0,xz,test,pooled,2,all,window obs >=13,1664,0.02341692776947921
+FDR-xz,0,xz,test,x,3,observed,all windows,2099,0.024662991656423907
+FDR-xz,0,xz,test,x,3,observed,window obs <=9,207,0.025361275561499065
+FDR-xz,0,xz,test,x,3,observed,window obs 10-12,1189,0.025965256780732998
+FDR-xz,0,xz,test,x,3,observed,window obs >=13,703,0.02205598128679575
+FDR-xz,0,xz,test,x,3,missing,all windows,898,0.021286632715994968
+FDR-xz,0,xz,test,x,3,missing,window obs <=9,208,0.023634572436207677
+FDR-xz,0,xz,test,x,3,missing,window obs 10-12,561,0.02019249232235001
+FDR-xz,0,xz,test,x,3,missing,window obs >=13,129,0.021918587225373043
+FDR-xz,0,xz,test,x,3,all,all windows,2997,0.023701843228437703
+FDR-xz,0,xz,test,x,3,all,window obs <=9,415,0.024511053158047927
+FDR-xz,0,xz,test,x,3,all,window obs 10-12,1750,0.02426470271322709
+FDR-xz,0,xz,test,x,3,all,window obs >=13,832,0.022034734719126346
+FDR-xz,0,xz,test,z,3,observed,all windows,2162,0.026639753015842704
+FDR-xz,0,xz,test,z,3,observed,window obs <=9,234,0.029010092413375144
+FDR-xz,0,xz,test,z,3,observed,window obs 10-12,1220,0.026808144293063454
+FDR-xz,0,xz,test,z,3,observed,window obs >=13,708,0.025506286316314845
+FDR-xz,0,xz,test,z,3,missing,all windows,835,0.02808739556983558
+FDR-xz,0,xz,test,z,3,missing,window obs <=9,181,0.03324459964734766
+FDR-xz,0,xz,test,z,3,missing,window obs 10-12,530,0.02623106881888623
+FDR-xz,0,xz,test,z,3,missing,window obs >=13,124,0.02753511296414112
+FDR-xz,0,xz,test,z,3,all,all windows,2997,0.027050870030140003
+FDR-xz,0,xz,test,z,3,all,window obs <=9,415,0.03092832033592926
+FDR-xz,0,xz,test,z,3,all,window obs 10-12,1750,0.026634692815048724
+FDR-xz,0,xz,test,z,3,all,window obs >=13,832,0.025818771066915814
+FDR-xz,0,xz,test,pooled,3,observed,all windows,4261,0.02568500554916154
+FDR-xz,0,xz,test,pooled,3,observed,window obs <=9,441,0.02735805327246454
+FDR-xz,0,xz,test,pooled,3,observed,window obs 10-12,2409,0.02639548799767511
+FDR-xz,0,xz,test,pooled,3,observed,window obs >=13,1411,0.02384972190615169
+FDR-xz,0,xz,test,pooled,3,missing,all windows,1733,0.02479733680121079
+FDR-xz,0,xz,test,pooled,3,missing,window obs <=9,389,0.02851189998242144
+FDR-xz,0,xz,test,pooled,3,missing,window obs 10-12,1091,0.023322095467142777
+FDR-xz,0,xz,test,pooled,3,missing,window obs >=13,253,0.024830602326183813
+FDR-xz,0,xz,test,pooled,3,all,all windows,5994,0.025431544799844195
+FDR-xz,0,xz,test,pooled,3,all,window obs <=9,830,0.02790477311965201
+FDR-xz,0,xz,test,pooled,3,all,window obs 10-12,3500,0.025477270842000507
+FDR-xz,0,xz,test,pooled,3,all,window obs >=13,1664,0.024001442389449026
+FDR-xz,0,xz,test,x,4,observed,all windows,2098,0.02557984926591563
+FDR-xz,0,xz,test,x,4,observed,window obs <=9,202,0.02713275784068784
+FDR-xz,0,xz,test,x,4,observed,window obs 10-12,1204,0.02651989978812034
+FDR-xz,0,xz,test,x,4,observed,window obs >=13,692,0.023349957100191585
+FDR-xz,0,xz,test,x,4,missing,all windows,898,0.02068736387560184
+FDR-xz,0,xz,test,x,4,missing,window obs <=9,212,0.024838940807751668
+FDR-xz,0,xz,test,x,4,missing,window obs 10-12,546,0.019325635892447166
+FDR-xz,0,xz,test,x,4,missing,window obs >=13,140,0.018821705775142368
+FDR-xz,0,xz,test,x,4,all,all windows,2996,0.024217362219396167
+FDR-xz,0,xz,test,x,4,all,window obs <=9,414,0.02598345602224311
+FDR-xz,0,xz,test,x,4,all,window obs 10-12,1750,0.02450305535130467
+FDR-xz,0,xz,test,x,4,all,window obs >=13,832,0.0226514271071985
+FDR-xz,0,xz,test,z,4,observed,all windows,2161,0.028321706278185883
+FDR-xz,0,xz,test,z,4,observed,window obs <=9,235,0.03194287116473058
+FDR-xz,0,xz,test,z,4,observed,window obs 10-12,1208,0.027913612027444013
+FDR-xz,0,xz,test,z,4,observed,window obs >=13,718,0.027736339924329553
+FDR-xz,0,xz,test,z,4,missing,all windows,835,0.02993414569936258
+FDR-xz,0,xz,test,z,4,missing,window obs <=9,179,0.039206363768886185
+FDR-xz,0,xz,test,z,4,missing,window obs 10-12,542,0.027488314503304922
+FDR-xz,0,xz,test,z,4,missing,window obs >=13,114,0.02360441855132001
+FDR-xz,0,xz,test,z,4,all,all windows,2996,0.02878018285766277
+FDR-xz,0,xz,test,z,4,all,window obs <=9,414,0.0352674194847203
+FDR-xz,0,xz,test,z,4,all,window obs 10-12,1750,0.02778258725942072
+FDR-xz,0,xz,test,z,4,all,window obs >=13,832,0.027207312325483412
+FDR-xz,0,xz,test,pooled,4,observed,all windows,4259,0.027005868623411883
+FDR-xz,0,xz,test,pooled,4,observed,window obs <=9,437,0.029816035186050673
+FDR-xz,0,xz,test,pooled,4,observed,window obs 10-12,2412,0.02722683082197192
+FDR-xz,0,xz,test,pooled,4,observed,window obs >=13,1410,0.02567739370923448
+FDR-xz,0,xz,test,pooled,4,missing,all windows,1733,0.025563682273224964
+FDR-xz,0,xz,test,pooled,4,missing,window obs <=9,391,0.03222150580825944
+FDR-xz,0,xz,test,pooled,4,missing,window obs 10-12,1088,0.0237453443579174
+FDR-xz,0,xz,test,pooled,4,missing,window obs >=13,254,0.021102780233172892
+FDR-xz,0,xz,test,pooled,4,all,all windows,5992,0.026596800166429256
+FDR-xz,0,xz,test,pooled,4,all,window obs <=9,828,0.030975239014179298
+FDR-xz,0,xz,test,pooled,4,all,window obs 10-12,3500,0.026194196650941852
+FDR-xz,0,xz,test,pooled,4,all,window obs >=13,1664,0.025033227857880497
+FDR-xz,0,xz,test,x,5,observed,all windows,2097,0.025546143445339415
+FDR-xz,0,xz,test,x,5,observed,window obs <=9,204,0.02938594573306495
+FDR-xz,0,xz,test,x,5,observed,window obs 10-12,1209,0.026000964545005525
+FDR-xz,0,xz,test,x,5,observed,window obs >=13,684,0.023414897583355073
+FDR-xz,0,xz,test,x,5,missing,all windows,898,0.02478988277759341
+FDR-xz,0,xz,test,x,5,missing,window obs <=9,210,0.03201994803297417
+FDR-xz,0,xz,test,x,5,missing,window obs 10-12,540,0.022900164583153883
+FDR-xz,0,xz,test,x,5,missing,window obs >=13,148,0.018988212404207516
+FDR-xz,0,xz,test,x,5,all,all windows,2995,0.025321762438798457
+FDR-xz,0,xz,test,x,5,all,window obs <=9,414,0.030750243771040003
+FDR-xz,0,xz,test,x,5,all,window obs 10-12,1749,0.02508453529893952
+FDR-xz,0,xz,test,x,5,all,window obs >=13,832,0.022690693207454225
+FDR-xz,0,xz,test,z,5,observed,all windows,2161,0.027687428448182044
+FDR-xz,0,xz,test,z,5,observed,window obs <=9,226,0.03095907501642477
+FDR-xz,0,xz,test,z,5,observed,window obs 10-12,1216,0.027422460874146022
+FDR-xz,0,xz,test,z,5,observed,window obs >=13,719,0.027036639771488277
+FDR-xz,0,xz,test,z,5,missing,all windows,834,0.03038760519096539
+FDR-xz,0,xz,test,z,5,missing,window obs <=9,188,0.03676374085843697
+FDR-xz,0,xz,test,z,5,missing,window obs 10-12,533,0.028562545723274498
+FDR-xz,0,xz,test,z,5,missing,window obs >=13,113,0.02680540638440679
+FDR-xz,0,xz,test,z,5,all,all windows,2995,0.028465074138838115
+FDR-xz,0,xz,test,z,5,all,window obs <=9,414,0.033719093715278044
+FDR-xz,0,xz,test,z,5,all,window obs 10-12,1749,0.027774854748165396
+FDR-xz,0,xz,test,z,5,all,window obs >=13,832,0.027005350469187155
+FDR-xz,0,xz,test,pooled,5,observed,all windows,4258,0.026654384657019622
+FDR-xz,0,xz,test,pooled,5,observed,window obs <=9,430,0.030222963478010047
+FDR-xz,0,xz,test,pooled,5,observed,window obs 10-12,2425,0.026723217708437174
+FDR-xz,0,xz,test,pooled,5,observed,window obs >=13,1403,0.025335702207874972
+FDR-xz,0,xz,test,pooled,5,missing,all windows,1732,0.027627266345600962
+FDR-xz,0,xz,test,pooled,5,missing,window obs <=9,398,0.034342490266469024
+FDR-xz,0,xz,test,pooled,5,missing,window obs 10-12,1073,0.025868277110292135
+FDR-xz,0,xz,test,pooled,5,missing,window obs >=13,261,0.022705476900801737
+FDR-xz,0,xz,test,pooled,5,all,all windows,5990,0.026939303060180445
+FDR-xz,0,xz,test,pooled,5,all,window obs <=9,828,0.032268829952123206
+FDR-xz,0,xz,test,pooled,5,all,window obs 10-12,3498,0.02646390435522911
+FDR-xz,0,xz,test,pooled,5,all,window obs >=13,1664,0.024941496669190044
+FDR-xz,0,xz,test,x,6,observed,all windows,2096,0.030052171107219163
+FDR-xz,0,xz,test,x,6,observed,window obs <=9,211,0.03656481945500498
+FDR-xz,0,xz,test,x,6,observed,window obs 10-12,1201,0.030485772948492827
+FDR-xz,0,xz,test,x,6,observed,window obs >=13,684,0.026892532706689735
+FDR-xz,0,xz,test,x,6,missing,all windows,898,0.03458725508529806
+FDR-xz,0,xz,test,x,6,missing,window obs <=9,202,0.05063487300456619
+FDR-xz,0,xz,test,x,6,missing,window obs 10-12,548,0.029025479114590698
+FDR-xz,0,xz,test,x,6,missing,window obs >=13,148,0.02529205074554956
+FDR-xz,0,xz,test,x,6,all,all windows,2994,0.031481057382202346
+FDR-xz,0,xz,test,x,6,all,window obs <=9,413,0.0440121572507202
+FDR-xz,0,xz,test,x,6,all,window obs 10-12,1749,0.030035869436936827
+FDR-xz,0,xz,test,x,6,all,window obs >=13,832,0.0266148700189311
+FDR-xz,0,xz,test,z,6,observed,all windows,2160,0.030482823447252633
+FDR-xz,0,xz,test,z,6,observed,window obs <=9,232,0.03771046481780905
+FDR-xz,0,xz,test,z,6,observed,window obs 10-12,1209,0.030686472510967767
+FDR-xz,0,xz,test,z,6,observed,window obs >=13,719,0.027371869658769074
+FDR-xz,0,xz,test,z,6,missing,all windows,834,0.03074824891995484
+FDR-xz,0,xz,test,z,6,missing,window obs <=9,181,0.038223267183722674
+FDR-xz,0,xz,test,z,6,missing,window obs 10-12,540,0.028583880304939968
+FDR-xz,0,xz,test,z,6,missing,window obs >=13,113,0.027079756313485415
+FDR-xz,0,xz,test,z,6,all,all windows,2994,0.03055699126706153
+FDR-xz,0,xz,test,z,6,all,window obs <=9,413,0.03793605714455442
+FDR-xz,0,xz,test,z,6,all,window obs 10-12,1749,0.030053003355898833
+FDR-xz,0,xz,test,z,6,all,window obs >=13,832,0.027332378824186473
+FDR-xz,0,xz,test,pooled,6,observed,all windows,4256,0.03027150092651188
+FDR-xz,0,xz,test,pooled,6,observed,window obs <=9,443,0.0371692005489903
+FDR-xz,0,xz,test,pooled,6,observed,window obs 10-12,2410,0.03058662045541084
+FDR-xz,0,xz,test,pooled,6,observed,window obs >=13,1403,0.02713923770912366
+FDR-xz,0,xz,test,pooled,6,missing,all windows,1732,0.03279482678131711
+FDR-xz,0,xz,test,pooled,6,missing,window obs <=9,383,0.04519612438258602
+FDR-xz,0,xz,test,pooled,6,missing,window obs 10-12,1088,0.02880714938685592
+FDR-xz,0,xz,test,pooled,6,missing,window obs >=13,261,0.026081084204101455
+FDR-xz,0,xz,test,pooled,6,all,all windows,5988,0.031022465159919126
+FDR-xz,0,xz,test,pooled,6,all,window obs <=9,826,0.041086581857931556
+FDR-xz,0,xz,test,pooled,6,all,window obs 10-12,3498,0.03004443761782189
+FDR-xz,0,xz,test,pooled,6,all,window obs >=13,1664,0.026976010067404656
+FDR-xz,0,xz,test,x,7,observed,all windows,2095,0.04818530563040168
+FDR-xz,0,xz,test,x,7,observed,window obs <=9,212,0.06403648797477426
+FDR-xz,0,xz,test,x,7,observed,window obs 10-12,1189,0.04770557298653227
+FDR-xz,0,xz,test,x,7,observed,window obs >=13,694,0.04309573473946725
+FDR-xz,0,xz,test,x,7,missing,all windows,898,0.06384768913991257
+FDR-xz,0,xz,test,x,7,missing,window obs <=9,200,0.0988303857133298
+FDR-xz,0,xz,test,x,7,missing,window obs 10-12,560,0.050023200821674954
+FDR-xz,0,xz,test,x,7,missing,window obs >=13,138,0.047084031982033196
+FDR-xz,0,xz,test,x,7,all,all windows,2993,0.05336940532326739
+FDR-xz,0,xz,test,x,7,all,window obs <=9,412,0.08277398528968313
+FDR-xz,0,xz,test,x,7,all,window obs 10-12,1749,0.04845970275467437
+FDR-xz,0,xz,test,x,7,all,window obs >=13,832,0.04378239501382951
+FDR-xz,0,xz,test,z,7,observed,all windows,2159,0.041058170140759465
+FDR-xz,0,xz,test,z,7,observed,window obs <=9,217,0.05360981152413388
+FDR-xz,0,xz,test,z,7,observed,window obs 10-12,1216,0.040045262247444466
+FDR-xz,0,xz,test,z,7,observed,window obs >=13,726,0.03831719233462873
+FDR-xz,0,xz,test,z,7,missing,all windows,834,0.041769598800765
+FDR-xz,0,xz,test,z,7,missing,window obs <=9,195,0.05457500948515514
+FDR-xz,0,xz,test,z,7,missing,window obs 10-12,533,0.03780288734404411
+FDR-xz,0,xz,test,z,7,missing,window obs >=13,106,0.03259196611896841
+FDR-xz,0,xz,test,z,7,all,all windows,2993,0.04125764280224492
+FDR-xz,0,xz,test,z,7,all,window obs <=9,412,0.05406878831206026
+FDR-xz,0,xz,test,z,7,all,window obs 10-12,1749,0.03937543902491262
+FDR-xz,0,xz,test,z,7,all,window obs >=13,832,0.03763621879298599
+FDR-xz,0,xz,test,pooled,7,observed,all windows,4254,0.04471033353933687
+FDR-xz,0,xz,test,pooled,7,observed,window obs <=9,429,0.05899316463947166
+FDR-xz,0,xz,test,pooled,7,observed,window obs 10-12,2405,0.04399942164026288
+FDR-xz,0,xz,test,pooled,7,observed,window obs >=13,1420,0.04072273684581046
+FDR-xz,0,xz,test,pooled,7,missing,all windows,1732,0.05434791320016272
+FDR-xz,0,xz,test,pooled,7,missing,window obs <=9,395,0.08009935605247785
+FDR-xz,0,xz,test,pooled,7,missing,window obs 10-12,1093,0.044485342187888056
+FDR-xz,0,xz,test,pooled,7,missing,window obs >=13,244,0.04141602606299398
+FDR-xz,0,xz,test,pooled,7,all,all windows,5986,0.047699510029752056
+FDR-xz,0,xz,test,pooled,7,all,window obs <=9,824,0.06991053751141905
+FDR-xz,0,xz,test,pooled,7,all,window obs 10-12,3498,0.04415182889459964
+FDR-xz,0,xz,test,pooled,7,all,window obs >=13,1664,0.04082513366898212
+C-xz,1,xz,val,x,0,observed,all windows,2080,0.05724930180491303
+C-xz,1,xz,val,x,0,observed,window obs <=9,273,0.06380695527448726
+C-xz,1,xz,val,x,0,observed,window obs 10-12,1158,0.05574515925875415
+C-xz,1,xz,val,x,0,observed,window obs >=13,649,0.05698078934405175
+C-xz,1,xz,val,x,0,missing,all windows,920,0.0332628087372452
+C-xz,1,xz,val,x,0,missing,window obs <=9,256,0.03623668404530176
+C-xz,1,xz,val,x,0,missing,window obs 10-12,526,0.03340330588528297
+C-xz,1,xz,val,x,0,missing,window obs >=13,138,0.026216443594049857
+C-xz,1,xz,val,x,0,all,all windows,3000,0.051104680178222915
+C-xz,1,xz,val,x,0,all,window obs <=9,529,0.052311870507412025
+C-xz,1,xz,val,x,0,all,window obs 10-12,1684,0.049853777306378334
+C-xz,1,xz,val,x,0,all,window obs >=13,787,0.052896143648675925
+C-xz,1,xz,val,z,0,observed,all windows,2145,0.06525969800087807
+C-xz,1,xz,val,z,0,observed,window obs <=9,292,0.08195413163171075
+C-xz,1,xz,val,z,0,observed,window obs 10-12,1185,0.06242188183718211
+C-xz,1,xz,val,z,0,observed,window obs >=13,668,0.061865124620966896
+C-xz,1,xz,val,z,0,missing,all windows,855,0.023762620023002917
+C-xz,1,xz,val,z,0,missing,window obs <=9,237,0.029174995786150633
+C-xz,1,xz,val,z,0,missing,window obs 10-12,499,0.021530570664341952
+C-xz,1,xz,val,z,0,missing,window obs >=13,119,0.020444058414641877
+C-xz,1,xz,val,z,0,all,all windows,3000,0.05662146988921671
+C-xz,1,xz,val,z,0,all,window obs <=9,529,0.06394323184966699
+C-xz,1,xz,val,z,0,all,window obs 10-12,1684,0.05365866763724512
+C-xz,1,xz,val,z,0,all,window obs >=13,787,0.05754805006150313
+C-xz,1,xz,val,pooled,0,observed,all windows,4225,0.061446758927267496
+C-xz,1,xz,val,pooled,0,observed,window obs <=9,565,0.07374537020083138
+C-xz,1,xz,val,pooled,0,observed,window obs 10-12,2343,0.059216154636951755
+C-xz,1,xz,val,pooled,0,observed,window obs >=13,1317,0.05950831233042869
+C-xz,1,xz,val,pooled,0,missing,all windows,1775,0.029076755091823805
+C-xz,1,xz,val,pooled,0,missing,window obs <=9,493,0.033030892514351026
+C-xz,1,xz,val,pooled,0,missing,window obs 10-12,1025,0.028253553975826746
+C-xz,1,xz,val,pooled,0,missing,window obs >=13,257,0.02371891556978169
+C-xz,1,xz,val,pooled,0,all,all windows,6000,0.05393365919596929
+C-xz,1,xz,val,pooled,0,all,window obs <=9,1058,0.058417757126427376
+C-xz,1,xz,val,pooled,0,all,window obs 10-12,3368,0.05179117552401325
+C-xz,1,xz,val,pooled,0,all,window obs >=13,1574,0.05527105969122824
+C-xz,1,xz,test,x,0,observed,all windows,2090,0.05679124818901066
+C-xz,1,xz,test,x,0,observed,window obs <=9,278,0.06342413559154082
+C-xz,1,xz,test,x,0,observed,window obs 10-12,1148,0.05714998284596925
+C-xz,1,xz,test,x,0,observed,window obs >=13,664,0.05311060378718972
+C-xz,1,xz,test,x,0,missing,all windows,910,0.03296946905103365
+C-xz,1,xz,test,x,0,missing,window obs <=9,276,0.042143349444204635
+C-xz,1,xz,test,x,0,missing,window obs 10-12,518,0.029287853902213706
+C-xz,1,xz,test,x,0,missing,window obs >=13,116,0.021702310052098096
+C-xz,1,xz,test,x,0,all,all windows,3000,0.05076061803393441
+C-xz,1,xz,test,x,0,all,window obs <=9,554,0.05388317547933791
+C-xz,1,xz,test,x,0,all,window obs 10-12,1666,0.05017278418829819
+C-xz,1,xz,test,x,0,all,window obs >=13,780,0.049712039120526096
+C-xz,1,xz,test,z,0,observed,all windows,2111,0.06874863530411537
+C-xz,1,xz,test,z,0,observed,window obs <=9,307,0.0847991565629258
+C-xz,1,xz,test,z,0,observed,window obs 10-12,1156,0.0659689532854203
+C-xz,1,xz,test,z,0,observed,window obs >=13,648,0.06501391497050481
+C-xz,1,xz,test,z,0,missing,all windows,889,0.025307050879924266
+C-xz,1,xz,test,z,0,missing,window obs <=9,247,0.029578552392724913
+C-xz,1,xz,test,z,0,missing,window obs 10-12,510,0.02394772751998715
+C-xz,1,xz,test,z,0,missing,window obs >=13,132,0.021457753667081223
+C-xz,1,xz,test,z,0,all,all windows,3000,0.05929231132881914
+C-xz,1,xz,test,z,0,all,window obs <=9,554,0.06614314668716892
+C-xz,1,xz,test,z,0,all,window obs 10-12,1666,0.0565265153454893
+C-xz,1,xz,test,z,0,all,window obs >=13,780,0.05991179165632114
+C-xz,1,xz,test,pooled,0,observed,all windows,4201,0.06308377202315069
+C-xz,1,xz,test,pooled,0,observed,window obs <=9,585,0.07540085465078283
+C-xz,1,xz,test,pooled,0,observed,window obs 10-12,2304,0.061732460724299
+C-xz,1,xz,test,pooled,0,observed,window obs >=13,1312,0.05928911427859773
+C-xz,1,xz,test,pooled,0,missing,all windows,1799,0.029433358897836923
+C-xz,1,xz,test,pooled,0,missing,window obs <=9,523,0.0367486190264385
+C-xz,1,xz,test,pooled,0,missing,window obs 10-12,1028,0.026772041126146305
+C-xz,1,xz,test,pooled,0,missing,window obs >=13,248,0.021572488055746467
+C-xz,1,xz,test,pooled,0,all,all windows,6000,0.05519156876688957
+C-xz,1,xz,test,pooled,0,all,window obs <=9,1108,0.06032541940764882
+C-xz,1,xz,test,pooled,0,all,window obs 10-12,3332,0.05344415407839001
+C-xz,1,xz,test,pooled,0,all,window obs >=13,1560,0.0550486585349323
+FDR-xz,1,xz,val,x,0,observed,all windows,2080,0.03188152564508291
+FDR-xz,1,xz,val,x,0,observed,window obs <=9,273,0.03029335596739985
+FDR-xz,1,xz,val,x,0,observed,window obs 10-12,1158,0.03130528391260117
+FDR-xz,1,xz,val,x,0,observed,window obs >=13,649,0.03351022972907748
+FDR-xz,1,xz,val,x,0,missing,all windows,920,0.031939070310514656
+FDR-xz,1,xz,val,x,0,missing,window obs <=9,256,0.029209490013619548
+FDR-xz,1,xz,val,x,0,missing,window obs 10-12,526,0.035019553582501244
+FDR-xz,1,xz,val,x,0,missing,window obs >=13,138,0.023313858654667122
+FDR-xz,1,xz,val,x,0,all,all windows,3000,0.03189918371175456
+FDR-xz,1,xz,val,x,0,all,window obs <=9,529,0.02977376596937797
+FDR-xz,1,xz,val,x,0,all,window obs 10-12,1684,0.03251104555040646
+FDR-xz,1,xz,val,x,0,all,window obs >=13,787,0.03195838117024106
+FDR-xz,1,xz,val,z,0,observed,all windows,2145,0.034606242589171735
+FDR-xz,1,xz,val,z,0,observed,window obs <=9,292,0.037350889063225
+FDR-xz,1,xz,val,z,0,observed,window obs 10-12,1185,0.03582640033193736
+FDR-xz,1,xz,val,z,0,observed,window obs >=13,668,0.030964649168656575
+FDR-xz,1,xz,val,z,0,missing,all windows,855,0.02764466188638506
+FDR-xz,1,xz,val,z,0,missing,window obs <=9,237,0.03022037318575538
+FDR-xz,1,xz,val,z,0,missing,window obs 10-12,499,0.02695146090841892
+FDR-xz,1,xz,val,z,0,missing,window obs >=13,119,0.02502182410283522
+FDR-xz,1,xz,val,z,0,all,all windows,3000,0.03277320686127783
+FDR-xz,1,xz,val,z,0,all,window obs <=9,529,0.03433987743150632
+FDR-xz,1,xz,val,z,0,all,window obs 10-12,1684,0.03344304576214727
+FDR-xz,1,xz,val,z,0,all,window obs >=13,787,0.03014133701008781
+FDR-xz,1,xz,val,pooled,0,observed,all windows,4225,0.03329272282260875
+FDR-xz,1,xz,val,pooled,0,observed,window obs <=9,565,0.03412352955989265
+FDR-xz,1,xz,val,pooled,0,observed,window obs 10-12,2343,0.03366785794977762
+FDR-xz,1,xz,val,pooled,0,observed,window obs >=13,1317,0.0322442025300224
+FDR-xz,1,xz,val,pooled,0,missing,all windows,1775,0.029947468026818438
+FDR-xz,1,xz,val,pooled,0,missing,window obs <=9,493,0.02969974692748149
+FDR-xz,1,xz,val,pooled,0,missing,window obs 10-12,1025,0.03135219921214251
+FDR-xz,1,xz,val,pooled,0,missing,window obs >=13,257,0.02411974656670273
+FDR-xz,1,xz,val,pooled,0,all,all windows,6000,0.03233914817561199
+FDR-xz,1,xz,val,pooled,0,all,window obs <=9,1058,0.03213801737825599
+FDR-xz,1,xz,val,pooled,0,all,window obs 10-12,3368,0.032980338026085174
+FDR-xz,1,xz,val,pooled,0,all,window obs >=13,1574,0.031063147971334998
+FDR-xz,1,xz,val,x,1,observed,all windows,2079,0.028978511325224738
+FDR-xz,1,xz,val,x,1,observed,window obs <=9,268,0.02653819730522335
+FDR-xz,1,xz,val,x,1,observed,window obs 10-12,1160,0.028273630451175782
+FDR-xz,1,xz,val,x,1,observed,window obs >=13,651,0.031103636773430015
+FDR-xz,1,xz,val,x,1,missing,all windows,920,0.02719689554125128
+FDR-xz,1,xz,val,x,1,missing,window obs <=9,261,0.025148253502705418
+FDR-xz,1,xz,val,x,1,missing,window obs 10-12,523,0.029130882027750084
+FDR-xz,1,xz,val,x,1,missing,window obs >=13,136,0.022946526343026935
+FDR-xz,1,xz,val,x,1,all,all windows,2999,0.028443835309290497
+FDR-xz,1,xz,val,x,1,all,window obs <=9,529,0.02586175952023491
+FDR-xz,1,xz,val,x,1,all,window obs 10-12,1683,0.028542782744737764
+FDR-xz,1,xz,val,x,1,all,window obs >=13,787,0.029853748490307027
+FDR-xz,1,xz,val,z,1,observed,all windows,2145,0.024593073308511796
+FDR-xz,1,xz,val,z,1,observed,window obs <=9,284,0.02336751197624061
+FDR-xz,1,xz,val,z,1,observed,window obs 10-12,1174,0.025265805225070725
+FDR-xz,1,xz,val,z,1,observed,window obs >=13,687,0.02391232328853249
+FDR-xz,1,xz,val,z,1,missing,all windows,854,0.023717590198392167
+FDR-xz,1,xz,val,z,1,missing,window obs <=9,245,0.026725154739597135
+FDR-xz,1,xz,val,z,1,missing,window obs 10-12,509,0.02292163629205038
+FDR-xz,1,xz,val,z,1,missing,window obs >=13,100,0.01948818773141101
+FDR-xz,1,xz,val,z,1,all,all windows,2999,0.024346975480237825
+FDR-xz,1,xz,val,z,1,all,window obs <=9,529,0.024978737249672457
+FDR-xz,1,xz,val,z,1,all,window obs 10-12,1683,0.024580436918048374
+FDR-xz,1,xz,val,z,1,all,window obs >=13,787,0.023396613531668737
+FDR-xz,1,xz,val,pooled,1,observed,all windows,4224,0.02684122311050738
+FDR-xz,1,xz,val,pooled,1,observed,window obs <=9,552,0.0249572634890992
+FDR-xz,1,xz,val,pooled,1,observed,window obs 10-12,2334,0.026802920969127463
+FDR-xz,1,xz,val,pooled,1,observed,window obs >=13,1338,0.027645890141830054
+FDR-xz,1,xz,val,pooled,1,missing,all windows,1774,0.025581104362850715
+FDR-xz,1,xz,val,pooled,1,missing,window obs <=9,506,0.02592375370974802
+FDR-xz,1,xz,val,pooled,1,missing,window obs 10-12,1032,0.026252564517032975
+FDR-xz,1,xz,val,pooled,1,missing,window obs >=13,236,0.021548998540397733
+FDR-xz,1,xz,val,pooled,1,all,all windows,5998,0.026474770840720627
+FDR-xz,1,xz,val,pooled,1,all,window obs <=9,1058,0.02542408228501705
+FDR-xz,1,xz,val,pooled,1,all,window obs 10-12,3366,0.02663539305037055
+FDR-xz,1,xz,val,pooled,1,all,window obs >=13,1574,0.02682021461204938
+FDR-xz,1,xz,val,x,2,observed,all windows,2079,0.021492618487428845
+FDR-xz,1,xz,val,x,2,observed,window obs <=9,274,0.020162089460783593
+FDR-xz,1,xz,val,x,2,observed,window obs 10-12,1141,0.021437896971198765
+FDR-xz,1,xz,val,x,2,observed,window obs >=13,664,0.022109720549954748
+FDR-xz,1,xz,val,x,2,missing,all windows,919,0.023642679091339897
+FDR-xz,1,xz,val,x,2,missing,window obs <=9,255,0.022759671938031925
+FDR-xz,1,xz,val,x,2,missing,window obs 10-12,541,0.02463320169139677
+FDR-xz,1,xz,val,x,2,missing,window obs >=13,123,0.020823029762445842
+FDR-xz,1,xz,val,x,2,all,all windows,2998,0.02217386250316184
+FDR-xz,1,xz,val,x,2,all,window obs <=9,529,0.02145353176408358
+FDR-xz,1,xz,val,x,2,all,window obs 10-12,1682,0.022515163104753575
+FDR-xz,1,xz,val,x,2,all,window obs >=13,787,0.021913605723578623
+FDR-xz,1,xz,val,z,2,observed,all windows,2144,0.0256637960269593
+FDR-xz,1,xz,val,z,2,observed,window obs <=9,298,0.02405247424966422
+FDR-xz,1,xz,val,z,2,observed,window obs 10-12,1159,0.02576905192365167
+FDR-xz,1,xz,val,z,2,observed,window obs >=13,687,0.02615810130498047
+FDR-xz,1,xz,val,z,2,missing,all windows,854,0.025107771800781234
+FDR-xz,1,xz,val,z,2,missing,window obs <=9,231,0.02451294204259478
+FDR-xz,1,xz,val,z,2,missing,window obs 10-12,523,0.025689097916641444
+FDR-xz,1,xz,val,z,2,missing,window obs >=13,100,0.02332685899373332
+FDR-xz,1,xz,val,z,2,all,all windows,2998,0.025506643494513814
+FDR-xz,1,xz,val,z,2,all,window obs <=9,529,0.024254623315283934
+FDR-xz,1,xz,val,z,2,all,window obs 10-12,1682,0.025744217677428113
+FDR-xz,1,xz,val,z,2,all,window obs >=13,787,0.025815576455369554
+FDR-xz,1,xz,val,pooled,2,observed,all windows,4223,0.02370222171830966
+FDR-xz,1,xz,val,pooled,2,observed,window obs <=9,572,0.0222738483614659
+FDR-xz,1,xz,val,pooled,2,observed,window obs 10-12,2300,0.023719481340329886
+FDR-xz,1,xz,val,pooled,2,observed,window obs >=13,1351,0.0242529657011817
+FDR-xz,1,xz,val,pooled,2,missing,all windows,1773,0.024359371962535806
+FDR-xz,1,xz,val,pooled,2,missing,window obs <=9,486,0.023609257429943215
+FDR-xz,1,xz,val,pooled,2,missing,window obs 10-12,1064,0.025157757002849963
+FDR-xz,1,xz,val,pooled,2,missing,window obs >=13,223,0.02198112306479956
+FDR-xz,1,xz,val,pooled,2,all,all windows,5996,0.023898420875293733
+FDR-xz,1,xz,val,pooled,2,all,window obs <=9,1058,0.022896951514545096
+FDR-xz,1,xz,val,pooled,2,all,window obs 10-12,3364,0.024183644405428834
+FDR-xz,1,xz,val,pooled,2,all,window obs >=13,1574,0.023944207060701432
+FDR-xz,1,xz,val,x,3,observed,all windows,2079,0.02345751694745134
+FDR-xz,1,xz,val,x,3,observed,window obs <=9,273,0.024448092186195224
+FDR-xz,1,xz,val,x,3,observed,window obs 10-12,1144,0.024282733944431662
+FDR-xz,1,xz,val,x,3,observed,window obs >=13,662,0.021508264587074832
+FDR-xz,1,xz,val,x,3,missing,all windows,918,0.02200614593047992
+FDR-xz,1,xz,val,x,3,missing,window obs <=9,256,0.02125156965883512
+FDR-xz,1,xz,val,x,3,missing,window obs 10-12,537,0.022855079896341408
+FDR-xz,1,xz,val,x,3,missing,window obs >=13,125,0.019685271853769712
+FDR-xz,1,xz,val,x,3,all,all windows,2997,0.023022675543562177
+FDR-xz,1,xz,val,x,3,all,window obs <=9,529,0.02295683848886259
+FDR-xz,1,xz,val,x,3,all,window obs 10-12,1681,0.023835962780926867
+FDR-xz,1,xz,val,x,3,all,window obs >=13,787,0.02122917683535782
+FDR-xz,1,xz,val,z,3,observed,all windows,2143,0.025468920677977187
+FDR-xz,1,xz,val,z,3,observed,window obs <=9,282,0.02266068902209354
+FDR-xz,1,xz,val,z,3,observed,window obs 10-12,1180,0.025676507851740075
+FDR-xz,1,xz,val,z,3,observed,window obs >=13,681,0.0261961464078399
+FDR-xz,1,xz,val,z,3,missing,all windows,854,0.02702963936777657
+FDR-xz,1,xz,val,z,3,missing,window obs <=9,247,0.026945687091826015
+FDR-xz,1,xz,val,z,3,missing,window obs 10-12,501,0.027823299467492936
+FDR-xz,1,xz,val,z,3,missing,window obs >=13,106,0.02313866396731874
+FDR-xz,1,xz,val,z,3,all,all windows,2997,0.025923224514311224
+FDR-xz,1,xz,val,z,3,all,window obs <=9,529,0.02475392039965689
+FDR-xz,1,xz,val,z,3,all,window obs 10-12,1681,0.026334643856010434
+FDR-xz,1,xz,val,z,3,all,window obs >=13,787,0.025805456822465468
+FDR-xz,1,xz,val,pooled,3,observed,all windows,4222,0.024499110200102925
+FDR-xz,1,xz,val,pooled,3,observed,window obs <=9,555,0.023556852447072802
+FDR-xz,1,xz,val,pooled,3,observed,window obs 10-12,2324,0.025000128583360544
+FDR-xz,1,xz,val,pooled,3,observed,window obs >=13,1343,0.024000076661912374
+FDR-xz,1,xz,val,pooled,3,missing,all windows,1772,0.024555804144125035
+FDR-xz,1,xz,val,pooled,3,missing,window obs <=9,503,0.02421558169372226
+FDR-xz,1,xz,val,pooled,3,missing,window obs 10-12,1038,0.0253747745836538
+FDR-xz,1,xz,val,pooled,3,missing,window obs >=13,231,0.02133944426494808
+FDR-xz,1,xz,val,pooled,3,all,all windows,5994,0.024515884222311077
+FDR-xz,1,xz,val,pooled,3,all,window obs <=9,1058,0.023872295747961406
+FDR-xz,1,xz,val,pooled,3,all,window obs 10-12,3362,0.02511639493156451
+FDR-xz,1,xz,val,pooled,3,all,window obs >=13,1574,0.023628368023659852
+FDR-xz,1,xz,val,x,4,observed,all windows,2078,0.02373974501629323
+FDR-xz,1,xz,val,x,4,observed,window obs <=9,271,0.02256520950595299
+FDR-xz,1,xz,val,x,4,observed,window obs 10-12,1144,0.023881711787665922
+FDR-xz,1,xz,val,x,4,observed,window obs >=13,663,0.02396122994777429
+FDR-xz,1,xz,val,x,4,missing,all windows,918,0.022488866389914316
+FDR-xz,1,xz,val,x,4,missing,window obs <=9,258,0.021677429814504885
+FDR-xz,1,xz,val,x,4,missing,window obs 10-12,536,0.02364106308681924
+FDR-xz,1,xz,val,x,4,missing,window obs >=13,124,0.018723438988198986
+FDR-xz,1,xz,val,x,4,all,all windows,2996,0.02336358268551865
+FDR-xz,1,xz,val,x,4,all,window obs <=9,529,0.02213667635739714
+FDR-xz,1,xz,val,x,4,all,window obs 10-12,1680,0.023805197657797542
+FDR-xz,1,xz,val,x,4,all,window obs >=13,787,0.023214526495422806
+FDR-xz,1,xz,val,z,4,observed,all windows,2143,0.026852556109155355
+FDR-xz,1,xz,val,z,4,observed,window obs <=9,291,0.025754422007935113
+FDR-xz,1,xz,val,z,4,observed,window obs 10-12,1175,0.026886564762386864
+FDR-xz,1,xz,val,z,4,observed,window obs >=13,677,0.027252876993174444
+FDR-xz,1,xz,val,z,4,missing,all windows,853,0.026466824757608275
+FDR-xz,1,xz,val,z,4,missing,window obs <=9,238,0.028416162319022293
+FDR-xz,1,xz,val,z,4,missing,window obs 10-12,505,0.02621913377893012
+FDR-xz,1,xz,val,z,4,missing,window obs >=13,110,0.022998386400400993
+FDR-xz,1,xz,val,z,4,all,all windows,2996,0.02674329992029791
+FDR-xz,1,xz,val,z,4,all,window obs <=9,529,0.026984462885056192
+FDR-xz,1,xz,val,z,4,all,window obs 10-12,1680,0.026687692861884608
+FDR-xz,1,xz,val,z,4,all,window obs >=13,787,0.026699009508030343
+FDR-xz,1,xz,val,pooled,4,observed,all windows,4221,0.02536789697662937
+FDR-xz,1,xz,val,pooled,4,observed,window obs <=9,562,0.02426894079632566
+FDR-xz,1,xz,val,pooled,4,observed,window obs 10-12,2319,0.02544860311860781
+FDR-xz,1,xz,val,pooled,4,observed,window obs >=13,1340,0.02567704340146785
+FDR-xz,1,xz,val,pooled,4,missing,all windows,1771,0.024485652508955017
+FDR-xz,1,xz,val,pooled,4,missing,window obs <=9,496,0.025137399019365434
+FDR-xz,1,xz,val,pooled,4,missing,window obs 10-12,1041,0.024925037082426056
+FDR-xz,1,xz,val,pooled,4,missing,window obs >=13,234,0.02084252763761526
+FDR-xz,1,xz,val,pooled,4,all,all windows,5992,0.025110367246717766
+FDR-xz,1,xz,val,pooled,4,all,window obs <=9,1058,0.02467988733105482
+FDR-xz,1,xz,val,pooled,4,all,window obs 10-12,3360,0.025287550156322933
+FDR-xz,1,xz,val,pooled,4,all,window obs >=13,1574,0.025017507361012027
+FDR-xz,1,xz,val,x,5,observed,all windows,2077,0.026668107321541526
+FDR-xz,1,xz,val,x,5,observed,window obs <=9,270,0.022548899267397404
+FDR-xz,1,xz,val,x,5,observed,window obs 10-12,1139,0.02694394326903938
+FDR-xz,1,xz,val,x,5,observed,window obs >=13,668,0.027711309616306728
+FDR-xz,1,xz,val,x,5,missing,all windows,918,0.023923403878625644
+FDR-xz,1,xz,val,x,5,missing,window obs <=9,259,0.027550956155834836
+FDR-xz,1,xz,val,x,5,missing,window obs 10-12,540,0.021357655647052182
+FDR-xz,1,xz,val,x,5,missing,window obs >=13,119,0.026327328020428135
+FDR-xz,1,xz,val,x,5,all,all windows,2995,0.025857808323406284
+FDR-xz,1,xz,val,x,5,all,window obs <=9,529,0.025122669352625877
+FDR-xz,1,xz,val,x,5,all,window obs 10-12,1679,0.025282294927732936
+FDR-xz,1,xz,val,x,5,all,window obs >=13,787,0.02750651068955227
+FDR-xz,1,xz,val,z,5,observed,all windows,2142,0.028612271349093638
+FDR-xz,1,xz,val,z,5,observed,window obs <=9,286,0.026146231847656715
+FDR-xz,1,xz,val,z,5,observed,window obs 10-12,1186,0.028473112027688714
+FDR-xz,1,xz,val,z,5,observed,window obs >=13,670,0.029839010956950542
+FDR-xz,1,xz,val,z,5,missing,all windows,853,0.025669103154885832
+FDR-xz,1,xz,val,z,5,missing,window obs <=9,243,0.026120311378846597
+FDR-xz,1,xz,val,z,5,missing,window obs 10-12,493,0.02566132083891312
+FDR-xz,1,xz,val,z,5,missing,window obs >=13,117,0.02473970388883686
+FDR-xz,1,xz,val,z,5,all,all windows,2995,0.02780577938344892
+FDR-xz,1,xz,val,z,5,all,window obs <=9,529,0.02613432828397484
+FDR-xz,1,xz,val,z,5,all,window obs 10-12,1679,0.027677133745235543
+FDR-xz,1,xz,val,z,5,all,window obs >=13,787,0.029137447580837354
+FDR-xz,1,xz,val,pooled,5,observed,all windows,4219,0.027672240778031147
+FDR-xz,1,xz,val,pooled,5,observed,window obs <=9,556,0.02446547808243674
+FDR-xz,1,xz,val,pooled,5,observed,window obs 10-12,2325,0.027734520476403096
+FDR-xz,1,xz,val,pooled,5,observed,window obs >=13,1338,0.02879640854135642
+FDR-xz,1,xz,val,pooled,5,missing,all windows,1771,0.02477957473869619
+FDR-xz,1,xz,val,pooled,5,missing,window obs <=9,502,0.02686794713931114
+FDR-xz,1,xz,val,pooled,5,missing,window obs 10-12,1033,0.023510062014413646
+FDR-xz,1,xz,val,pooled,5,missing,window obs >=13,236,0.025552575482824837
+FDR-xz,1,xz,val,pooled,5,all,all windows,5990,0.02684946571545747
+FDR-xz,1,xz,val,pooled,5,all,window obs <=9,1058,0.025633490108215216
+FDR-xz,1,xz,val,pooled,5,all,window obs 10-12,3358,0.02650677431492303
+FDR-xz,1,xz,val,pooled,5,all,window obs >=13,1574,0.028333716503844832
+FDR-xz,1,xz,val,x,6,observed,all windows,2077,0.03327277293423412
+FDR-xz,1,xz,val,x,6,observed,window obs <=9,269,0.03917581271854815
+FDR-xz,1,xz,val,x,6,observed,window obs 10-12,1143,0.03154795895548497
+FDR-xz,1,xz,val,x,6,observed,window obs >=13,665,0.0335596366499781
+FDR-xz,1,xz,val,x,6,missing,all windows,917,0.0348261507306012
+FDR-xz,1,xz,val,x,6,missing,window obs <=9,260,0.038563462677704406
+FDR-xz,1,xz,val,x,6,missing,window obs 10-12,535,0.031537050535254865
+FDR-xz,1,xz,val,x,6,missing,window obs >=13,122,0.0398185935377026
+FDR-xz,1,xz,val,x,6,all,all windows,2994,0.033756135190986275
+FDR-xz,1,xz,val,x,6,all,window obs <=9,529,0.03887605206160536
+FDR-xz,1,xz,val,x,6,all,window obs 10-12,1678,0.031544481412295225
+FDR-xz,1,xz,val,x,6,all,window obs >=13,787,0.034604118229502503
+FDR-xz,1,xz,val,z,6,observed,all windows,2141,0.03214566606002994
+FDR-xz,1,xz,val,z,6,observed,window obs <=9,285,0.03495690776408403
+FDR-xz,1,xz,val,z,6,observed,window obs 10-12,1199,0.030451992030517433
+FDR-xz,1,xz,val,z,6,observed,window obs >=13,657,0.0338377829041913
+FDR-xz,1,xz,val,z,6,missing,all windows,853,0.030108042529630508
+FDR-xz,1,xz,val,z,6,missing,window obs <=9,244,0.030153866189446724
+FDR-xz,1,xz,val,z,6,missing,window obs 10-12,479,0.030897086987863493
+FDR-xz,1,xz,val,z,6,missing,window obs >=13,130,0.02690630948788769
+FDR-xz,1,xz,val,z,6,all,all windows,2994,0.03157853687277992
+FDR-xz,1,xz,val,z,6,all,window obs <=9,529,0.0328289436357724
+FDR-xz,1,xz,val,z,6,all,window obs 10-12,1678,0.03057970905840409
+FDR-xz,1,xz,val,z,6,all,window obs >=13,787,0.03279398384626987
+FDR-xz,1,xz,val,pooled,6,observed,all windows,4218,0.032705523239081706
+FDR-xz,1,xz,val,pooled,6,observed,window obs <=9,554,0.03706546205378379
+FDR-xz,1,xz,val,pooled,6,observed,window obs 10-12,2342,0.030991714781706425
+FDR-xz,1,xz,val,pooled,6,observed,window obs >=13,1322,0.03369815515463304
+FDR-xz,1,xz,val,pooled,6,missing,all windows,1770,0.032637652031299126
+FDR-xz,1,xz,val,pooled,6,missing,window obs <=9,504,0.03474724345656904
+FDR-xz,1,xz,val,pooled,6,missing,window obs 10-12,1014,0.031236374310784035
+FDR-xz,1,xz,val,pooled,6,missing,window obs >=13,252,0.03377956796942621
+FDR-xz,1,xz,val,pooled,6,all,all windows,5988,0.03268547578097696
+FDR-xz,1,xz,val,pooled,6,all,window obs <=9,1058,0.03597976489735148
+FDR-xz,1,xz,val,pooled,6,all,window obs 10-12,3356,0.031065840674825464
+FDR-xz,1,xz,val,pooled,6,all,window obs >=13,1574,0.033711202699924524
+FDR-xz,1,xz,val,x,7,observed,all windows,2076,0.050552685310474146
+FDR-xz,1,xz,val,x,7,observed,window obs <=9,268,0.05208575815537508
+FDR-xz,1,xz,val,x,7,observed,window obs 10-12,1146,0.050224716416787205
+FDR-xz,1,xz,val,x,7,observed,window obs >=13,662,0.05048850507556875
+FDR-xz,1,xz,val,x,7,missing,all windows,917,0.06281384460041613
+FDR-xz,1,xz,val,x,7,missing,window obs <=9,261,0.08251211444018565
+FDR-xz,1,xz,val,x,7,missing,window obs 10-12,531,0.05263792781147855
+FDR-xz,1,xz,val,x,7,missing,window obs >=13,125,0.054396617306519596
+FDR-xz,1,xz,val,x,7,all,all windows,2993,0.05460261818929283
+FDR-xz,1,xz,val,x,7,all,window obs <=9,529,0.06880037723240712
+FDR-xz,1,xz,val,x,7,all,window obs 10-12,1677,0.05100118317040575
+FDR-xz,1,xz,val,x,7,all,window obs >=13,787,0.051129193448172246
+FDR-xz,1,xz,val,z,7,observed,all windows,2140,0.038536468892753355
+FDR-xz,1,xz,val,z,7,observed,window obs <=9,292,0.043955396050608546
+FDR-xz,1,xz,val,z,7,observed,window obs 10-12,1191,0.03793497837864479
+FDR-xz,1,xz,val,z,7,observed,window obs >=13,657,0.03701036948377255
+FDR-xz,1,xz,val,z,7,missing,all windows,853,0.03647124067672151
+FDR-xz,1,xz,val,z,7,missing,window obs <=9,237,0.03657551243157208
+FDR-xz,1,xz,val,z,7,missing,window obs 10-12,486,0.037405309329706295
+FDR-xz,1,xz,val,z,7,missing,window obs >=13,130,0.03253137143061303
+FDR-xz,1,xz,val,z,7,all,all windows,2993,0.037959332220318914
+FDR-xz,1,xz,val,z,7,all,window obs <=9,529,0.040814428113409074
+FDR-xz,1,xz,val,z,7,all,window obs 10-12,1677,0.03778224273119955
+FDR-xz,1,xz,val,z,7,all,window obs >=13,787,0.03630862574307704
+FDR-xz,1,xz,val,pooled,7,observed,all windows,4216,0.044857456077300094
+FDR-xz,1,xz,val,pooled,7,observed,window obs <=9,560,0.04801842392242066
+FDR-xz,1,xz,val,pooled,7,observed,window obs 10-12,2337,0.04438874979240748
+FDR-xz,1,xz,val,pooled,7,observed,window obs >=13,1319,0.04429067118750099
+FDR-xz,1,xz,val,pooled,7,missing,all windows,1770,0.05181843111445755
+FDR-xz,1,xz,val,pooled,7,missing,window obs <=9,498,0.06484464038650196
+FDR-xz,1,xz,val,pooled,7,missing,window obs 10-12,1017,0.045992383188136386
+FDR-xz,1,xz,val,pooled,7,missing,window obs >=13,255,0.04460949135485166
+FDR-xz,1,xz,val,pooled,7,all,all windows,5986,0.047023168841211854
+FDR-xz,1,xz,val,pooled,7,all,window obs <=9,1058,0.05656549058191823
+FDR-xz,1,xz,val,pooled,7,all,window obs 10-12,3354,0.04488105697608157
+FDR-xz,1,xz,val,pooled,7,all,window obs >=13,1574,0.04434247808823644
+FDR-xz,1,xz,test,x,0,observed,all windows,2090,0.03342278142995644
+FDR-xz,1,xz,test,x,0,observed,window obs <=9,278,0.03680165228654264
+FDR-xz,1,xz,test,x,0,observed,window obs 10-12,1148,0.034570972884445654
+FDR-xz,1,xz,test,x,0,observed,window obs >=13,664,0.029711332851127144
+FDR-xz,1,xz,test,x,0,missing,all windows,910,0.031544194960981466
+FDR-xz,1,xz,test,x,0,missing,window obs <=9,276,0.03985867974657
+FDR-xz,1,xz,test,x,0,missing,window obs 10-12,518,0.02774807513374135
+FDR-xz,1,xz,test,x,0,missing,window obs >=13,116,0.024240315283744093
+FDR-xz,1,xz,test,x,0,all,all windows,3000,0.032864291767893676
+FDR-xz,1,xz,test,x,0,all,window obs <=9,554,0.038355116499537725
+FDR-xz,1,xz,test,x,0,all,window obs 10-12,1666,0.03260288660091559
+FDR-xz,1,xz,test,x,0,all,window obs >=13,780,0.028963186309327735
+FDR-xz,1,xz,test,z,0,observed,all windows,2111,0.03684575864765416
+FDR-xz,1,xz,test,z,0,observed,window obs <=9,307,0.04172434144793317
+FDR-xz,1,xz,test,z,0,observed,window obs 10-12,1156,0.0359698224536088
+FDR-xz,1,xz,test,z,0,observed,window obs >=13,648,0.035913704059179846
+FDR-xz,1,xz,test,z,0,missing,all windows,889,0.03428453456268853
+FDR-xz,1,xz,test,z,0,missing,window obs <=9,247,0.04378748296639642
+FDR-xz,1,xz,test,z,0,missing,window obs 10-12,510,0.02957036716822511
+FDR-xz,1,xz,test,z,0,missing,window obs >=13,132,0.030825191173214403
+FDR-xz,1,xz,test,z,0,all,all windows,3000,0.03610573001458447
+FDR-xz,1,xz,test,z,0,all,window obs <=9,554,0.04265651855339965
+FDR-xz,1,xz,test,z,0,all,window obs 10-12,1666,0.03413845026749805
+FDR-xz,1,xz,test,z,0,all,window obs >=13,780,0.03510445951049006
+FDR-xz,1,xz,test,pooled,0,observed,all windows,4201,0.03518447527405106
+FDR-xz,1,xz,test,pooled,0,observed,window obs <=9,585,0.03946165884131565
+FDR-xz,1,xz,test,pooled,0,observed,window obs 10-12,2304,0.03527975990838359
+FDR-xz,1,xz,test,pooled,0,observed,window obs >=13,1312,0.032921069608350347
+FDR-xz,1,xz,test,pooled,0,missing,all windows,1799,0.032926887115120575
+FDR-xz,1,xz,test,pooled,0,missing,window obs <=9,523,0.041760242696663466
+FDR-xz,1,xz,test,pooled,0,missing,window obs 10-12,1028,0.028666613335924372
+FDR-xz,1,xz,test,pooled,0,missing,window obs >=13,248,0.027939030170307626
+FDR-xz,1,xz,test,pooled,0,all,all windows,6000,0.03452307498826915
+FDR-xz,1,xz,test,pooled,0,all,window obs <=9,1108,0.040562874261999976
+FDR-xz,1,xz,test,pooled,0,all,window obs 10-12,3332,0.0333794997069953
+FDR-xz,1,xz,test,pooled,0,all,window obs >=13,1560,0.03218065598082539
+FDR-xz,1,xz,test,x,1,observed,all windows,2089,0.029731252991589185
+FDR-xz,1,xz,test,x,1,observed,window obs <=9,273,0.031847306304118236
+FDR-xz,1,xz,test,x,1,observed,window obs 10-12,1148,0.029931386714814653
+FDR-xz,1,xz,test,x,1,observed,window obs >=13,668,0.02846355758134107
+FDR-xz,1,xz,test,x,1,missing,all windows,910,0.02796118697274182
+FDR-xz,1,xz,test,x,1,missing,window obs <=9,281,0.03200652984236816
+FDR-xz,1,xz,test,x,1,missing,window obs 10-12,517,0.026556793305310862
+FDR-xz,1,xz,test,x,1,missing,window obs >=13,112,0.022948098155521086
+FDR-xz,1,xz,test,x,1,all,all windows,2999,0.02920549347723507
+FDR-xz,1,xz,test,x,1,all,window obs <=9,554,0.03192816693571814
+FDR-xz,1,xz,test,x,1,all,window obs 10-12,1665,0.028925714449018432
+FDR-xz,1,xz,test,x,1,all,window obs >=13,780,0.027739105253522255
+FDR-xz,1,xz,test,z,1,observed,all windows,2111,0.02641974935203205
+FDR-xz,1,xz,test,z,1,observed,window obs <=9,297,0.03238324211732564
+FDR-xz,1,xz,test,z,1,observed,window obs 10-12,1171,0.025582781597068012
+FDR-xz,1,xz,test,z,1,observed,window obs >=13,643,0.024805112842350714
+FDR-xz,1,xz,test,z,1,missing,all windows,888,0.027743898829815702
+FDR-xz,1,xz,test,z,1,missing,window obs <=9,257,0.03130404065250962
+FDR-xz,1,xz,test,z,1,missing,window obs 10-12,494,0.026310925568337126
+FDR-xz,1,xz,test,z,1,missing,window obs >=13,137,0.02558664807151489
+FDR-xz,1,xz,test,z,1,all,all windows,2999,0.026818642424690207
+FDR-xz,1,xz,test,z,1,all,window obs <=9,554,0.031887143865509206
+FDR-xz,1,xz,test,z,1,all,window obs 10-12,1665,0.025800963593111993
+FDR-xz,1,xz,test,z,1,all,window obs >=13,780,0.024944155276662067
+FDR-xz,1,xz,test,pooled,1,observed,all windows,4200,0.028115623473353755
+FDR-xz,1,xz,test,pooled,1,observed,window obs <=9,570,0.032127672630687734
+FDR-xz,1,xz,test,pooled,1,observed,window obs 10-12,2319,0.027820606679734704
+FDR-xz,1,xz,test,pooled,1,observed,window obs >=13,1311,0.026731853562142808
+FDR-xz,1,xz,test,pooled,1,missing,all windows,1798,0.02785408410097376
+FDR-xz,1,xz,test,pooled,1,missing,window obs <=9,538,0.0316728979429541
+FDR-xz,1,xz,test,pooled,1,missing,window obs 10-12,1011,0.026436941831648044
+FDR-xz,1,xz,test,pooled,1,missing,window obs >=13,249,0.024435111354465695
+FDR-xz,1,xz,test,pooled,1,all,all windows,5998,0.02803747876282935
+FDR-xz,1,xz,test,pooled,1,all,window obs <=9,1108,0.03190766199343636
+FDR-xz,1,xz,test,pooled,1,all,window obs 10-12,3330,0.02740790651180097
+FDR-xz,1,xz,test,pooled,1,all,window obs >=13,1560,0.026378673608923306
+FDR-xz,1,xz,test,x,2,observed,all windows,2088,0.02322566590256038
+FDR-xz,1,xz,test,x,2,observed,window obs <=9,277,0.025221004645124327
+FDR-xz,1,xz,test,x,2,observed,window obs 10-12,1134,0.023297248659760027
+FDR-xz,1,xz,test,x,2,observed,window obs >=13,677,0.02223288084546728
+FDR-xz,1,xz,test,x,2,missing,all windows,910,0.023548795765073093
+FDR-xz,1,xz,test,x,2,missing,window obs <=9,277,0.029579802764766742
+FDR-xz,1,xz,test,x,2,missing,window obs 10-12,530,0.02043754000288114
+FDR-xz,1,xz,test,x,2,missing,window obs >=13,103,0.019925618731011795
+FDR-xz,1,xz,test,x,2,all,all windows,2998,0.02332422053253086
+FDR-xz,1,xz,test,x,2,all,window obs <=9,554,0.027486940598326737
+FDR-xz,1,xz,test,x,2,all,window obs 10-12,1664,0.022426016018513725
+FDR-xz,1,xz,test,x,2,all,window obs >=13,780,0.021942111768828272
+FDR-xz,1,xz,test,z,2,observed,all windows,2110,0.027244994380635323
+FDR-xz,1,xz,test,z,2,observed,window obs <=9,305,0.029011419106639246
+FDR-xz,1,xz,test,z,2,observed,window obs 10-12,1170,0.02664684302577329
+FDR-xz,1,xz,test,z,2,observed,window obs >=13,635,0.027458223050463824
+FDR-xz,1,xz,test,z,2,missing,all windows,888,0.029838603494134926
+FDR-xz,1,xz,test,z,2,missing,window obs <=9,249,0.03796864664486554
+FDR-xz,1,xz,test,z,2,missing,window obs 10-12,494,0.02580876880190019
+FDR-xz,1,xz,test,z,2,missing,window obs >=13,145,0.026601956551746662
+FDR-xz,1,xz,test,z,2,all,all windows,2998,0.028038232928221937
+FDR-xz,1,xz,test,z,2,all,window obs <=9,554,0.03333643071905525
+FDR-xz,1,xz,test,z,2,all,window obs 10-12,1664,0.02640081655346393
+FDR-xz,1,xz,test,z,2,all,window obs >=13,780,0.027301077552388094
+FDR-xz,1,xz,test,pooled,2,observed,all windows,4198,0.02532572182612007
+FDR-xz,1,xz,test,pooled,2,observed,window obs <=9,582,0.02727316593497557
+FDR-xz,1,xz,test,pooled,2,observed,window obs 10-12,2304,0.0250542409868754
+FDR-xz,1,xz,test,pooled,2,observed,window obs >=13,1312,0.02489922629882992
+FDR-xz,1,xz,test,pooled,2,missing,all windows,1798,0.026840075410070812
+FDR-xz,1,xz,test,pooled,2,missing,window obs <=9,526,0.033811379744984306
+FDR-xz,1,xz,test,pooled,2,missing,window obs 10-12,1024,0.02318461551672809
+FDR-xz,1,xz,test,pooled,2,missing,window obs >=13,248,0.02405516278349696
+FDR-xz,1,xz,test,pooled,2,all,all windows,5996,0.025789162153774626
+FDR-xz,1,xz,test,pooled,2,all,window obs <=9,1108,0.030552000888176813
+FDR-xz,1,xz,test,pooled,2,all,window obs 10-12,3328,0.02449417593176273
+FDR-xz,1,xz,test,pooled,2,all,window obs >=13,1560,0.024766964937162378
+FDR-xz,1,xz,test,x,3,observed,all windows,2087,0.023510878289536068
+FDR-xz,1,xz,test,x,3,observed,window obs <=9,272,0.02973894653319058
+FDR-xz,1,xz,test,x,3,observed,window obs 10-12,1136,0.023563761246039542
+FDR-xz,1,xz,test,x,3,observed,window obs >=13,679,0.02038979265892315
+FDR-xz,1,xz,test,x,3,missing,all windows,910,0.02395717052580887
+FDR-xz,1,xz,test,x,3,missing,window obs <=9,282,0.029320686798538772
+FDR-xz,1,xz,test,x,3,missing,window obs 10-12,527,0.021911616436455714
+FDR-xz,1,xz,test,x,3,missing,window obs >=13,101,0.01629919666512552
+FDR-xz,1,xz,test,x,3,all,all windows,2997,0.02364727959581042
+FDR-xz,1,xz,test,x,3,all,window obs <=9,554,0.029526782130413227
+FDR-xz,1,xz,test,x,3,all,window obs 10-12,1663,0.02305302050433677
+FDR-xz,1,xz,test,x,3,all,window obs >=13,780,0.019907542049026596
+FDR-xz,1,xz,test,z,3,observed,all windows,2109,0.02720625413209905
+FDR-xz,1,xz,test,z,3,observed,window obs <=9,286,0.03000673168304933
+FDR-xz,1,xz,test,z,3,observed,window obs 10-12,1160,0.02676673252323931
+FDR-xz,1,xz,test,z,3,observed,window obs >=13,663,0.02669399248763513
+FDR-xz,1,xz,test,z,3,missing,all windows,888,0.029603120184926366
+FDR-xz,1,xz,test,z,3,missing,window obs <=9,268,0.03611769588657343
+FDR-xz,1,xz,test,z,3,missing,window obs 10-12,503,0.026347249747973197
+FDR-xz,1,xz,test,z,3,missing,window obs >=13,117,0.02605386037315857
+FDR-xz,1,xz,test,z,3,all,all windows,2997,0.027937882692099163
+FDR-xz,1,xz,test,z,3,all,window obs <=9,554,0.03310409958827443
+FDR-xz,1,xz,test,z,3,all,window obs 10-12,1663,0.02664055027830659
+FDR-xz,1,xz,test,z,3,all,window obs >=13,780,0.026598954786646013
+FDR-xz,1,xz,test,pooled,3,observed,all windows,4196,0.0254354508076397
+FDR-xz,1,xz,test,pooled,3,observed,window obs <=9,558,0.029876498254815458
+FDR-xz,1,xz,test,pooled,3,observed,window obs 10-12,2296,0.025232854633785114
+FDR-xz,1,xz,test,pooled,3,observed,window obs >=13,1342,0.023714699823085068
+FDR-xz,1,xz,test,pooled,3,missing,all windows,1798,0.02689415037601647
+FDR-xz,1,xz,test,pooled,3,missing,window obs <=9,550,0.032809059902102394
+FDR-xz,1,xz,test,pooled,3,missing,window obs 10-12,1030,0.02417962706633872
+FDR-xz,1,xz,test,pooled,3,missing,window obs >=13,218,0.022077020196507424
+FDR-xz,1,xz,test,pooled,3,all,all windows,5994,0.02588164524909425
+FDR-xz,1,xz,test,pooled,3,all,window obs <=9,1108,0.03136648109469151
+FDR-xz,1,xz,test,pooled,3,all,window obs 10-12,3326,0.024911449912684257
+FDR-xz,1,xz,test,pooled,3,all,window obs >=13,1560,0.023492707657651993
+FDR-xz,1,xz,test,x,4,observed,all windows,2086,0.02405255200089438
+FDR-xz,1,xz,test,x,4,observed,window obs <=9,267,0.0312300996239187
+FDR-xz,1,xz,test,x,4,observed,window obs 10-12,1152,0.02420410011716405
+FDR-xz,1,xz,test,x,4,observed,window obs >=13,667,0.020175674235689067
+FDR-xz,1,xz,test,x,4,missing,all windows,910,0.025721602155937225
+FDR-xz,1,xz,test,x,4,missing,window obs <=9,287,0.030896925307305655
+FDR-xz,1,xz,test,x,4,missing,window obs 10-12,510,0.022630097177742534
+FDR-xz,1,xz,test,x,4,missing,window obs >=13,113,0.024331585440890445
+FDR-xz,1,xz,test,x,4,all,all windows,2996,0.024571497482032943
+FDR-xz,1,xz,test,x,4,all,window obs <=9,554,0.03105794467594151
+FDR-xz,1,xz,test,x,4,all,window obs 10-12,1662,0.023732207483099323
+FDR-xz,1,xz,test,x,4,all,window obs >=13,780,0.02082917446215243
+FDR-xz,1,xz,test,z,4,observed,all windows,2108,0.027846998222903967
+FDR-xz,1,xz,test,z,4,observed,window obs <=9,300,0.031644319792828335
+FDR-xz,1,xz,test,z,4,observed,window obs 10-12,1146,0.027728881608413445
+FDR-xz,1,xz,test,z,4,observed,window obs >=13,662,0.026161881530993854
+FDR-xz,1,xz,test,z,4,missing,all windows,888,0.029842319103946132
+FDR-xz,1,xz,test,z,4,missing,window obs <=9,254,0.03372758011897254
+FDR-xz,1,xz,test,z,4,missing,window obs 10-12,516,0.028722314261644975
+FDR-xz,1,xz,test,z,4,missing,window obs >=13,118,0.025411530975186107
+FDR-xz,1,xz,test,z,4,all,all windows,2996,0.028452995893077204
+FDR-xz,1,xz,test,z,4,all,window obs <=9,554,0.03261598316849634
+FDR-xz,1,xz,test,z,4,all,window obs 10-12,1662,0.02804107946573691
+FDR-xz,1,xz,test,z,4,all,window obs >=13,780,0.026049754536896064
+FDR-xz,1,xz,test,pooled,4,observed,all windows,4194,0.026028960619717566
+FDR-xz,1,xz,test,pooled,4,observed,window obs <=9,567,0.031449943381931744
+FDR-xz,1,xz,test,pooled,4,observed,window obs 10-12,2298,0.026021639015429355
+FDR-xz,1,xz,test,pooled,4,observed,window obs >=13,1329,0.023350142249407006
+FDR-xz,1,xz,test,pooled,4,missing,all windows,1798,0.027833103268598464
+FDR-xz,1,xz,test,pooled,4,missing,window obs <=9,541,0.0322568696757604
+FDR-xz,1,xz,test,pooled,4,missing,window obs 10-12,1026,0.025873946038498966
+FDR-xz,1,xz,test,pooled,4,missing,window obs >=13,231,0.024889101269687387
+FDR-xz,1,xz,test,pooled,4,all,all windows,5992,0.026583185134601717
+FDR-xz,1,xz,test,pooled,4,all,window obs <=9,1108,0.03184649341404388
+FDR-xz,1,xz,test,pooled,4,all,window obs 10-12,3324,0.02597614106853294
+FDR-xz,1,xz,test,pooled,4,all,window obs >=13,1560,0.023584361558110067
+FDR-xz,1,xz,test,x,5,observed,all windows,2085,0.025496725283509238
+FDR-xz,1,xz,test,x,5,observed,window obs <=9,257,0.02843535129279222
+FDR-xz,1,xz,test,x,5,observed,window obs 10-12,1167,0.025705431613419098
+FDR-xz,1,xz,test,x,5,observed,window obs >=13,661,0.023866214890679138
+FDR-xz,1,xz,test,x,5,missing,all windows,910,0.03545901004294047
+FDR-xz,1,xz,test,x,5,missing,window obs <=9,297,0.05055899261310787
+FDR-xz,1,xz,test,x,5,missing,window obs 10-12,494,0.026257952734416702
+FDR-xz,1,xz,test,x,5,missing,window obs >=13,119,0.019312255526923602
+FDR-xz,1,xz,test,x,5,all,all windows,2995,0.02888930992804938
+FDR-xz,1,xz,test,x,5,all,window obs <=9,554,0.04177896907198421
+FDR-xz,1,xz,test,x,5,all,window obs 10-12,1661,0.025870990469918472
+FDR-xz,1,xz,test,x,5,all,window obs >=13,780,0.023229228917008824
+FDR-xz,1,xz,test,z,5,observed,all windows,2107,0.030362844998519243
+FDR-xz,1,xz,test,z,5,observed,window obs <=9,307,0.03723374075727711
+FDR-xz,1,xz,test,z,5,observed,window obs 10-12,1122,0.02971564375028213
+FDR-xz,1,xz,test,z,5,observed,window obs >=13,678,0.02785578402502845
+FDR-xz,1,xz,test,z,5,missing,all windows,888,0.02839236813439198
+FDR-xz,1,xz,test,z,5,missing,window obs <=9,247,0.032520165110064995
+FDR-xz,1,xz,test,z,5,missing,window obs 10-12,539,0.02719639893581764
+FDR-xz,1,xz,test,z,5,missing,window obs >=13,102,0.02342167031715729
+FDR-xz,1,xz,test,z,5,all,all windows,2995,0.02979220555298322
+FDR-xz,1,xz,test,z,5,all,window obs <=9,554,0.035210237492998786
+FDR-xz,1,xz,test,z,5,all,window obs 10-12,1661,0.028922200844495125
+FDR-xz,1,xz,test,z,5,all,window obs >=13,780,0.027316875651947587
+FDR-xz,1,xz,test,pooled,5,observed,all windows,4192,0.02804827881945501
+FDR-xz,1,xz,test,pooled,5,observed,window obs <=9,564,0.03351225510457905
+FDR-xz,1,xz,test,pooled,5,observed,window obs 10-12,2289,0.02774364275452357
+FDR-xz,1,xz,test,pooled,5,observed,window obs >=13,1339,0.025963057658158276
+FDR-xz,1,xz,test,pooled,5,missing,all windows,1798,0.03216355813486289
+FDR-xz,1,xz,test,pooled,5,missing,window obs <=9,544,0.043310024784838454
+FDR-xz,1,xz,test,pooled,5,missing,window obs 10-12,1033,0.026751723912146086
+FDR-xz,1,xz,test,pooled,5,missing,window obs >=13,221,0.02130761932598467
+FDR-xz,1,xz,test,pooled,5,all,all windows,5990,0.029344230606970226
+FDR-xz,1,xz,test,pooled,5,all,window obs <=9,1108,0.03863446053092492
+FDR-xz,1,xz,test,pooled,5,all,window obs 10-12,3322,0.0274390401579932
+FDR-xz,1,xz,test,pooled,5,all,window obs >=13,1560,0.025355559266783744
+FDR-xz,1,xz,test,x,6,observed,all windows,2084,0.031787336398025404
+FDR-xz,1,xz,test,x,6,observed,window obs <=9,269,0.03822822932645642
+FDR-xz,1,xz,test,x,6,observed,window obs 10-12,1163,0.031646999809508934
+FDR-xz,1,xz,test,x,6,observed,window obs >=13,652,0.0289871900936612
+FDR-xz,1,xz,test,x,6,missing,all windows,910,0.05246493036115008
+FDR-xz,1,xz,test,x,6,missing,window obs <=9,285,0.0806940334637129
+FDR-xz,1,xz,test,x,6,missing,window obs 10-12,497,0.03362415141879554
+FDR-xz,1,xz,test,x,6,missing,window obs >=13,128,0.02609365360969509
+FDR-xz,1,xz,test,x,6,all,all windows,2994,0.03924208366871956
+FDR-xz,1,xz,test,x,6,all,window obs <=9,554,0.0637133293360076
+FDR-xz,1,xz,test,x,6,all,window obs 10-12,1660,0.03225166885460628
+FDR-xz,1,xz,test,x,6,all,window obs >=13,780,0.02853248640348934
+FDR-xz,1,xz,test,z,6,observed,all windows,2106,0.03391449197798903
+FDR-xz,1,xz,test,z,6,observed,window obs <=9,307,0.040761143619604284
+FDR-xz,1,xz,test,z,6,observed,window obs 10-12,1141,0.03402812651764985
+FDR-xz,1,xz,test,z,6,observed,window obs >=13,658,0.029970989975772324
+FDR-xz,1,xz,test,z,6,missing,all windows,888,0.03538404212727668
+FDR-xz,1,xz,test,z,6,missing,window obs <=9,247,0.045886867189861465
+FDR-xz,1,xz,test,z,6,missing,window obs 10-12,519,0.029995334046587874
+FDR-xz,1,xz,test,z,6,missing,window obs >=13,122,0.03197898687608869
+FDR-xz,1,xz,test,z,6,all,all windows,2994,0.0343569079735243
+FDR-xz,1,xz,test,z,6,all,window obs <=9,554,0.04312177107550183
+FDR-xz,1,xz,test,z,6,all,window obs 10-12,1660,0.03282055901750383
+FDR-xz,1,xz,test,z,6,all,window obs >=13,780,0.030293843442442958
+FDR-xz,1,xz,test,pooled,6,observed,all windows,4190,0.03287370784039334
+FDR-xz,1,xz,test,pooled,6,observed,window obs <=9,576,0.039598406707828035
+FDR-xz,1,xz,test,pooled,6,observed,window obs 10-12,2304,0.03284777596599978
+FDR-xz,1,xz,test,pooled,6,observed,window obs >=13,1310,0.029485446346300057
+FDR-xz,1,xz,test,pooled,6,missing,all windows,1798,0.044849524357441314
+FDR-xz,1,xz,test,pooled,6,missing,window obs <=9,532,0.06682754059521474
+FDR-xz,1,xz,test,pooled,6,missing,window obs 10-12,1016,0.03182219830977791
+FDR-xz,1,xz,test,pooled,6,missing,window obs >=13,250,0.029114701750951932
+FDR-xz,1,xz,test,pooled,6,all,all windows,5988,0.036880470822401416
+FDR-xz,1,xz,test,pooled,6,all,window obs <=9,1108,0.05440071449791148
+FDR-xz,1,xz,test,pooled,6,all,window obs 10-12,3320,0.032537357284578544
+FDR-xz,1,xz,test,pooled,6,all,window obs >=13,1560,0.02942634645076201
+FDR-xz,1,xz,test,x,7,observed,all windows,2084,0.050635312585963765
+FDR-xz,1,xz,test,x,7,observed,window obs <=9,273,0.057529255703691204
+FDR-xz,1,xz,test,x,7,observed,window obs 10-12,1159,0.05081043268143304
+FDR-xz,1,xz,test,x,7,observed,window obs >=13,652,0.047118258489451746
+FDR-xz,1,xz,test,x,7,missing,all windows,909,0.09141486538536311
+FDR-xz,1,xz,test,x,7,missing,window obs <=9,281,0.1372563761870638
+FDR-xz,1,xz,test,x,7,missing,window obs 10-12,500,0.061316364973515745
+FDR-xz,1,xz,test,x,7,missing,window obs >=13,128,0.05745410844578728
+FDR-xz,1,xz,test,x,7,all,all windows,2993,0.06575135721988244
+FDR-xz,1,xz,test,x,7,all,window obs <=9,554,0.10576668574272667
+FDR-xz,1,xz,test,x,7,all,window obs 10-12,1659,0.054191624632154316
+FDR-xz,1,xz,test,x,7,all,window obs >=13,780,0.0489642686369986
+FDR-xz,1,xz,test,z,7,observed,all windows,2105,0.03898031604944987
+FDR-xz,1,xz,test,z,7,observed,window obs <=9,306,0.04255997741463327
+FDR-xz,1,xz,test,z,7,observed,window obs 10-12,1147,0.03847425942611142
+FDR-xz,1,xz,test,z,7,observed,window obs >=13,652,0.038097633821061405
+FDR-xz,1,xz,test,z,7,missing,all windows,888,0.04511503092252717
+FDR-xz,1,xz,test,z,7,missing,window obs <=9,248,0.052378694530215035
+FDR-xz,1,xz,test,z,7,missing,window obs 10-12,512,0.044822313308081486
+FDR-xz,1,xz,test,z,7,missing,window obs >=13,128,0.02772377761147387
+FDR-xz,1,xz,test,z,7,all,all windows,2993,0.040896563145504494
+FDR-xz,1,xz,test,z,7,all,window obs <=9,554,0.047208510296704156
+FDR-xz,1,xz,test,z,7,all,window obs 10-12,1659,0.04053958312873985
+FDR-xz,1,xz,test,z,7,all,window obs >=13,780,0.03659749834466375
+FDR-xz,1,xz,test,pooled,7,observed,all windows,4189,0.04515619479810541
+FDR-xz,1,xz,test,pooled,7,observed,window obs <=9,579,0.050177553139198604
+FDR-xz,1,xz,test,pooled,7,observed,window obs 10-12,2306,0.04509822809329827
+FDR-xz,1,xz,test,pooled,7,observed,window obs >=13,1304,0.042846003231587854
+FDR-xz,1,xz,test,pooled,7,missing,all windows,1797,0.07233918503642911
+FDR-xz,1,xz,test,pooled,7,missing,window obs <=9,529,0.10627070466845674
+FDR-xz,1,xz,test,pooled,7,missing,window obs 10-12,1012,0.053609596188814224
+FDR-xz,1,xz,test,pooled,7,missing,window obs >=13,256,0.045108660046330046
+FDR-xz,1,xz,test,pooled,7,all,all windows,5986,0.05475294445676335
+FDR-xz,1,xz,test,pooled,7,all,window obs <=9,1108,0.08190004657335281
+FDR-xz,1,xz,test,pooled,7,all,window obs 10-12,3318,0.04785493694763542
+FDR-xz,1,xz,test,pooled,7,all,window obs >=13,1560,0.043225435152487654
+C-xz,2,xz,val,x,0,observed,all windows,2111,0.04642896737028233
+C-xz,2,xz,val,x,0,observed,window obs <=9,245,0.045801632593366816
+C-xz,2,xz,val,x,0,observed,window obs 10-12,1243,0.046084147236119775
+C-xz,2,xz,val,x,0,observed,window obs >=13,623,0.04735028920914027
+C-xz,2,xz,val,x,0,missing,all windows,889,0.03602776511929995
+C-xz,2,xz,val,x,0,missing,window obs <=9,212,0.057379622047059466
+C-xz,2,xz,val,x,0,missing,window obs 10-12,558,0.026461294574649952
+C-xz,2,xz,val,x,0,missing,window obs >=13,119,0.0234102893100423
+C-xz,2,xz,val,x,0,all,all windows,3000,0.04360618051552719
+C-xz,2,xz,val,x,0,all,window obs <=9,457,0.05149731137170795
+C-xz,2,xz,val,x,0,all,window obs 10-12,1801,0.041020648667564955
+C-xz,2,xz,val,x,0,all,window obs >=13,742,0.04438884230274871
+C-xz,2,xz,val,z,0,observed,all windows,2124,0.0578591527161708
+C-xz,2,xz,val,z,0,observed,window obs <=9,239,0.0723242377233354
+C-xz,2,xz,val,z,0,observed,window obs 10-12,1247,0.05805141020278269
+C-xz,2,xz,val,z,0,observed,window obs >=13,638,0.05097740052749412
+C-xz,2,xz,val,z,0,missing,all windows,876,0.027737790301315762
+C-xz,2,xz,val,z,0,missing,window obs <=9,218,0.03171034614963661
+C-xz,2,xz,val,z,0,missing,window obs 10-12,554,0.02630169531562785
+C-xz,2,xz,val,z,0,missing,window obs >=13,104,0.026225091873809635
+C-xz,2,xz,val,z,0,all,all windows,3000,0.050939365550633046
+C-xz,2,xz,val,z,0,all,window obs <=9,457,0.05670317222049355
+C-xz,2,xz,val,z,0,all,window obs 10-12,1801,0.050459265258679525
+C-xz,2,xz,val,z,0,all,window obs >=13,742,0.0482789263421215
+C-xz,2,xz,val,pooled,0,observed,all windows,4235,0.052473753895989815
+C-xz,2,xz,val,pooled,0,observed,window obs <=9,484,0.06037278358428227
+C-xz,2,xz,val,pooled,0,observed,window obs 10-12,2490,0.05242001911958888
+C-xz,2,xz,val,pooled,0,observed,window obs >=13,1261,0.0492188361565779
+C-xz,2,xz,val,pooled,0,missing,all windows,1765,0.03218134825301112
+C-xz,2,xz,val,pooled,0,missing,window obs <=9,430,0.046184722559761714
+C-xz,2,xz,val,pooled,0,missing,window obs 10-12,1112,0.026381902681311103
+C-xz,2,xz,val,pooled,0,missing,window obs >=13,223,0.0247628683743663
+C-xz,2,xz,val,pooled,0,all,all windows,6000,0.04741475478083675
+C-xz,2,xz,val,pooled,0,all,window obs <=9,914,0.054162823127961085
+C-xz,2,xz,val,pooled,0,all,window obs 10-12,3602,0.045982774315789066
+C-xz,2,xz,val,pooled,0,all,window obs >=13,1484,0.04637469164170413
+C-xz,2,xz,test,x,0,observed,all windows,2079,0.046285076783971486
+C-xz,2,xz,test,x,0,observed,window obs <=9,223,0.05140047024940514
+C-xz,2,xz,test,x,0,observed,window obs 10-12,1223,0.04591373608871797
+C-xz,2,xz,test,x,0,observed,window obs >=13,633,0.0450823388038825
+C-xz,2,xz,test,x,0,missing,all windows,921,0.040874557032599144
+C-xz,2,xz,test,x,0,missing,window obs <=9,239,0.06577527568699358
+C-xz,2,xz,test,x,0,missing,window obs 10-12,565,0.028343623985924996
+C-xz,2,xz,test,x,0,missing,window obs >=13,117,0.020844631854857996
+C-xz,2,xz,test,x,0,all,all windows,3000,0.04469377590190883
+C-xz,2,xz,test,x,0,all,window obs <=9,462,0.05927363954504358
+C-xz,2,xz,test,x,0,all,window obs 10-12,1788,0.04117995379681142
+C-xz,2,xz,test,x,0,all,window obs >=13,750,0.04222726573233632
+C-xz,2,xz,test,z,0,observed,all windows,2135,0.06132573769943987
+C-xz,2,xz,test,z,0,observed,window obs <=9,262,0.09501302477706441
+C-xz,2,xz,test,z,0,observed,window obs 10-12,1247,0.05689600584584816
+C-xz,2,xz,test,z,0,observed,window obs >=13,626,0.05098823910520948
+C-xz,2,xz,test,z,0,missing,all windows,865,0.030950341689776138
+C-xz,2,xz,test,z,0,missing,window obs <=9,200,0.03844386440078742
+C-xz,2,xz,test,z,0,missing,window obs 10-12,541,0.028176220502796636
+C-xz,2,xz,test,z,0,missing,window obs >=13,124,0.028893329884984303
+C-xz,2,xz,test,z,0,all,all windows,3000,0.054338477437631275
+C-xz,2,xz,test,z,0,all,window obs <=9,462,0.07588988034709357
+C-xz,2,xz,test,z,0,all,window obs 10-12,1788,0.04997892431349931
+C-xz,2,xz,test,z,0,all,window obs >=13,750,0.04804155658596394
+C-xz,2,xz,test,pooled,0,observed,all windows,4214,0.05442730585318865
+C-xz,2,xz,test,pooled,0,observed,window obs <=9,485,0.07804791388646358
+C-xz,2,xz,test,pooled,0,observed,window obs 10-12,2470,0.05175035025302092
+C-xz,2,xz,test,pooled,0,observed,window obs >=13,1259,0.04810957891213877
+C-xz,2,xz,test,pooled,0,missing,all windows,1786,0.03640743794896974
+C-xz,2,xz,test,pooled,0,missing,window obs <=9,439,0.05503348761288162
+C-xz,2,xz,test,pooled,0,missing,window obs 10-12,1106,0.028261862446550132
+C-xz,2,xz,test,pooled,0,missing,window obs >=13,241,0.02530761654469146
+C-xz,2,xz,test,pooled,0,all,all windows,6000,0.049750395649733326
+C-xz,2,xz,test,pooled,0,all,window obs <=9,924,0.06809052167523734
+C-xz,2,xz,test,pooled,0,all,window obs 10-12,3576,0.045791273569546063
+C-xz,2,xz,test,pooled,0,all,window obs >=13,1500,0.04522794009476731
+FDR-xz,2,xz,val,x,0,observed,all windows,2111,0.04837588709121125
+FDR-xz,2,xz,val,x,0,observed,window obs <=9,245,0.07541870209079786
+FDR-xz,2,xz,val,x,0,observed,window obs 10-12,1243,0.04349222883928696
+FDR-xz,2,xz,val,x,0,observed,window obs >=13,623,0.04380454806757111
+FDR-xz,2,xz,val,x,0,missing,all windows,889,0.043652518029759044
+FDR-xz,2,xz,val,x,0,missing,window obs <=9,212,0.06976875827485704
+FDR-xz,2,xz,val,x,0,missing,window obs 10-12,558,0.03233167012507318
+FDR-xz,2,xz,val,x,0,missing,window obs >=13,119,0.025729860936973735
+FDR-xz,2,xz,val,x,0,all,all windows,3000,0.04702568507936469
+FDR-xz,2,xz,val,x,0,all,window obs <=9,457,0.07285222798545898
+FDR-xz,2,xz,val,x,0,all,window obs 10-12,1801,0.04036565539729928
+FDR-xz,2,xz,val,x,0,all,window obs >=13,742,0.04144000642440274
+FDR-xz,2,xz,val,z,0,observed,all windows,2124,0.0344900974839583
+FDR-xz,2,xz,val,z,0,observed,window obs <=9,239,0.04838500852676556
+FDR-xz,2,xz,val,z,0,observed,window obs 10-12,1247,0.03272158182328331
+FDR-xz,2,xz,val,z,0,observed,window obs >=13,638,0.031472473459104706
+FDR-xz,2,xz,val,z,0,missing,all windows,876,0.02951530122352544
+FDR-xz,2,xz,val,z,0,missing,window obs <=9,218,0.03505085404613194
+FDR-xz,2,xz,val,z,0,missing,window obs 10-12,554,0.027259437293661558
+FDR-xz,2,xz,val,z,0,missing,window obs >=13,104,0.02835876313874558
+FDR-xz,2,xz,val,z,0,all,all windows,3000,0.03311480015879298
+FDR-xz,2,xz,val,z,0,all,window obs <=9,457,0.042548766191089646
+FDR-xz,2,xz,val,z,0,all,window obs 10-12,1801,0.031143574179887543
+FDR-xz,2,xz,val,z,0,all,window obs >=13,742,0.03105486849552372
+FDR-xz,2,xz,val,pooled,0,observed,all windows,4235,0.04198964839830699
+FDR-xz,2,xz,val,pooled,0,observed,window obs <=9,484,0.06352393178435393
+FDR-xz,2,xz,val,pooled,0,observed,window obs 10-12,2490,0.03847698803481796
+FDR-xz,2,xz,val,pooled,0,observed,window obs >=13,1261,0.03806778382392536
+FDR-xz,2,xz,val,pooled,0,missing,all windows,1765,0.037311620630970474
+FDR-xz,2,xz,val,pooled,0,missing,window obs <=9,430,0.0549793762250025
+FDR-xz,2,xz,val,pooled,0,missing,window obs 10-12,1112,0.029912381054742056
+FDR-xz,2,xz,val,pooled,0,missing,window obs >=13,223,0.0269877804917719
+FDR-xz,2,xz,val,pooled,0,all,all windows,6000,0.04066942983827274
+FDR-xz,2,xz,val,pooled,0,all,window obs <=9,914,0.059656703843027174
+FDR-xz,2,xz,val,pooled,0,all,window obs 10-12,3602,0.03605071669434377
+FDR-xz,2,xz,val,pooled,0,all,window obs >=13,1484,0.03661747526611312
+FDR-xz,2,xz,val,x,1,observed,all windows,2110,0.038733416945601784
+FDR-xz,2,xz,val,x,1,observed,window obs <=9,248,0.04077852358002966
+FDR-xz,2,xz,val,x,1,observed,window obs 10-12,1252,0.038840312451420896
+FDR-xz,2,xz,val,x,1,observed,window obs >=13,610,0.037645020396668095
+FDR-xz,2,xz,val,x,1,missing,all windows,889,0.040065803592917525
+FDR-xz,2,xz,val,x,1,missing,window obs <=9,208,0.07033360509206454
+FDR-xz,2,xz,val,x,1,missing,window obs 10-12,549,0.024207705939023945
+FDR-xz,2,xz,val,x,1,missing,window obs >=13,132,0.024061934003973853
+FDR-xz,2,xz,val,x,1,all,all windows,2999,0.03913311007564424
+FDR-xz,2,xz,val,x,1,all,window obs <=9,456,0.05622117096441779
+FDR-xz,2,xz,val,x,1,all,window obs 10-12,1801,0.03503350209567956
+FDR-xz,2,xz,val,x,1,all,window obs >=13,742,0.035609535129808675
+FDR-xz,2,xz,val,z,1,observed,all windows,2123,0.02786514685729441
+FDR-xz,2,xz,val,z,1,observed,window obs <=9,236,0.03184946872009893
+FDR-xz,2,xz,val,z,1,observed,window obs 10-12,1256,0.027524831702271997
+FDR-xz,2,xz,val,z,1,observed,window obs >=13,631,0.026925862746845646
+FDR-xz,2,xz,val,z,1,missing,all windows,876,0.027409044633252964
+FDR-xz,2,xz,val,z,1,missing,window obs <=9,220,0.031216116798998064
+FDR-xz,2,xz,val,z,1,missing,window obs 10-12,545,0.026323145127857602
+FDR-xz,2,xz,val,z,1,missing,window obs >=13,111,0.02440038870884891
+FDR-xz,2,xz,val,z,1,all,all windows,2999,0.027732696148639612
+FDR-xz,2,xz,val,z,1,all,window obs <=9,456,0.031545491788437484
+FDR-xz,2,xz,val,z,1,all,window obs 10-12,1801,0.027166799149150843
+FDR-xz,2,xz,val,z,1,all,window obs >=13,742,0.02656333988040365
+FDR-xz,2,xz,val,pooled,1,observed,all windows,4233,0.033723293844066
+FDR-xz,2,xz,val,pooled,1,observed,window obs <=9,484,0.036697105736321865
+FDR-xz,2,xz,val,pooled,1,observed,window obs 10-12,2508,0.033652552195652725
+FDR-xz,2,xz,val,pooled,1,observed,window obs >=13,1241,0.03263768735866919
+FDR-xz,2,xz,val,pooled,1,missing,all windows,1765,0.03437160547006098
+FDR-xz,2,xz,val,pooled,1,missing,window obs <=9,428,0.05389752819859782
+FDR-xz,2,xz,val,pooled,1,missing,window obs 10-12,1094,0.025283691932862278
+FDR-xz,2,xz,val,pooled,1,missing,window obs >=13,243,0.024217123635360743
+FDR-xz,2,xz,val,pooled,1,all,all windows,5998,0.03391535596057676
+FDR-xz,2,xz,val,pooled,1,all,window obs <=9,912,0.04558474589588424
+FDR-xz,2,xz,val,pooled,1,all,window obs 10-12,3602,0.03134789662081243
+FDR-xz,2,xz,val,pooled,1,all,window obs >=13,1484,0.031413771007019524
+FDR-xz,2,xz,val,x,2,observed,all windows,2109,0.03103638328250058
+FDR-xz,2,xz,val,x,2,observed,window obs <=9,253,0.03813072848623305
+FDR-xz,2,xz,val,x,2,observed,window obs 10-12,1252,0.030386018889479168
+FDR-xz,2,xz,val,x,2,observed,window obs >=13,604,0.02899174710476403
+FDR-xz,2,xz,val,x,2,missing,all windows,889,0.035033002708728875
+FDR-xz,2,xz,val,x,2,missing,window obs <=9,202,0.05695133819337928
+FDR-xz,2,xz,val,x,2,missing,window obs 10-12,549,0.024875127623165568
+FDR-xz,2,xz,val,x,2,missing,window obs >=13,138,0.02640213247909292
+FDR-xz,2,xz,val,x,2,all,all windows,2998,0.03227316758838642
+FDR-xz,2,xz,val,x,2,all,window obs <=9,455,0.04741743235188502
+FDR-xz,2,xz,val,x,2,all,window obs 10-12,1801,0.02881800783967229
+FDR-xz,2,xz,val,x,2,all,window obs >=13,742,0.02852792041448322
+FDR-xz,2,xz,val,z,2,observed,all windows,2122,0.027238983300257816
+FDR-xz,2,xz,val,z,2,observed,window obs <=9,237,0.03027158383171474
+FDR-xz,2,xz,val,z,2,observed,window obs 10-12,1252,0.02616978152080522
+FDR-xz,2,xz,val,z,2,observed,window obs >=13,633,0.028099992510537155
+FDR-xz,2,xz,val,z,2,missing,all windows,876,0.02914947022331833
+FDR-xz,2,xz,val,z,2,missing,window obs <=9,218,0.03359706593254324
+FDR-xz,2,xz,val,z,2,missing,window obs 10-12,549,0.026912928689047884
+FDR-xz,2,xz,val,z,2,missing,window obs >=13,109,0.030382229996710426
+FDR-xz,2,xz,val,z,2,all,all windows,2998,0.02781079254968659
+FDR-xz,2,xz,val,z,2,all,window obs <=9,455,0.03190816842754899
+FDR-xz,2,xz,val,z,2,all,window obs 10-12,1801,0.026398532257116816
+FDR-xz,2,xz,val,z,2,all,window obs >=13,742,0.028446729252177595
+FDR-xz,2,xz,val,pooled,2,observed,all windows,4231,0.029193658187839817
+FDR-xz,2,xz,val,pooled,2,observed,window obs <=9,490,0.03455340066455154
+FDR-xz,2,xz,val,pooled,2,observed,window obs 10-12,2504,0.028356371495648586
+FDR-xz,2,xz,val,pooled,2,observed,window obs >=13,1237,0.028538898121064613
+FDR-xz,2,xz,val,pooled,2,missing,all windows,1765,0.032247358246290714
+FDR-xz,2,xz,val,pooled,2,missing,window obs <=9,420,0.04632309393219642
+FDR-xz,2,xz,val,pooled,2,missing,window obs 10-12,1098,0.02591406669060794
+FDR-xz,2,xz,val,pooled,2,missing,window obs >=13,247,0.028227798612014552
+FDR-xz,2,xz,val,pooled,2,all,all windows,5996,0.03012472015164439
+FDR-xz,2,xz,val,pooled,2,all,window obs <=9,910,0.04041376067162289
+FDR-xz,2,xz,val,pooled,2,all,window obs 10-12,3602,0.027634761453443474
+FDR-xz,2,xz,val,pooled,2,all,window obs >=13,1484,0.028487353758481892
+FDR-xz,2,xz,val,x,3,observed,all windows,2108,0.027538319683359826
+FDR-xz,2,xz,val,x,3,observed,window obs <=9,250,0.03435097238786498
+FDR-xz,2,xz,val,x,3,observed,window obs 10-12,1236,0.02721086648673857
+FDR-xz,2,xz,val,x,3,observed,window obs >=13,622,0.024990368638132046
+FDR-xz,2,xz,val,x,3,missing,all windows,889,0.03270413261667069
+FDR-xz,2,xz,val,x,3,missing,window obs <=9,205,0.051546933259641145
+FDR-xz,2,xz,val,x,3,missing,window obs 10-12,564,0.02484813133086434
+FDR-xz,2,xz,val,x,3,missing,window obs >=13,120,0.021967037613172143
+FDR-xz,2,xz,val,x,3,all,all windows,2997,0.0291662589845245
+FDR-xz,2,xz,val,x,3,all,window obs <=9,455,0.04295921969473458
+FDR-xz,2,xz,val,x,3,all,window obs 10-12,1800,0.02649322075559142
+FDR-xz,2,xz,val,x,3,all,window obs >=13,742,0.024526695157925514
+FDR-xz,2,xz,val,z,3,observed,all windows,2121,0.02990274265457382
+FDR-xz,2,xz,val,z,3,observed,window obs <=9,248,0.030317349280129663
+FDR-xz,2,xz,val,z,3,observed,window obs 10-12,1244,0.02925793396745502
+FDR-xz,2,xz,val,z,3,observed,window obs >=13,629,0.03098024254689156
+FDR-xz,2,xz,val,z,3,missing,all windows,876,0.03130647776727904
+FDR-xz,2,xz,val,z,3,missing,window obs <=9,207,0.038276277625490095
+FDR-xz,2,xz,val,z,3,missing,window obs 10-12,556,0.028264387222894864
+FDR-xz,2,xz,val,z,3,missing,window obs >=13,113,0.031358429853734764
+FDR-xz,2,xz,val,z,3,all,all windows,2997,0.030319766156585267
+FDR-xz,2,xz,val,z,3,all,window obs <=9,455,0.03416885456963395
+FDR-xz,2,xz,val,z,3,all,window obs 10-12,1800,0.028954677612533588
+FDR-xz,2,xz,val,z,3,all,window obs >=13,742,0.03103813455820171
+FDR-xz,2,xz,val,pooled,3,observed,all windows,4229,0.028748483144265518
+FDR-xz,2,xz,val,pooled,3,observed,window obs <=9,498,0.03240508102316051
+FDR-xz,2,xz,val,pooled,3,observed,window obs 10-12,2480,0.028256245712546476
+FDR-xz,2,xz,val,pooled,3,observed,window obs >=13,1251,0.028161763890457617
+FDR-xz,2,xz,val,pooled,3,missing,all windows,1765,0.03201807917017759
+FDR-xz,2,xz,val,pooled,3,missing,window obs <=9,412,0.04536724196461051
+FDR-xz,2,xz,val,pooled,3,missing,window obs 10-12,1120,0.02659895837424691
+FDR-xz,2,xz,val,pooled,3,missing,window obs >=13,233,0.0269337739591923
+FDR-xz,2,xz,val,pooled,3,all,all windows,5994,0.02974860402558723
+FDR-xz,2,xz,val,pooled,3,all,window obs <=9,910,0.0388136907506956
+FDR-xz,2,xz,val,pooled,3,all,window obs 10-12,3600,0.027751253139725544
+FDR-xz,2,xz,val,pooled,3,all,window obs >=13,1484,0.02797252734579807
+FDR-xz,2,xz,val,x,4,observed,all windows,2107,0.030251402649280265
+FDR-xz,2,xz,val,x,4,observed,window obs <=9,238,0.03639881206712453
+FDR-xz,2,xz,val,x,4,observed,window obs 10-12,1260,0.030112184428328633
+FDR-xz,2,xz,val,x,4,observed,window obs >=13,609,0.02779229182232946
+FDR-xz,2,xz,val,x,4,missing,all windows,889,0.02770782528093963
+FDR-xz,2,xz,val,x,4,missing,window obs <=9,217,0.04100688715989668
+FDR-xz,2,xz,val,x,4,missing,window obs 10-12,539,0.02154314267894808
+FDR-xz,2,xz,val,x,4,missing,window obs >=13,133,0.022520338793631307
+FDR-xz,2,xz,val,x,4,all,all windows,2996,0.029519526680371555
+FDR-xz,2,xz,val,x,4,all,window obs <=9,455,0.038665072353662344
+FDR-xz,2,xz,val,x,4,all,window obs 10-12,1799,0.02782309987831938
+FDR-xz,2,xz,val,x,4,all,window obs >=13,742,0.02692336200591834
+FDR-xz,2,xz,val,z,4,observed,all windows,2121,0.028869147386649117
+FDR-xz,2,xz,val,z,4,observed,window obs <=9,251,0.028945963124490753
+FDR-xz,2,xz,val,z,4,observed,window obs 10-12,1228,0.027850843136944883
+FDR-xz,2,xz,val,z,4,observed,window obs >=13,642,0.030694782367098283
+FDR-xz,2,xz,val,z,4,missing,all windows,875,0.032589352588572325
+FDR-xz,2,xz,val,z,4,missing,window obs <=9,204,0.03858715984232656
+FDR-xz,2,xz,val,z,4,missing,window obs 10-12,571,0.03088608363897601
+FDR-xz,2,xz,val,z,4,missing,window obs >=13,100,0.02843456787046835
+FDR-xz,2,xz,val,z,4,all,all windows,2996,0.030003380729678664
+FDR-xz,2,xz,val,z,4,all,window obs <=9,455,0.033612357769343904
+FDR-xz,2,xz,val,z,4,all,window obs 10-12,1799,0.028848838792543047
+FDR-xz,2,xz,val,z,4,all,window obs >=13,742,0.030399970511046925
+FDR-xz,2,xz,val,pooled,4,observed,all windows,4228,0.02956606532899042
+FDR-xz,2,xz,val,pooled,4,observed,window obs <=9,489,0.032785632103551426
+FDR-xz,2,xz,val,pooled,4,observed,window obs 10-12,2488,0.0290180888078939
+FDR-xz,2,xz,val,pooled,4,observed,window obs >=13,1251,0.02931773510029073
+FDR-xz,2,xz,val,pooled,4,missing,all windows,1764,0.03022791287684207
+FDR-xz,2,xz,val,pooled,4,missing,window obs <=9,421,0.03985273416425452
+FDR-xz,2,xz,val,pooled,4,missing,window obs 10-12,1110,0.026759846447867473
+FDR-xz,2,xz,val,pooled,4,missing,window obs >=13,233,0.02522903648487565
+FDR-xz,2,xz,val,pooled,4,all,all windows,5992,0.02976243698559664
+FDR-xz,2,xz,val,pooled,4,all,window obs <=9,910,0.036226912750939165
+FDR-xz,2,xz,val,pooled,4,all,window obs 10-12,3598,0.02834061031909045
+FDR-xz,2,xz,val,pooled,4,all,window obs >=13,1484,0.02871433116733045
+FDR-xz,2,xz,val,x,5,observed,all windows,2106,0.032193069026151606
+FDR-xz,2,xz,val,x,5,observed,window obs <=9,240,0.03336967417056022
+FDR-xz,2,xz,val,x,5,observed,window obs 10-12,1253,0.033747733592191964
+FDR-xz,2,xz,val,x,5,observed,window obs >=13,613,0.028224890652495612
+FDR-xz,2,xz,val,x,5,missing,all windows,889,0.02743603942996703
+FDR-xz,2,xz,val,x,5,missing,window obs <=9,215,0.03733696146990253
+FDR-xz,2,xz,val,x,5,missing,window obs 10-12,545,0.02360753368326964
+FDR-xz,2,xz,val,x,5,missing,window obs >=13,129,0.02257202745941303
+FDR-xz,2,xz,val,x,5,all,all windows,2995,0.030857676700084186
+FDR-xz,2,xz,val,x,5,all,window obs <=9,455,0.03529993636198594
+FDR-xz,2,xz,val,x,5,all,window obs 10-12,1798,0.0310261171266183
+FDR-xz,2,xz,val,x,5,all,window obs >=13,742,0.0273262234946483
+FDR-xz,2,xz,val,z,5,observed,all windows,2120,0.034355102493659424
+FDR-xz,2,xz,val,z,5,observed,window obs <=9,251,0.034992685455115635
+FDR-xz,2,xz,val,z,5,observed,window obs 10-12,1229,0.03409429911383764
+FDR-xz,2,xz,val,z,5,observed,window obs >=13,640,0.03460077473165559
+FDR-xz,2,xz,val,z,5,missing,all windows,875,0.03390332242785325
+FDR-xz,2,xz,val,z,5,missing,window obs <=9,204,0.03525656274930761
+FDR-xz,2,xz,val,z,5,missing,window obs 10-12,569,0.03412100447308185
+FDR-xz,2,xz,val,z,5,missing,window obs >=13,102,0.02965892419791463
+FDR-xz,2,xz,val,z,5,all,all windows,2995,0.03422372999321776
+FDR-xz,2,xz,val,z,5,all,window obs <=9,455,0.03511124052575989
+FDR-xz,2,xz,val,z,5,all,window obs 10-12,1798,0.03410275262674161
+FDR-xz,2,xz,val,z,5,all,window obs >=13,742,0.0339640922192609
+FDR-xz,2,xz,val,pooled,5,observed,all windows,4226,0.0332952204371171
+FDR-xz,2,xz,val,pooled,5,observed,window obs <=9,491,0.03420898197625997
+FDR-xz,2,xz,val,pooled,5,observed,window obs 10-12,2482,0.033919783352399854
+FDR-xz,2,xz,val,pooled,5,observed,window obs >=13,1253,0.03164245283189948
+FDR-xz,2,xz,val,pooled,5,missing,all windows,1764,0.030814145504882887
+FDR-xz,2,xz,val,pooled,5,missing,window obs <=9,419,0.03633895104061601
+FDR-xz,2,xz,val,pooled,5,missing,window obs 10-12,1114,0.02945024809645288
+FDR-xz,2,xz,val,pooled,5,missing,window obs >=13,231,0.025941118864530592
+FDR-xz,2,xz,val,pooled,5,all,all windows,5990,0.03258419790309094
+FDR-xz,2,xz,val,pooled,5,all,window obs <=9,910,0.03520571486575738
+FDR-xz,2,xz,val,pooled,5,all,window obs 10-12,3596,0.032600749076327755
+FDR-xz,2,xz,val,pooled,5,all,window obs >=13,1484,0.030824357663688042
+FDR-xz,2,xz,val,x,6,observed,all windows,2105,0.03726729381511431
+FDR-xz,2,xz,val,x,6,observed,window obs <=9,234,0.041181223239075505
+FDR-xz,2,xz,val,x,6,observed,window obs 10-12,1263,0.0382891111928762
+FDR-xz,2,xz,val,x,6,observed,window obs >=13,608,0.03332120347633986
+FDR-xz,2,xz,val,x,6,missing,all windows,889,0.034092778956157845
+FDR-xz,2,xz,val,x,6,missing,window obs <=9,221,0.043304198559435784
+FDR-xz,2,xz,val,x,6,missing,window obs 10-12,534,0.03088134858950625
+FDR-xz,2,xz,val,x,6,missing,window obs >=13,134,0.028601230355136932
+FDR-xz,2,xz,val,x,6,all,all windows,2994,0.0363536408102793
+FDR-xz,2,xz,val,x,6,all,window obs <=9,455,0.04222571595376244
+FDR-xz,2,xz,val,x,6,all,window obs 10-12,1797,0.03624625154936896
+FDR-xz,2,xz,val,x,6,all,window obs >=13,742,0.03251953698710202
+FDR-xz,2,xz,val,z,6,observed,all windows,2119,0.0387910474877142
+FDR-xz,2,xz,val,z,6,observed,window obs <=9,245,0.03900839459944963
+FDR-xz,2,xz,val,z,6,observed,window obs 10-12,1243,0.038750512233520495
+FDR-xz,2,xz,val,z,6,observed,window obs >=13,631,0.038786229078420824
+FDR-xz,2,xz,val,z,6,missing,all windows,875,0.0351621772828668
+FDR-xz,2,xz,val,z,6,missing,window obs <=9,210,0.038796354052945986
+FDR-xz,2,xz,val,z,6,missing,window obs 10-12,554,0.034062323016394176
+FDR-xz,2,xz,val,z,6,missing,window obs >=13,111,0.03328479340954989
+FDR-xz,2,xz,val,z,6,all,all windows,2994,0.037766584394983614
+FDR-xz,2,xz,val,z,6,all,window obs <=9,455,0.03891067331465141
+FDR-xz,2,xz,val,z,6,all,window obs 10-12,1797,0.037367949785229275
+FDR-xz,2,xz,val,z,6,all,window obs >=13,742,0.038013915342118294
+FDR-xz,2,xz,val,pooled,6,observed,all windows,4224,0.038039326179978905
+FDR-xz,2,xz,val,pooled,6,observed,window obs <=9,479,0.04008457745602485
+FDR-xz,2,xz,val,pooled,6,observed,window obs 10-12,2506,0.03851866135948635
+FDR-xz,2,xz,val,pooled,6,observed,window obs >=13,1239,0.036207660862936475
+FDR-xz,2,xz,val,pooled,6,missing,all windows,1764,0.0346273627457022
+FDR-xz,2,xz,val,pooled,6,missing,window obs <=9,431,0.04116950521712626
+FDR-xz,2,xz,val,pooled,6,missing,window obs 10-12,1088,0.03253995269583687
+FDR-xz,2,xz,val,pooled,6,missing,window obs >=13,245,0.03081150527597631
+FDR-xz,2,xz,val,pooled,6,all,all windows,5988,0.03706684567795204
+FDR-xz,2,xz,val,pooled,6,all,window obs <=9,910,0.04060204173195822
+FDR-xz,2,xz,val,pooled,6,all,window obs 10-12,3594,0.036811373395538693
+FDR-xz,2,xz,val,pooled,6,all,window obs >=13,1484,0.035373563896596794
+FDR-xz,2,xz,val,x,7,observed,all windows,2105,0.06169334282778574
+FDR-xz,2,xz,val,x,7,observed,window obs <=9,239,0.08672200038637194
+FDR-xz,2,xz,val,x,7,observed,window obs 10-12,1245,0.05713869447503635
+FDR-xz,2,xz,val,x,7,observed,window obs >=13,621,0.05883479232711075
+FDR-xz,2,xz,val,x,7,missing,all windows,888,0.06302712234073908
+FDR-xz,2,xz,val,x,7,missing,window obs <=9,216,0.07690414023577255
+FDR-xz,2,xz,val,x,7,missing,window obs 10-12,551,0.054852713063567635
+FDR-xz,2,xz,val,x,7,missing,window obs >=13,121,0.0699569005555528
+FDR-xz,2,xz,val,x,7,all,all windows,2993,0.062092054178301444
+FDR-xz,2,xz,val,x,7,all,window obs <=9,455,0.08220753534269025
+FDR-xz,2,xz,val,x,7,all,window obs 10-12,1796,0.05644721674488889
+FDR-xz,2,xz,val,x,7,all,window obs >=13,742,0.06078753132398126
+FDR-xz,2,xz,val,z,7,observed,all windows,2118,0.04430788430174252
+FDR-xz,2,xz,val,z,7,observed,window obs <=9,233,0.05008471472573473
+FDR-xz,2,xz,val,z,7,observed,window obs 10-12,1247,0.04164533548850626
+FDR-xz,2,xz,val,z,7,observed,window obs >=13,638,0.0470250299428506
+FDR-xz,2,xz,val,z,7,missing,all windows,875,0.040694300838455724
+FDR-xz,2,xz,val,z,7,missing,window obs <=9,222,0.04307691174581321
+FDR-xz,2,xz,val,z,7,missing,window obs 10-12,549,0.03999888546714722
+FDR-xz,2,xz,val,z,7,missing,window obs >=13,104,0.03906652277338699
+FDR-xz,2,xz,val,z,7,all,all windows,2993,0.0432826757664701
+FDR-xz,2,xz,val,z,7,all,window obs <=9,455,0.04679680738446762
+FDR-xz,2,xz,val,z,7,all,window obs 10-12,1796,0.041149041320271376
+FDR-xz,2,xz,val,z,7,all,window obs >=13,742,0.04599261027607531
+FDR-xz,2,xz,val,pooled,7,observed,all windows,4223,0.05368232518841747
+FDR-xz,2,xz,val,pooled,7,observed,window obs <=9,472,0.07103836550196715
+FDR-xz,2,xz,val,pooled,7,observed,window obs 10-12,2492,0.04998967916711478
+FDR-xz,2,xz,val,pooled,7,observed,window obs >=13,1259,0.053178968270531396
+FDR-xz,2,xz,val,pooled,7,missing,all windows,1763,0.053129675655344245
+FDR-xz,2,xz,val,pooled,7,missing,window obs <=9,438,0.06210583502466706
+FDR-xz,2,xz,val,pooled,7,missing,window obs 10-12,1100,0.04801714601215851
+FDR-xz,2,xz,val,pooled,7,missing,window obs >=13,225,0.057769434945896994
+FDR-xz,2,xz,val,pooled,7,all,all windows,5986,0.053520151408541904
+FDR-xz,2,xz,val,pooled,7,all,window obs <=9,910,0.06688804096585066
+FDR-xz,2,xz,val,pooled,7,all,window obs 10-12,3592,0.049393986880094345
+FDR-xz,2,xz,val,pooled,7,all,window obs >=13,1484,0.053900112079989924
+FDR-xz,2,xz,test,x,0,observed,all windows,2079,0.04583364707762494
+FDR-xz,2,xz,test,x,0,observed,window obs <=9,223,0.058178477268263626
+FDR-xz,2,xz,test,x,0,observed,window obs 10-12,1223,0.04483450579401447
+FDR-xz,2,xz,test,x,0,observed,window obs >=13,633,0.04270134056924492
+FDR-xz,2,xz,test,x,0,missing,all windows,921,0.05060829205198058
+FDR-xz,2,xz,test,x,0,missing,window obs <=9,239,0.07895287294423249
+FDR-xz,2,xz,test,x,0,missing,window obs 10-12,565,0.03654076217809773
+FDR-xz,2,xz,test,x,0,missing,window obs >=13,117,0.03130237722680895
+FDR-xz,2,xz,test,x,0,all,all windows,3000,0.04735070582970055
+FDR-xz,2,xz,test,x,0,all,window obs <=9,462,0.06970276833982965
+FDR-xz,2,xz,test,x,0,all,window obs 10-12,1788,0.04238945336975288
+FDR-xz,2,xz,test,x,0,all,window obs >=13,750,0.04113159664367888
+FDR-xz,2,xz,test,z,0,observed,all windows,2135,0.039357947673198064
+FDR-xz,2,xz,test,z,0,observed,window obs <=9,262,0.05031524742089497
+FDR-xz,2,xz,test,z,0,observed,window obs 10-12,1247,0.03902992138693924
+FDR-xz,2,xz,test,z,0,observed,window obs >=13,626,0.03448233343783157
+FDR-xz,2,xz,test,z,0,missing,all windows,865,0.033875482516334834
+FDR-xz,2,xz,test,z,0,missing,window obs <=9,200,0.04255172886304583
+FDR-xz,2,xz,test,z,0,missing,window obs 10-12,541,0.032230198553465185
+FDR-xz,2,xz,test,z,0,missing,window obs >=13,124,0.023506399986045874
+FDR-xz,2,xz,test,z,0,all,all windows,3000,0.03785871484553536
+FDR-xz,2,xz,test,z,0,all,window obs <=9,462,0.04711171778393647
+FDR-xz,2,xz,test,z,0,all,window obs 10-12,1788,0.03710422403620779
+FDR-xz,2,xz,test,z,0,all,window obs >=13,750,0.032921116021800444
+FDR-xz,2,xz,test,pooled,0,observed,all windows,4214,0.042675754346750874
+FDR-xz,2,xz,test,pooled,0,observed,window obs <=9,485,0.05407290751546533
+FDR-xz,2,xz,test,pooled,0,observed,window obs 10-12,2470,0.042004390549023454
+FDR-xz,2,xz,test,pooled,0,observed,window obs >=13,1259,0.03883273683622266
+FDR-xz,2,xz,test,pooled,0,missing,all windows,1786,0.043319005878655316
+FDR-xz,2,xz,test,pooled,0,missing,window obs <=9,439,0.06495047780184886
+FDR-xz,2,xz,test,pooled,0,missing,window obs 10-12,1106,0.03449960672604989
+FDR-xz,2,xz,test,pooled,0,missing,window obs >=13,241,0.02756790530825607
+FDR-xz,2,xz,test,pooled,0,all,all windows,6000,0.04286823784765591
+FDR-xz,2,xz,test,pooled,0,all,window obs <=9,924,0.05948945228689383
+FDR-xz,2,xz,test,pooled,0,all,window obs 10-12,3576,0.03983459048562916
+FDR-xz,2,xz,test,pooled,0,all,window obs >=13,1500,0.03725324229231022
+FDR-xz,2,xz,test,x,1,observed,all windows,2079,0.037331779337083155
+FDR-xz,2,xz,test,x,1,observed,window obs <=9,231,0.0400817511117703
+FDR-xz,2,xz,test,x,1,observed,window obs 10-12,1223,0.036996643530125016
+FDR-xz,2,xz,test,x,1,observed,window obs >=13,625,0.03692862790103478
+FDR-xz,2,xz,test,x,1,missing,all windows,920,0.039533631347860566
+FDR-xz,2,xz,test,x,1,missing,window obs <=9,231,0.059835926648996667
+FDR-xz,2,xz,test,x,1,missing,window obs 10-12,565,0.03083178685038192
+FDR-xz,2,xz,test,x,1,missing,window obs >=13,124,0.024384153579980795
+FDR-xz,2,xz,test,x,1,all,all windows,2999,0.038020800111081415
+FDR-xz,2,xz,test,x,1,all,window obs <=9,462,0.05092585242354814
+FDR-xz,2,xz,test,x,1,all,window obs 10-12,1788,0.03516556976586238
+FDR-xz,2,xz,test,x,1,all,window obs >=13,749,0.03516233582114583
+FDR-xz,2,xz,test,z,1,observed,all windows,2134,0.032605102063098954
+FDR-xz,2,xz,test,z,1,observed,window obs <=9,260,0.04556672073127349
+FDR-xz,2,xz,test,z,1,observed,window obs 10-12,1247,0.03141093492571871
+FDR-xz,2,xz,test,z,1,observed,window obs >=13,627,0.028195218573764322
+FDR-xz,2,xz,test,z,1,missing,all windows,865,0.028836188155896857
+FDR-xz,2,xz,test,z,1,missing,window obs <=9,202,0.03574009785319267
+FDR-xz,2,xz,test,z,1,missing,window obs 10-12,541,0.027507932184756046
+FDR-xz,2,xz,test,z,1,missing,window obs >=13,122,0.0206208626592881
+FDR-xz,2,xz,test,z,1,all,all windows,2999,0.0315642511590927
+FDR-xz,2,xz,test,z,1,all,window obs <=9,462,0.04155709570619802
+FDR-xz,2,xz,test,z,1,all,window obs 10-12,1788,0.030283115130168622
+FDR-xz,2,xz,test,z,1,all,window obs >=13,749,0.02710616143668828
+FDR-xz,2,xz,test,pooled,1,observed,all windows,4213,0.035017416423386905
+FDR-xz,2,xz,test,pooled,1,observed,window obs <=9,491,0.04307330639317563
+FDR-xz,2,xz,test,pooled,1,observed,window obs 10-12,2470,0.03429056507420519
+FDR-xz,2,xz,test,pooled,1,observed,window obs >=13,1252,0.032846501774348676
+FDR-xz,2,xz,test,pooled,1,missing,all windows,1785,0.0347632661207179
+FDR-xz,2,xz,test,pooled,1,missing,window obs <=9,433,0.05005963495278315
+FDR-xz,2,xz,test,pooled,1,missing,window obs 10-12,1106,0.0292531475658558
+FDR-xz,2,xz,test,pooled,1,missing,window obs >=13,246,0.022596281661513975
+FDR-xz,2,xz,test,pooled,1,all,all windows,5998,0.03494197470322115
+FDR-xz,2,xz,test,pooled,1,all,window obs <=9,924,0.046478138132885156
+FDR-xz,2,xz,test,pooled,1,all,window obs 10-12,3576,0.03281527356997639
+FDR-xz,2,xz,test,pooled,1,all,window obs >=13,1498,0.031393740205898066
+FDR-xz,2,xz,test,x,2,observed,all windows,2078,0.03136228429621345
+FDR-xz,2,xz,test,x,2,observed,window obs <=9,236,0.032117880859462385
+FDR-xz,2,xz,test,x,2,observed,window obs 10-12,1223,0.03173515202147325
+FDR-xz,2,xz,test,x,2,observed,window obs >=13,619,0.03031207203865879
+FDR-xz,2,xz,test,x,2,missing,all windows,920,0.03196575527363588
+FDR-xz,2,xz,test,x,2,missing,window obs <=9,226,0.04666535084525792
+FDR-xz,2,xz,test,x,2,missing,window obs 10-12,565,0.02497961630902249
+FDR-xz,2,xz,test,x,2,missing,window obs >=13,129,0.027189448877367572
+FDR-xz,2,xz,test,x,2,all,all windows,2998,0.03154869985289558
+FDR-xz,2,xz,test,x,2,all,window obs <=9,462,0.03990241817587605
+FDR-xz,2,xz,test,x,2,all,window obs 10-12,1788,0.029766588265079778
+FDR-xz,2,xz,test,x,2,all,window obs >=13,748,0.029796905459755656
+FDR-xz,2,xz,test,z,2,observed,all windows,2133,0.028293647046454387
+FDR-xz,2,xz,test,z,2,observed,window obs <=9,255,0.03210843519779224
+FDR-xz,2,xz,test,z,2,observed,window obs 10-12,1240,0.028652549756095953
+FDR-xz,2,xz,test,z,2,observed,window obs >=13,638,0.025859450831575516
+FDR-xz,2,xz,test,z,2,missing,all windows,865,0.03177652826635788
+FDR-xz,2,xz,test,z,2,missing,window obs <=9,207,0.043530883182461656
+FDR-xz,2,xz,test,z,2,missing,window obs 10-12,548,0.026593481463964685
+FDR-xz,2,xz,test,z,2,missing,window obs >=13,110,0.02917452429098256
+FDR-xz,2,xz,test,z,2,all,all windows,2998,0.029341012653639628
+FDR-xz,2,xz,test,z,2,all,window obs <=9,462,0.03765716800023099
+FDR-xz,2,xz,test,z,2,all,window obs 10-12,1788,0.028037546113595914
+FDR-xz,2,xz,test,z,2,all,window obs >=13,748,0.026373108552214992
+FDR-xz,2,xz,test,pooled,2,observed,all windows,4211,0.02984738142350664
+FDR-xz,2,xz,test,pooled,2,observed,window obs <=9,491,0.03211297561819748
+FDR-xz,2,xz,test,pooled,2,observed,window obs 10-12,2463,0.030222538254132392
+FDR-xz,2,xz,test,pooled,2,observed,window obs >=13,1257,0.028140294948928782
+FDR-xz,2,xz,test,pooled,2,missing,all windows,1785,0.03187419732160145
+FDR-xz,2,xz,test,pooled,2,missing,window obs <=9,433,0.045194017103194706
+FDR-xz,2,xz,test,pooled,2,missing,window obs 10-12,1113,0.025786849347313838
+FDR-xz,2,xz,test,pooled,2,missing,window obs >=13,239,0.028120492850530303
+FDR-xz,2,xz,test,pooled,2,all,all windows,5996,0.030464860790336255
+FDR-xz,2,xz,test,pooled,2,all,window obs <=9,924,0.038796038960698706
+FDR-xz,2,xz,test,pooled,2,all,window obs 10-12,3576,0.028914994112179952
+FDR-xz,2,xz,test,pooled,2,all,window obs >=13,1496,0.028137132313764066
+FDR-xz,2,xz,test,x,3,observed,all windows,2077,0.027140730150267856
+FDR-xz,2,xz,test,x,3,observed,window obs <=9,232,0.02802938233208272
+FDR-xz,2,xz,test,x,3,observed,window obs 10-12,1223,0.027687089154908136
+FDR-xz,2,xz,test,x,3,observed,window obs >=13,622,0.025679420542220374
+FDR-xz,2,xz,test,x,3,missing,all windows,920,0.029223223135069275
+FDR-xz,2,xz,test,x,3,missing,window obs <=9,230,0.03773174675974445
+FDR-xz,2,xz,test,x,3,missing,window obs 10-12,565,0.026089278844515337
+FDR-xz,2,xz,test,x,3,missing,window obs >=13,125,0.024275424404307813
+FDR-xz,2,xz,test,x,3,all,all windows,2997,0.027796601285205905
+FDR-xz,2,xz,test,x,3,all,window obs <=9,462,0.03321572606682229
+FDR-xz,2,xz,test,x,3,all,window obs 10-12,1788,0.02719233658190852
+FDR-xz,2,xz,test,x,3,all,window obs >=13,747,0.02544987804359615
+FDR-xz,2,xz,test,z,3,observed,all windows,2133,0.02965125008958941
+FDR-xz,2,xz,test,z,3,observed,window obs <=9,247,0.030747332178093764
+FDR-xz,2,xz,test,z,3,observed,window obs 10-12,1254,0.029408200988338948
+FDR-xz,2,xz,test,z,3,observed,window obs >=13,632,0.02969520206488581
+FDR-xz,2,xz,test,z,3,missing,all windows,864,0.03206577218554704
+FDR-xz,2,xz,test,z,3,missing,window obs <=9,215,0.04113692213297033
+FDR-xz,2,xz,test,z,3,missing,window obs 10-12,534,0.02908396129359452
+FDR-xz,2,xz,test,z,3,missing,window obs >=13,115,0.025168215781722278
+FDR-xz,2,xz,test,z,3,all,all windows,2997,0.030367030157562962
+FDR-xz,2,xz,test,z,3,all,window obs <=9,462,0.03595771872722881
+FDR-xz,2,xz,test,z,3,all,window obs 10-12,1788,0.029311739937077006
+FDR-xz,2,xz,test,z,3,all,window obs >=13,747,0.02904426458563421
+FDR-xz,2,xz,test,pooled,3,observed,all windows,4210,0.028440397161726163
+FDR-xz,2,xz,test,pooled,3,observed,window obs <=9,479,0.029462241830008114
+FDR-xz,2,xz,test,pooled,3,observed,window obs 10-12,2477,0.028571375721022037
+FDR-xz,2,xz,test,pooled,3,observed,window obs >=13,1254,0.027775987557371196
+FDR-xz,2,xz,test,pooled,3,missing,all windows,1784,0.030632840400138448
+FDR-xz,2,xz,test,pooled,3,missing,window obs <=9,445,0.0394136932820341
+FDR-xz,2,xz,test,pooled,3,missing,window obs 10-12,1099,0.02758502002654916
+FDR-xz,2,xz,test,pooled,3,missing,window obs >=13,240,0.024707246204236432
+FDR-xz,2,xz,test,pooled,3,all,all windows,5994,0.029110200648561742
+FDR-xz,2,xz,test,pooled,3,all,window obs <=9,924,0.03461388445561029
+FDR-xz,2,xz,test,pooled,3,all,window obs 10-12,3576,0.028271905373733086
+FDR-xz,2,xz,test,pooled,3,all,window obs >=13,1494,0.02730627764593925
+FDR-xz,2,xz,test,x,4,observed,all windows,2077,0.028982501802511735
+FDR-xz,2,xz,test,x,4,observed,window obs <=9,227,0.03035878556062137
+FDR-xz,2,xz,test,x,4,observed,window obs 10-12,1227,0.02922447760703308
+FDR-xz,2,xz,test,x,4,observed,window obs >=13,623,0.02797298098915524
+FDR-xz,2,xz,test,x,4,missing,all windows,919,0.026567373554882718
+FDR-xz,2,xz,test,x,4,missing,window obs <=9,235,0.031402461963706205
+FDR-xz,2,xz,test,x,4,missing,window obs 10-12,561,0.025303324249726925
+FDR-xz,2,xz,test,x,4,missing,window obs >=13,123,0.021664794758516567
+FDR-xz,2,xz,test,x,4,all,all windows,2996,0.028263631016456712
+FDR-xz,2,xz,test,x,4,all,window obs <=9,462,0.030894066153910597
+FDR-xz,2,xz,test,x,4,all,window obs 10-12,1788,0.028053249765881843
+FDR-xz,2,xz,test,x,4,all,window obs >=13,746,0.027034421147635972
+FDR-xz,2,xz,test,z,4,observed,all windows,2132,0.03136926409539466
+FDR-xz,2,xz,test,z,4,observed,window obs <=9,249,0.03556918970784639
+FDR-xz,2,xz,test,z,4,observed,window obs 10-12,1253,0.03155089163995281
+FDR-xz,2,xz,test,z,4,observed,window obs >=13,630,0.029157945332049184
+FDR-xz,2,xz,test,z,4,missing,all windows,864,0.03450760786266523
+FDR-xz,2,xz,test,z,4,missing,window obs <=9,213,0.04482991944156135
+FDR-xz,2,xz,test,z,4,missing,window obs 10-12,535,0.03148659246208834
+FDR-xz,2,xz,test,z,4,missing,window obs >=13,116,0.024627734927951984
+FDR-xz,2,xz,test,z,4,all,all windows,2996,0.03230561213767265
+FDR-xz,2,xz,test,z,4,all,window obs <=9,462,0.04010530953642815
+FDR-xz,2,xz,test,z,4,all,window obs 10-12,1788,0.03153166597957653
+FDR-xz,2,xz,test,z,4,all,window obs >=13,746,0.028500834306087405
+FDR-xz,2,xz,test,pooled,4,observed,all windows,4209,0.030215049353965132
+FDR-xz,2,xz,test,pooled,4,observed,window obs <=9,476,0.033186591375910963
+FDR-xz,2,xz,test,pooled,4,observed,window obs 10-12,2480,0.030422123161214676
+FDR-xz,2,xz,test,pooled,4,observed,window obs >=13,1253,0.028574915950370008
+FDR-xz,2,xz,test,pooled,4,missing,all windows,1783,0.030672798620510915
+FDR-xz,2,xz,test,pooled,4,missing,window obs <=9,448,0.038376880256255415
+FDR-xz,2,xz,test,pooled,4,missing,window obs 10-12,1096,0.028489766466181118
+FDR-xz,2,xz,test,pooled,4,missing,window obs >=13,239,0.023150284692238426
+FDR-xz,2,xz,test,pooled,4,all,all windows,5992,0.030351980279910536
+FDR-xz,2,xz,test,pooled,4,all,window obs <=9,924,0.035797200844024935
+FDR-xz,2,xz,test,pooled,4,all,window obs 10-12,3576,0.02984317997360983
+FDR-xz,2,xz,test,pooled,4,all,window obs >=13,1492,0.027777306231263645
+FDR-xz,2,xz,test,x,5,observed,all windows,2076,0.030926125622427744
+FDR-xz,2,xz,test,x,5,observed,window obs <=9,237,0.03802007757246004
+FDR-xz,2,xz,test,x,5,observed,window obs 10-12,1219,0.030807023425267966
+FDR-xz,2,xz,test,x,5,observed,window obs >=13,620,0.027998544490086864
+FDR-xz,2,xz,test,x,5,missing,all windows,919,0.02889153244284378
+FDR-xz,2,xz,test,x,5,missing,window obs <=9,225,0.03478528195067503
+FDR-xz,2,xz,test,x,5,missing,window obs 10-12,569,0.027521958951389616
+FDR-xz,2,xz,test,x,5,missing,window obs >=13,125,0.022602828257903114
+FDR-xz,2,xz,test,x,5,all,all windows,2995,0.030316345917517397
+FDR-xz,2,xz,test,x,5,all,window obs <=9,462,0.03648053791930023
+FDR-xz,2,xz,test,x,5,all,window obs 10-12,1788,0.029800917940920393
+FDR-xz,2,xz,test,x,5,all,window obs >=13,745,0.027168142779778838
+FDR-xz,2,xz,test,z,5,observed,all windows,2132,0.0351640131267087
+FDR-xz,2,xz,test,z,5,observed,window obs <=9,244,0.04082290909269091
+FDR-xz,2,xz,test,z,5,observed,window obs 10-12,1251,0.03555254819641087
+FDR-xz,2,xz,test,z,5,observed,window obs >=13,637,0.03190357001005374
+FDR-xz,2,xz,test,z,5,missing,all windows,863,0.03739108847745163
+FDR-xz,2,xz,test,z,5,missing,window obs <=9,218,0.045206136578919184
+FDR-xz,2,xz,test,z,5,missing,window obs 10-12,537,0.035734760984095566
+FDR-xz,2,xz,test,z,5,missing,window obs >=13,108,0.026407849527263712
+FDR-xz,2,xz,test,z,5,all,all windows,2995,0.03581994183884966
+FDR-xz,2,xz,test,z,5,all,window obs <=9,462,0.04294696417853058
+FDR-xz,2,xz,test,z,5,all,window obs 10-12,1788,0.03560737114610941
+FDR-xz,2,xz,test,z,5,all,window obs >=13,745,0.031166991514919314
+FDR-xz,2,xz,test,pooled,5,observed,all windows,4208,0.033141065159506725
+FDR-xz,2,xz,test,pooled,5,observed,window obs <=9,481,0.03946677199285319
+FDR-xz,2,xz,test,pooled,5,observed,window obs 10-12,2470,0.033295166271466066
+FDR-xz,2,xz,test,pooled,5,observed,window obs >=13,1257,0.03004097084944345
+FDR-xz,2,xz,test,pooled,5,missing,all windows,1782,0.033279948520830306
+FDR-xz,2,xz,test,pooled,5,missing,window obs <=9,443,0.04025194994322488
+FDR-xz,2,xz,test,pooled,5,missing,window obs 10-12,1106,0.03177577846470543
+FDR-xz,2,xz,test,pooled,5,missing,window obs >=13,233,0.024440294988467403
+FDR-xz,2,xz,test,pooled,5,all,all windows,5990,0.03318244312229847
+FDR-xz,2,xz,test,pooled,5,all,window obs <=9,924,0.03984514637338838
+FDR-xz,2,xz,test,pooled,5,all,window obs 10-12,3576,0.032832754910746186
+FDR-xz,2,xz,test,pooled,5,all,window obs >=13,1490,0.02923601667629759
+FDR-xz,2,xz,test,x,6,observed,all windows,2076,0.03551723088057069
+FDR-xz,2,xz,test,x,6,observed,window obs <=9,235,0.04213983112411575
+FDR-xz,2,xz,test,x,6,observed,window obs 10-12,1227,0.03647667710966849
+FDR-xz,2,xz,test,x,6,observed,window obs >=13,614,0.030440098573993955
+FDR-xz,2,xz,test,x,6,missing,all windows,918,0.039741080557758664
+FDR-xz,2,xz,test,x,6,missing,window obs <=9,227,0.05689552282317737
+FDR-xz,2,xz,test,x,6,missing,window obs 10-12,561,0.03363636078081213
+FDR-xz,2,xz,test,x,6,missing,window obs >=13,130,0.024854438813694858
+FDR-xz,2,xz,test,x,6,all,all windows,2994,0.03686380119889669
+FDR-xz,2,xz,test,x,6,all,window obs <=9,462,0.049937768170629754
+FDR-xz,2,xz,test,x,6,all,window obs 10-12,1788,0.0356099020118689
+FDR-xz,2,xz,test,x,6,all,window obs >=13,744,0.029540357893042515
+FDR-xz,2,xz,test,z,6,observed,all windows,2131,0.03682191216087388
+FDR-xz,2,xz,test,z,6,observed,window obs <=9,246,0.04396969269666057
+FDR-xz,2,xz,test,z,6,observed,window obs 10-12,1248,0.03635224599273975
+FDR-xz,2,xz,test,z,6,observed,window obs >=13,637,0.03464348144402872
+FDR-xz,2,xz,test,z,6,missing,all windows,863,0.03727862434817984
+FDR-xz,2,xz,test,z,6,missing,window obs <=9,216,0.04519064868904972
+FDR-xz,2,xz,test,z,6,missing,window obs 10-12,540,0.03516749260617864
+FDR-xz,2,xz,test,z,6,missing,window obs >=13,107,0.02905796223826889
+FDR-xz,2,xz,test,z,6,all,all windows,2994,0.03695413533194722
+FDR-xz,2,xz,test,z,6,all,window obs <=9,462,0.0445446950725395
+FDR-xz,2,xz,test,z,6,all,window obs 10-12,1788,0.03599854454140106
+FDR-xz,2,xz,test,z,6,all,window obs >=13,744,0.03389690007297568
+FDR-xz,2,xz,test,pooled,6,observed,all windows,4207,0.03618397967695658
+FDR-xz,2,xz,test,pooled,6,observed,window obs <=9,481,0.04308539590647837
+FDR-xz,2,xz,test,pooled,6,observed,window obs 10-12,2475,0.03641398680740275
+FDR-xz,2,xz,test,pooled,6,observed,window obs >=13,1251,0.03264812471021011
+FDR-xz,2,xz,test,pooled,6,missing,all windows,1781,0.03856751375894538
+FDR-xz,2,xz,test,pooled,6,missing,window obs <=9,443,0.051521673076239206
+FDR-xz,2,xz,test,pooled,6,missing,window obs 10-12,1101,0.03439584237069045
+FDR-xz,2,xz,test,pooled,6,missing,window obs >=13,237,0.02683389127497346
+FDR-xz,2,xz,test,pooled,6,all,all windows,5988,0.036908995901837036
+FDR-xz,2,xz,test,pooled,6,all,window obs <=9,924,0.04731812839160635
+FDR-xz,2,xz,test,pooled,6,all,window obs 10-12,3576,0.0358047505953759
+FDR-xz,2,xz,test,pooled,6,all,window obs >=13,1488,0.03179333718726565
+FDR-xz,2,xz,test,x,7,observed,all windows,2075,0.059747194255609065
+FDR-xz,2,xz,test,x,7,observed,window obs <=9,241,0.06530912180188814
+FDR-xz,2,xz,test,x,7,observed,window obs 10-12,1217,0.06099012206848413
+FDR-xz,2,xz,test,x,7,observed,window obs >=13,617,0.05479090453478482
+FDR-xz,2,xz,test,x,7,missing,all windows,918,0.07207605849421533
+FDR-xz,2,xz,test,x,7,missing,window obs <=9,221,0.10510376647788747
+FDR-xz,2,xz,test,x,7,missing,window obs 10-12,571,0.05973536982099238
+FDR-xz,2,xz,test,x,7,missing,window obs >=13,126,0.047984862558512316
+FDR-xz,2,xz,test,x,7,all,all windows,2993,0.06378252920841605
+FDR-xz,2,xz,test,x,7,all,window obs <=9,462,0.08665596000679336
+FDR-xz,2,xz,test,x,7,all,window obs 10-12,1788,0.060592239433715056
+FDR-xz,2,xz,test,x,7,all,window obs >=13,743,0.05369749265382068
+FDR-xz,2,xz,test,z,7,observed,all windows,2130,0.043723905203301425
+FDR-xz,2,xz,test,z,7,observed,window obs <=9,242,0.05439127023640499
+FDR-xz,2,xz,test,z,7,observed,window obs 10-12,1255,0.04387769284628037
+FDR-xz,2,xz,test,z,7,observed,window obs >=13,633,0.03853487165053394
+FDR-xz,2,xz,test,z,7,missing,all windows,863,0.044093002087804783
+FDR-xz,2,xz,test,z,7,missing,window obs <=9,220,0.05595438758567528
+FDR-xz,2,xz,test,z,7,missing,window obs 10-12,533,0.03838871276318816
+FDR-xz,2,xz,test,z,7,missing,window obs >=13,110,0.04301831909150751
+FDR-xz,2,xz,test,z,7,all,all windows,2993,0.04383064929691334
+FDR-xz,2,xz,test,z,7,all,window obs <=9,462,0.05514113837111251
+FDR-xz,2,xz,test,z,7,all,window obs 10-12,1788,0.042315989880181065
+FDR-xz,2,xz,test,z,7,all,window obs >=13,743,0.03923096591887411
+FDR-xz,2,xz,test,pooled,7,observed,all windows,4205,0.0522485488243093
+FDR-xz,2,xz,test,pooled,7,observed,window obs <=9,483,0.06008737775594106
+FDR-xz,2,xz,test,pooled,7,observed,window obs 10-12,2472,0.052997457021644455
+FDR-xz,2,xz,test,pooled,7,observed,window obs >=13,1250,0.04726288493476849
+FDR-xz,2,xz,test,pooled,7,missing,all windows,1781,0.06016452293763995
+FDR-xz,2,xz,test,pooled,7,missing,window obs <=9,441,0.0842485760212815
+FDR-xz,2,xz,test,pooled,7,missing,window obs 10-12,1104,0.0505673073340963
+FDR-xz,2,xz,test,pooled,7,missing,window obs >=13,236,0.04573710163181034
+FDR-xz,2,xz,test,pooled,7,all,all windows,5986,0.054723563708933734
+FDR-xz,2,xz,test,pooled,7,all,window obs <=9,924,0.07262850867793288
+FDR-xz,2,xz,test,pooled,7,all,window obs 10-12,3576,0.052259269412862255
+FDR-xz,2,xz,test,pooled,7,all,window obs >=13,1486,0.047023873746401344

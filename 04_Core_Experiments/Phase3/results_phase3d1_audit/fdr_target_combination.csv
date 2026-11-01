@@ -1,0 +1,81 @@
+model,seed,vars,split,estimator,n,rmse_missing
+FDR-x,0,x,val,lag 0 only (anchor u+0),918,0.058543771209794156
+FDR-x,0,x,val,lag 1 only (anchor u+1),918,0.04507216795490805
+FDR-x,0,x,val,lag 2 only (anchor u+2),918,0.050620407579563056
+FDR-x,0,x,val,lag 3 only (anchor u+3),918,0.06506079021529095
+FDR-x,0,x,val,lag 4 only (anchor u+4),918,0.06756351876343168
+FDR-x,0,x,val,lag 5 only (anchor u+5),918,0.05642253781600787
+FDR-x,0,x,val,lag 6 only (anchor u+6),918,0.04863785701542889
+FDR-x,0,x,val,lag 7 only (anchor u+7),918,0.07293740113038588
+FDR-x,0,x,val,mean over lags 0..7,918,0.02733102625107649
+FDR-x,0,x,val,mean over lags 0..3,918,0.03410466276426938
+FDR-x,0,x,test,lag 0 only (anchor u+0),898,0.07217139428664149
+FDR-x,0,x,test,lag 1 only (anchor u+1),898,0.06359293420111461
+FDR-x,0,x,test,lag 2 only (anchor u+2),898,0.05138678859947553
+FDR-x,0,x,test,lag 3 only (anchor u+3),898,0.051439274255835166
+FDR-x,0,x,test,lag 4 only (anchor u+4),898,0.05258760962574063
+FDR-x,0,x,test,lag 5 only (anchor u+5),898,0.04907429378225461
+FDR-x,0,x,test,lag 6 only (anchor u+6),898,0.05183147688974813
+FDR-x,0,x,test,lag 7 only (anchor u+7),898,0.09022529524013932
+FDR-x,0,x,test,mean over lags 0..7,898,0.030003917803971086
+FDR-x,0,x,test,mean over lags 0..3,898,0.0448030299322442
+FDR-xz,0,xz,val,lag 0 only (anchor u+0),1844,0.03133594605946048
+FDR-xz,0,xz,val,lag 1 only (anchor u+1),1844,0.024744448146964693
+FDR-xz,0,xz,val,lag 2 only (anchor u+2),1844,0.02265976877982599
+FDR-xz,0,xz,val,lag 3 only (anchor u+3),1844,0.025371558146115056
+FDR-xz,0,xz,val,lag 4 only (anchor u+4),1844,0.025957849340469286
+FDR-xz,0,xz,val,lag 5 only (anchor u+5),1844,0.02677653815267056
+FDR-xz,0,xz,val,lag 6 only (anchor u+6),1844,0.031806883920489894
+FDR-xz,0,xz,val,lag 7 only (anchor u+7),1844,0.04765296617705561
+FDR-xz,0,xz,val,mean over lags 0..7,1844,0.013163147647044673
+FDR-xz,0,xz,val,mean over lags 0..3,1844,0.015752604997467244
+FDR-xz,0,xz,test,lag 0 only (anchor u+0),1732,0.031545336711710545
+FDR-xz,0,xz,test,lag 1 only (anchor u+1),1732,0.02600942233860082
+FDR-xz,0,xz,test,lag 2 only (anchor u+2),1732,0.023673252487163236
+FDR-xz,0,xz,test,lag 3 only (anchor u+3),1732,0.024803330630539557
+FDR-xz,0,xz,test,lag 4 only (anchor u+4),1732,0.025560297504144697
+FDR-xz,0,xz,test,lag 5 only (anchor u+5),1732,0.027627266345600962
+FDR-xz,0,xz,test,lag 6 only (anchor u+6),1732,0.03279482678131711
+FDR-xz,0,xz,test,lag 7 only (anchor u+7),1732,0.05434791320016272
+FDR-xz,0,xz,test,mean over lags 0..7,1732,0.013528725860680147
+FDR-xz,0,xz,test,mean over lags 0..3,1732,0.01621232544831813
+FDR-xz,1,xz,val,lag 0 only (anchor u+0),1770,0.029977337722183285
+FDR-xz,1,xz,val,lag 1 only (anchor u+1),1770,0.0255952009627615
+FDR-xz,1,xz,val,lag 2 only (anchor u+2),1770,0.024358404802972664
+FDR-xz,1,xz,val,lag 3 only (anchor u+3),1770,0.024565783605543023
+FDR-xz,1,xz,val,lag 4 only (anchor u+4),1770,0.02449217534264938
+FDR-xz,1,xz,val,lag 5 only (anchor u+5),1770,0.02478651091161172
+FDR-xz,1,xz,val,lag 6 only (anchor u+6),1770,0.032637652031299126
+FDR-xz,1,xz,val,lag 7 only (anchor u+7),1770,0.05181843111445755
+FDR-xz,1,xz,val,mean over lags 0..7,1770,0.01398687274068397
+FDR-xz,1,xz,val,mean over lags 0..3,1770,0.016491661492181377
+FDR-xz,1,xz,test,lag 0 only (anchor u+0),1797,0.03293807043844461
+FDR-xz,1,xz,test,lag 1 only (anchor u+1),1797,0.02786179666853012
+FDR-xz,1,xz,test,lag 2 only (anchor u+2),1797,0.026844407187075845
+FDR-xz,1,xz,test,lag 3 only (anchor u+3),1797,0.0269015544720208
+FDR-xz,1,xz,test,lag 4 only (anchor u+4),1797,0.027840844115201636
+FDR-xz,1,xz,test,lag 5 only (anchor u+5),1797,0.03217250582318392
+FDR-xz,1,xz,test,lag 6 only (anchor u+6),1797,0.044860974254871115
+FDR-xz,1,xz,test,lag 7 only (anchor u+7),1797,0.07233918503642911
+FDR-xz,1,xz,test,mean over lags 0..7,1797,0.017531736825869778
+FDR-xz,1,xz,test,mean over lags 0..3,1797,0.018814098959136792
+FDR-xz,2,xz,val,lag 0 only (anchor u+0),1763,0.03733262604207566
+FDR-xz,2,xz,val,lag 1 only (anchor u+1),1763,0.03438742227809408
+FDR-xz,2,xz,val,lag 2 only (anchor u+2),1763,0.032265066220925884
+FDR-xz,2,xz,val,lag 3 only (anchor u+3),1763,0.032035496705574124
+FDR-xz,2,xz,val,lag 4 only (anchor u+4),1763,0.03023644403820685
+FDR-xz,2,xz,val,lag 5 only (anchor u+5),1763,0.030810682891205886
+FDR-xz,2,xz,val,lag 6 only (anchor u+6),1763,0.034637106620842184
+FDR-xz,2,xz,val,lag 7 only (anchor u+7),1763,0.053129675655344245
+FDR-xz,2,xz,val,mean over lags 0..7,1763,0.016952275039983564
+FDR-xz,2,xz,val,mean over lags 0..3,1763,0.021312307289052843
+FDR-xz,2,xz,test,lag 0 only (anchor u+0),1781,0.04335369618680169
+FDR-xz,2,xz,test,lag 1 only (anchor u+1),1781,0.03478292142734863
+FDR-xz,2,xz,test,lag 2 only (anchor u+2),1781,0.03190299093669024
+FDR-xz,2,xz,test,lag 3 only (anchor u+3),1781,0.030646715074931545
+FDR-xz,2,xz,test,lag 4 only (anchor u+4),1781,0.030689043133997305
+FDR-xz,2,xz,test,lag 5 only (anchor u+5),1781,0.03328878943828159
+FDR-xz,2,xz,test,lag 6 only (anchor u+6),1781,0.03856751375894538
+FDR-xz,2,xz,test,lag 7 only (anchor u+7),1781,0.06016452293763995
+FDR-xz,2,xz,test,mean over lags 0..7,1781,0.01731338475693137
+FDR-xz,2,xz,test,mean over lags 0..3,1781,0.022620362308225807

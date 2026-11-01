@@ -1,0 +1,3 @@
+# Phase 9 SUPPLEMENTARY FREEZE — real-data code (protocol section 7), added 2026-10-31 19:38:58 BEFORE any Jena run (pilot in progress; no main / Jena data yet)
+780e86a90e5bb6df982e7fd775d182c1e04930c244d6f70649e65fc8bdebcb2f  experiments/phase9/jena9.py
+e2f604bdcc5cff4c7599764b5467372c3b87a88d3d8cf2da2cae496bbd02a930  Data/external/jena/processed/jena.npz

@@ -1,0 +1,23 @@
+check,run,value
+xhat CPU recompute vs saved GPU xhat_past (max abs diff),p3c_C-x_dt0.05_p0.3_s0,3.1888484954833984e-06
+test imputation RMSE recompute - runs.csv,p3c_C-x_dt0.05_p0.3_s0,5.0097329562515114e-08
+xhat CPU recompute vs saved GPU xhat_past (max abs diff),p3c_C-xz_dt0.05_p0.3_s0,1.430511474609375e-06
+test imputation RMSE recompute - runs.csv,p3c_C-xz_dt0.05_p0.3_s0,-6.267562201872634e-09
+same-state dR_q50 recompute - eval_consistency.csv (all),p3c_C-xz_dt0.05_p0.3_s0,1.5469571387760617e-09
+xhat CPU recompute vs saved GPU xhat_past (max abs diff),p3c_FDR-x_dt0.05_p0.3_s0,2.0265579223632812e-06
+test imputation RMSE recompute - runs.csv,p3c_FDR-x_dt0.05_p0.3_s0,-3.2205492161985205e-09
+xhat CPU recompute vs saved GPU xhat_past (max abs diff),p3c_FDR-xz_dt0.05_p0.3_s0,1.6391277313232422e-06
+test imputation RMSE recompute - runs.csv,p3c_FDR-xz_dt0.05_p0.3_s0,3.777310308289428e-08
+same-state dR_q50 recompute - eval_consistency.csv (all),p3c_FDR-xz_dt0.05_p0.3_s0,-1.4822605642894615e-09
+xhat CPU recompute vs saved GPU xhat_past (max abs diff),p3c_C-xz_dt0.05_p0.3_s1,1.9073486328125e-06
+test imputation RMSE recompute - runs.csv,p3c_C-xz_dt0.05_p0.3_s1,2.0926268821941374e-08
+same-state dR_q50 recompute - eval_consistency.csv (all),p3c_C-xz_dt0.05_p0.3_s1,-1.5712981540905169e-09
+xhat CPU recompute vs saved GPU xhat_past (max abs diff),p3c_FDR-xz_dt0.05_p0.3_s1,2.2649765014648438e-06
+test imputation RMSE recompute - runs.csv,p3c_FDR-xz_dt0.05_p0.3_s1,2.591836427423555e-08
+same-state dR_q50 recompute - eval_consistency.csv (all),p3c_FDR-xz_dt0.05_p0.3_s1,-1.9516253890738966e-10
+xhat CPU recompute vs saved GPU xhat_past (max abs diff),p3c_C-xz_dt0.05_p0.3_s2,1.9073486328125e-06
+test imputation RMSE recompute - runs.csv,p3c_C-xz_dt0.05_p0.3_s2,7.734574369866465e-10
+same-state dR_q50 recompute - eval_consistency.csv (all),p3c_C-xz_dt0.05_p0.3_s2,3.4755708727685075e-10
+xhat CPU recompute vs saved GPU xhat_past (max abs diff),p3c_FDR-xz_dt0.05_p0.3_s2,1.6689300537109375e-06
+test imputation RMSE recompute - runs.csv,p3c_FDR-xz_dt0.05_p0.3_s2,2.2711245419027026e-08
+same-state dR_q50 recompute - eval_consistency.csv (all),p3c_FDR-xz_dt0.05_p0.3_s2,-1.3426378481229406e-09

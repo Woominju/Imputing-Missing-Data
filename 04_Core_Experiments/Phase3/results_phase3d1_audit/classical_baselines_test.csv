@@ -1,0 +1,7 @@
+seed,baseline,uses_future,test_rmse_missing
+0,locf,False,0.5315669178962708
+0,linear,True,0.21765941381454468
+1,locf,False,0.5477798581123352
+1,linear,True,0.22440822422504425
+2,locf,False,0.5159491896629333
+2,linear,True,0.19838230311870575
