@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this research archive, please cite it as below."
+title: "Imputing Missing Data in Complex Dynamical Systems using Delay Embedding Theorem"
+type: software
+authors:
+  - alias: Woominju
+repository-code: "https://github.com/Woominju/Imputing-Missing-Data"
+url: "https://woominju.github.io/Imputing-Missing-Data/"
+abstract: >-
+  Phase 1-9 research archive on reference-free, dynamics-informed imputation of
+  multivariate time series: multi-view delay embeddings mapped to a shared latent
+  state, with mathematical results, preregistered experiments, independent
+  verification bundles and full code snapshot. IBS Biomedical Mathematics Group.
+keywords:
+  - missing data imputation
+  - delay embedding
+  - Takens' theorem
+  - dynamical systems
+  - Lorenz system
+  - shared latent state
+date-released: "2026-10-31"
